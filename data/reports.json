@@ -132,5 +132,18 @@
       "Adoption accelerating across lenders",
       "Supervisory considerations for AI"
     ]
+  },
+  {
+    "source": "Experian",
+    "title": "Agent Operating System for financial services (2026)",
+    "url": "https://www.experianplc.com/newsroom/press-releases/2026/experian-brings-trusted-agentic-ai-to-financial-services-with-th",
+    "date": "2026-06",
+    "category": "Vendor capability",
+    "summary": "Experian launched an 'Agent Operating System' (AOS) — infrastructure for trusted autonomous AI decisioning used by banks and lenders; ServiceNow is the first integration partner.",
+    "stats": [
+      "Trusted/credentialed agent decisioning",
+      "Targets credit, fraud & onboarding workflows",
+      "Launched at Money20/20 Europe"
+    ]
   }
 ]

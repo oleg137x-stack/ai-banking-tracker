@@ -482,7 +482,7 @@ function bindEvents() {
   // Feed interactions: "Show more news" + expand/collapse a card
   document.getElementById("feed").addEventListener("click", (e) => {
     if (e.target.closest("#show-more-news")) {
-      state.feedLimit = Infinity;
+      state.feedLimit += FEED_PAGE;
       renderFeed(applyFilters());
       return;
     }

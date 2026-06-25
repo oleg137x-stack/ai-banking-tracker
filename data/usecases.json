@@ -1,5 +1,30 @@
 [
   {
+    "id": "visa-2026-06-25-digital-card-for-ai-agents-via-alchemy-nuvion-partnerships",
+    "sector": "Payments",
+    "bank": "Visa",
+    "parent_group": "",
+    "country": "United States",
+    "region": "North America",
+    "business_area": "Payments & Authorization",
+    "ai_type": "Agentic AI",
+    "title": "Digital card for AI agents via Alchemy & Nuvion partnerships",
+    "description": "Visa partnered with AI developer Alchemy and cross-border platform Nuvion, including a digital card designed for AI agents to transact under Visa's agentic-commerce rails.",
+    "vendor": "Alchemy / Nuvion",
+    "outcome": "Strong early demand for agent-ready card credentials.",
+    "metric": "78,000 signups in 48h",
+    "status": "Announced",
+    "event_date": "2026-06-25",
+    "source_name": "American Banker",
+    "source_url": "https://www.americanbanker.com/payments/news/visa-partners-with-ai-fintechs-to-boost-value-added-services",
+    "tags": [
+      "agentic commerce",
+      "cards"
+    ],
+    "verified": true,
+    "added_at": "2026-06-25T21:53:15.817509+00:00"
+  },
+  {
     "id": "standard-chartered-2026-06-22-unified-ai-platform-for-6-000-bankers-across-53-ma",
     "bank": "Standard Chartered",
     "parent_group": "",
@@ -453,6 +478,31 @@
     "added_at": "2026-06-25T07:13:23.928483+00:00",
     "sector": "Bank",
     "metric": "Day-one credit-card eligibility decisions at onbo…"
+  },
+  {
+    "id": "mastercard-2026-06-10-agent-pay-for-machines-machine-speed-agent-payments",
+    "sector": "Payments",
+    "bank": "Mastercard",
+    "parent_group": "",
+    "country": "United States",
+    "region": "North America",
+    "business_area": "Payments & Authorization",
+    "ai_type": "Agentic AI",
+    "title": "Agent Pay for Machines — machine-speed agent payments",
+    "description": "Mastercard launched 'Agent Pay for Machines', permissioning, orchestrating and settling agent-to-agent transactions (including sub-cent microtransactions) at machine speed across cards, accounts and stablecoins.",
+    "vendor": "Mastercard",
+    "outcome": "Launched with 30+ partners incl. Adyen, Stripe, Global Payments, Coinbase.",
+    "metric": "30+ partners · sub-cent payments",
+    "status": "Announced",
+    "event_date": "2026-06-10",
+    "source_name": "Finextra",
+    "source_url": "https://www.finextra.com/newsarticle/47897/mastercard-launches-agent-pay-for-machines",
+    "tags": [
+      "agentic commerce",
+      "micropayments"
+    ],
+    "verified": true,
+    "added_at": "2026-06-25T21:53:15.817509+00:00"
   },
   {
     "id": "morgan-stanley-2026-06-03-opening-the-wealth-platform-to-clients-external-ai-age",

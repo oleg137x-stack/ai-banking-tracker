@@ -74,6 +74,18 @@ investment banking, markets, risk, fraud/AML, customer service, operations, engi
 payments & authorization, agentic commerce, etc.). Prioritise concrete, named deployments \
 over vague "exploring AI" stories.
 
+INCLUSION RULES (so relevant news is never dropped):
+- DO include a bank/payment-firm deployment even when it is announced by a TECHNOLOGY \
+VENDOR or PARTNER (e.g. a Microsoft, Google, OpenAI, Anthropic, AWS, NVIDIA, Salesforce, \
+FIS, Fiserv or Oracle press release that names a specific bank or payment client). Create \
+the record for the BANK / PAYMENT FIRM, and put the vendor in "vendor".
+- DO include card networks, processors, acquirers, BNPL and payment fintechs (Payments sector).
+- Do a fresh sweep of the most recent days first (breaking news), then broaden.
+- DO NOT create a feed record for a pure technology vendor, consultancy, credit bureau or \
+data provider that is not itself a bank or payment system (e.g. Experian, ServiceNow, a \
+McKinsey report). Those belong in a separate reports list, not here. When unsure whether \
+the actor is a bank/payment system, prefer to include the bank named as the client.
+
 Run several distinct web searches with different queries to get good coverage. For each \
 genuine use case you find with a working source link, produce one JSON object with EXACTLY \
 these fields:
