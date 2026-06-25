@@ -1,0 +1,136 @@
+[
+  {
+    "source": "Evident Insights",
+    "title": "Evident AI Index for Banks (2026)",
+    "url": "https://evidentinsights.com/ai-index/",
+    "date": "2026",
+    "category": "Benchmark",
+    "summary": "The global benchmark of bank AI maturity: 50 of the world's largest banks scored on 70+ indicators across four pillars.",
+    "stats": [
+      "Talent 45%",
+      "Innovation 30%",
+      "Leadership 15%",
+      "Transparency 10%",
+      "Leaders: JPMorganChase, Capital One, RBC, CommBank, Morgan Stanley"
+    ]
+  },
+  {
+    "source": "Evident Insights",
+    "title": "Evident AI Index for Banks — MEA (2026)",
+    "url": "https://evidentinsights.com/insights/2026-evident-ai-index-for-banks-mea-key-findings-report",
+    "date": "2026",
+    "category": "Benchmark",
+    "summary": "Inaugural Middle East & Africa AI-maturity ranking. Leaders scale a larger share of use cases and document outcomes.",
+    "stats": [
+      "Frontrunners: Emirates NBD, Standard Bank Group, First Abu Dhabi Bank, Nedbank",
+      "5 of 6 South African banks in the top 10",
+      "50+ documented AI implementations in the region"
+    ]
+  },
+  {
+    "source": "Capgemini Research Institute",
+    "title": "Banks & insurers deploy AI agents (2026)",
+    "url": "https://www.capgemini.com/us-en/news/press-releases/banks-and-insurers-deploy-ai-agents-to-fight-fraud-and-process-applications-with-plans-for-new-roles-to-supervise-the-ai/",
+    "date": "2026",
+    "category": "Industry survey",
+    "summary": "Survey of banks on agentic AI adoption and the emergence of AI-supervision roles.",
+    "stats": [
+      "75% use agentic AI for customer service",
+      "~66% for fraud detection",
+      "60% for loan processing & onboarding",
+      "50% creating roles to supervise AI agents"
+    ]
+  },
+  {
+    "source": "Mastercard",
+    "title": "AI transforming payment fraud prevention (2026)",
+    "url": "https://www.mastercard.com/global/en/news-and-trends/Insights/2026/ai-is-helping-banks-save-millions-by-transforming-payment-fraud-prevention.html",
+    "date": "2026",
+    "category": "Industry report",
+    "summary": "How real-time AI and behavioural insight cut fraud losses, amid rising gen-AI-fuelled scams.",
+    "stats": [
+      "$60M average payment-fraud loss per organisation",
+      "83% say AI reduced false positives & churn",
+      "Deloitte: gen AI could fuel $40bn US fraud losses by 2027 (vs $12.3bn in 2023)"
+    ]
+  },
+  {
+    "source": "Oracle Financial Services",
+    "title": "Agentic AI platform extended to corporate banking (2026)",
+    "url": "https://www.oracle.com/news/announcement/oracle-financial-services-extends-agentic-ai-platform-to-corporate-banking-2026-04-14/",
+    "date": "2026-04-14",
+    "category": "Vendor capability",
+    "summary": "Embedded agents for corporate credit and trade/supply-chain finance (data extraction, validation, narrative generation).",
+    "stats": [
+      "Loan & financial data extraction agents",
+      "Loan data validation agent",
+      "Credit-memo narrative generation agent",
+      "Trade application validator & SCF program-creation agents"
+    ]
+  },
+  {
+    "source": "Anthropic",
+    "title": "Claude for Financial Services — agent templates (2026)",
+    "url": "https://www.anthropic.com/news/claude-for-financial-services",
+    "date": "2026-05",
+    "category": "Vendor capability",
+    "summary": "Pre-built AI agent templates for banks across research, operations and finance, plus Microsoft 365 (Excel/PowerPoint/Word) integration.",
+    "stats": [
+      "10 agent templates (pitch builder, earnings reviewer, GL reconciler, KYC screener…)",
+      "Claude Opus 4.7 for financial work",
+      "Adopted across Wall Street research & operations"
+    ]
+  },
+  {
+    "source": "McKinsey & Company",
+    "title": "AI in Asia: Reimagining banking operations through agentic AI (2026)",
+    "url": "https://www.mckinsey.com/capabilities/operations/our-insights/ai-in-asia-reimagining-banking-operations-through-agentic-ai",
+    "date": "2026",
+    "category": "Consultancy report",
+    "summary": "How Asian banks are moving agentic AI from pilots to enterprise-wide operations.",
+    "stats": [
+      "Agentic workflows across back-office, service & risk",
+      "Dramatic process-time reductions reported",
+      "Shift from pilots to scaled deployment"
+    ]
+  },
+  {
+    "source": "Deloitte",
+    "title": "Managing the new wave of risks from AI agents in banking (2026)",
+    "url": "https://www.deloitte.com/us/en/insights/industry/financial-services/agentic-ai-risks-banking.html",
+    "date": "2026",
+    "category": "Consultancy report",
+    "summary": "Governance and risk framework for deploying autonomous AI agents in banks.",
+    "stats": [
+      "New control needs for agent autonomy",
+      "Human-in-the-loop & oversight roles",
+      "Model, data and accountability risks"
+    ]
+  },
+  {
+    "source": "Google Cloud",
+    "title": "AI agent trends 2026 report",
+    "url": "https://cloud.google.com/resources/content/ai-agent-trends-2026",
+    "date": "2026",
+    "category": "Industry report",
+    "summary": "Cross-industry trends in agentic AI adoption, including financial services.",
+    "stats": [
+      "Agents moving into production workflows",
+      "Multi-agent orchestration emerging",
+      "Enterprise governance maturing"
+    ]
+  },
+  {
+    "source": "European Central Bank",
+    "title": "AI and the euro area economy (2026)",
+    "url": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp260323_1~1e06784a89.en.html",
+    "date": "2026",
+    "category": "Central bank speech",
+    "summary": "ECB perspective on AI's macro-financial impact and adoption across euro-area banks.",
+    "stats": [
+      "AI productivity vs. financial-stability lens",
+      "Adoption accelerating across lenders",
+      "Supervisory considerations for AI"
+    ]
+  }
+]

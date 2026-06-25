@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bank &amp; Payment Systems AI Tracker — Use cases of AI &amp; Agentic AI</title>
+  <meta name="description" content="Interactive tracker of AI and Agentic AI use cases across global banks and payment systems." />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.3/dist/chart.umd.min.js"></script>
+  <link rel="stylesheet" href="assets/styles.css?v=5" />
+</head>
+<body>
+  <!-- STICKY TOP: header + sector selector stay fixed while scrolling -->
+  <div class="sticky-top">
+    <header class="app-header">
+      <div class="brand">
+        <div class="brand-mark">◆</div>
+        <div>
+          <h1>Bank &amp; Payment Systems AI Tracker</h1>
+          <p class="subtitle">AI &amp; Agentic AI use cases across banks &amp; payment systems — Data from 2026 onwards</p>
+        </div>
+      </div>
+      <div class="header-meta">
+        <div class="meta-pill"><span id="meta-total">–</span> use cases</div>
+        <div class="meta-pill subtle">Updated <span id="meta-updated">–</span></div>
+        <button id="export-btn" class="btn ghost" title="Download current view as CSV">Export CSV</button>
+      </div>
+    </header>
+
+    <!-- SECTOR SCOPE (big, fixed) -->
+    <section class="scope-bar">
+      <div class="scope-toggle" id="scope-toggle" role="tablist" aria-label="Sector">
+        <button class="scope-btn active" data-sector="all" role="tab">Banks &amp; Payments</button>
+        <button class="scope-btn" data-sector="Bank" role="tab">Banks only</button>
+        <button class="scope-btn" data-sector="Payments" role="tab">Payments only</button>
+      </div>
+      <span class="scope-count" id="scope-count"></span>
+    </section>
+  </div>
+
+  <!-- KPI CARDS (4 boxes) -->
+  <section class="kpis" id="kpis"></section>
+
+  <div class="layout">
+    <!-- ============ FILTER SIDEBAR ============ -->
+    <aside class="sidebar" id="sidebar">
+      <div class="sidebar-head">
+        <h2>Filters</h2>
+        <button id="reset-filters" class="btn link">Reset</button>
+      </div>
+
+      <!-- Always visible -->
+      <div class="filter-block">
+        <label class="filter-label" for="search">Search</label>
+        <input id="search" type="search" placeholder="bank, keyword, vendor…" autocomplete="off" />
+      </div>
+
+      <div class="filter-block">
+        <label class="filter-label">Date range</label>
+        <div class="date-row">
+          <label class="date-field"><span>From</span><input id="date-from" type="date" aria-label="From date" /></label>
+          <label class="date-field"><span>To</span><input id="date-to" type="date" aria-label="To date" /></label>
+        </div>
+      </div>
+
+      <!-- Collapsible advanced filters -->
+      <button id="more-filters-toggle" class="more-filters-btn" aria-expanded="false">Show more filters</button>
+      <div id="more-filters" class="more-filters collapsed">
+        <div class="filter-block">
+          <label class="filter-label" for="f-bank">Bank</label>
+          <div class="multi" id="f-bank" data-field="bank"></div>
+        </div>
+        <div class="filter-block">
+          <label class="filter-label" for="f-region">Region</label>
+          <div class="multi" id="f-region" data-field="region"></div>
+        </div>
+        <div class="filter-block">
+          <label class="filter-label" for="f-business_area">Business area</label>
+          <div class="multi" id="f-business_area" data-field="business_area"></div>
+        </div>
+        <div class="filter-block">
+          <label class="filter-label" for="f-ai_type">Type of AI</label>
+          <div class="multi" id="f-ai_type" data-field="ai_type"></div>
+        </div>
+        <div class="filter-block">
+          <label class="filter-label" for="f-status">Status</label>
+          <div class="multi" id="f-status" data-field="status"></div>
+        </div>
+        <div class="filter-block">
+          <label class="filter-label" for="f-vendor">Vendor / partner</label>
+          <div class="multi" id="f-vendor" data-field="vendor"></div>
+        </div>
+      </div>
+
+      <!-- INSIGHTS (text summary for the selected period) + benchmarks -->
+      <section class="card insights-card" id="insights-card">
+        <div class="insights-head">
+          <h3>Insights <small id="insights-period"></small></h3>
+          <div class="insights-note">Summary for the selected period</div>
+        </div>
+        <div class="insights-body" id="insights-body"></div>
+        <div class="insights-benchmarks" id="insights-benchmarks"></div>
+      </section>
+    </aside>
+
+    <!-- ============ MIDDLE: FEED ============ -->
+    <section class="feed-column">
+      <section class="feed-section">
+        <div class="feed-head">
+          <h2>Feed <span class="count" id="feed-count">0</span></h2>
+          <div class="feed-controls">
+            <label>Sort
+              <select id="sort">
+                <option value="date-desc">Newest first</option>
+                <option value="date-asc">Oldest first</option>
+                <option value="bank-asc">Bank A→Z</option>
+              </select>
+            </label>
+          </div>
+        </div>
+        <div class="active-filters" id="active-filters"></div>
+        <div class="feed" id="feed"></div>
+      </section>
+    </section>
+
+    <!-- ============ RIGHT RAIL: measured outcomes · analytics ============ -->
+    <aside class="rail">
+      <!-- MEASURED OUTCOMES -->
+      <section class="card outcomes-card" id="outcomes-card">
+        <div class="insights-head"><h3>Measured outcomes <small id="outcomes-count"></small></h3></div>
+        <div class="outcomes-grid" id="outcomes-grid"></div>
+      </section>
+
+      <!-- ANALYTICS -->
+      <section class="dashboard">
+        <div class="card chart-card">
+          <h3>Use cases over time <small>(cumulative)</small></h3>
+          <canvas id="chart-timeline"></canvas>
+        </div>
+        <div class="card chart-card">
+          <h3>By region</h3>
+          <canvas id="chart-region"></canvas>
+        </div>
+        <div class="card chart-card">
+          <h3>By type of AI</h3>
+          <canvas id="chart-aitype"></canvas>
+        </div>
+        <div class="card chart-card">
+          <h3>By business area</h3>
+          <canvas id="chart-business"></canvas>
+        </div>
+        <div class="card chart-card">
+          <h3>Top banks</h3>
+          <canvas id="chart-banks"></canvas>
+        </div>
+        <div class="card chart-card">
+          <h3>By deployment status</h3>
+          <canvas id="chart-status"></canvas>
+        </div>
+      </section>
+    </aside>
+  </div>
+
+  <footer class="app-footer">
+    <span>Data is AI-assisted curation — always confirm details via the source link before relying on them.</span>
+  </footer>
+
+  <script src="assets/app.js?v=5"></script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Bank AI Use-Case Record",
+  "description": "One record = one announced/deployed use of AI or Agentic AI at a bank.",
+  "type": "object",
+  "required": ["id", "bank", "region", "business_area", "ai_type", "title", "status", "event_date", "source_url"],
+  "properties": {
+    "id": { "type": "string", "description": "Stable unique id (slug). Used for dedup." },
+    "sector": { "type": "string", "enum": ["Bank", "Payments"], "description": "Whether the institution is a bank or a payments provider/network/processor." },
+    "bank": { "type": "string", "description": "Institution name — a bank or a payments provider (the specific brand/entity, e.g. 'Isybank', 'Stripe')." },
+    "parent_group": { "type": "string", "description": "Parent banking group if the bank is a subsidiary/brand, e.g. 'Intesa Sanpaolo'. Empty string if the bank is itself the top-level group." },
+    "country": { "type": "string", "description": "HQ country of the bank." },
+    "region": {
+      "type": "string",
+      "enum": ["North America", "Europe", "UK & Ireland", "Asia-Pacific", "MENA", "Latin America", "Africa"]
+    },
+    "business_area": {
+      "type": "string",
+      "description": "Where in the bank it was deployed.",
+      "enum": [
+        "Retail Banking", "Wealth & Asset Management", "Corporate & Investment Banking",
+        "Markets & Trading", "Risk & Compliance", "Fraud & AML", "Customer Service",
+        "Operations & Back Office", "Software Engineering", "Legal", "HR",
+        "Marketing & Sales", "Data & Research", "Payments & Authorization", "Cross-functional"
+      ]
+    },
+    "ai_type": {
+      "type": "string",
+      "enum": ["Generative AI", "Agentic AI", "Predictive ML", "NLP", "Computer Vision", "Conversational AI", "Other"]
+    },
+    "title": { "type": "string", "description": "Short headline of the use case." },
+    "description": { "type": "string", "description": "1-3 sentence summary." },
+    "vendor": { "type": "string", "description": "Tech partner / model provider, if any (e.g. OpenAI, Anthropic, Microsoft, Google, NVIDIA, in-house)." },
+    "outcome": { "type": "string", "description": "Reported result / impact, quantified where available." },
+    "metric": { "type": "string", "description": "Short, scannable measured outcome for the impact zone, e.g. '+22% quality', 'weeks→1 day', '€200m saved'. Empty if no quantified outcome was reported." },
+    "status": {
+      "type": "string",
+      "enum": ["Announced", "Piloting", "Deployed"]
+    },
+    "event_date": { "type": "string", "format": "date", "description": "When it was announced or deployed (YYYY-MM-DD)." },
+    "source_name": { "type": "string", "description": "Publication or 'Press release'." },
+    "source_url": { "type": "string", "format": "uri", "description": "Link to the actual announcement/article." },
+    "tags": { "type": "array", "items": { "type": "string" } },
+    "verified": { "type": "boolean", "description": "True once a human or the ingest pipeline confirmed the source link resolves." },
+    "added_at": { "type": "string", "format": "date-time", "description": "When this record entered the dataset." }
+  }
+}

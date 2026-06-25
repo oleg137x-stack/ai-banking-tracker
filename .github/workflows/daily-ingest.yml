@@ -1,0 +1,40 @@
+name: Daily AI use-case ingestion
+
+on:
+  schedule:
+    # 06:15 UTC every day. Adjust as you like (cron is UTC).
+    - cron: "15 6 * * *"
+  workflow_dispatch: {}   # lets you run it manually from the Actions tab
+
+permissions:
+  contents: write          # allow the job to commit the updated data file
+
+jobs:
+  ingest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run ingestion
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python scripts/ingest.py
+
+      - name: Commit updated data
+        run: |
+          git config user.name "ai-banking-tracker-bot"
+          git config user.email "actions@github.com"
+          if ! git diff --quiet -- data/usecases.json; then
+            git add data/usecases.json
+            git commit -m "data: daily ingestion $(date -u +%Y-%m-%d)"
+            git push
+          else
+            echo "No new data today."
+          fi
