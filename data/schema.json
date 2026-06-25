@@ -12,7 +12,7 @@
     "country": { "type": "string", "description": "HQ country of the bank." },
     "region": {
       "type": "string",
-      "enum": ["North America", "Europe", "UK & Ireland", "Asia-Pacific", "MENA", "Latin America", "Africa"]
+      "enum": ["North America", "Europe", "UK & Ireland", "Asia-Pacific", "MENA", "Latin America"]
     },
     "business_area": {
       "type": "string",

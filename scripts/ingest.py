@@ -34,7 +34,7 @@ ROOT = Path(__file__).resolve().parent.parent
 DATA_FILE = ROOT / "data" / "usecases.json"
 
 REGIONS = ["North America", "Europe", "UK & Ireland", "Asia-Pacific",
-           "MENA", "Latin America", "Africa"]
+           "MENA", "Latin America"]
 BUSINESS_AREAS = ["Retail Banking", "Wealth & Asset Management",
                   "Corporate & Investment Banking", "Markets & Trading",
                   "Risk & Compliance", "Fraud & AML", "Customer Service",
@@ -68,8 +68,8 @@ between {since} and {today} about specific banks OR payments companies using AI 
 Agentic AI. Payments companies include card networks, processors and fintech payment \
 firms such as Visa, Mastercard, PayPal, American Express, Stripe, Block (Square/Cash App), \
 Adyen, Fiserv, FIS, Worldline, Global Payments and Nexi — but search for others too. \
-Cover all geographies (US, Europe, UK, Asia-Pacific, MENA = Middle East & North Africa \
-incl. Gulf banks, Latin America, Africa) and all business areas (retail, wealth, \
+Cover all geographies (US, Europe, UK, Asia-Pacific, MENA = Middle East & Africa incl. \
+Gulf and African banks, Latin America) and all business areas (retail, wealth, \
 investment banking, markets, risk, fraud/AML, customer service, operations, engineering, \
 payments & authorization, agentic commerce, etc.). Prioritise concrete, named deployments \
 over vague "exploring AI" stories.
