@@ -1165,6 +1165,60 @@
     "added_at": "2026-06-26T07:11:38.817976+00:00"
   },
   {
+    "id": "stripe-2026-05-01-agentic-commerce-suite-protocol-with-openai",
+    "sector": "Payments",
+    "bank": "Stripe",
+    "parent_group": "",
+    "country": "United States",
+    "region": "North America",
+    "business_area": "Payments & Authorization",
+    "ai_type": "Agentic AI",
+    "title": "Agentic Commerce Suite & protocol with OpenAI",
+    "description": "At Sessions 2026 Stripe launched an Agentic Commerce Suite, agent-ready financial accounts, and the Agentic Commerce Protocol co-developed with OpenAI.",
+    "vendor": "OpenAI",
+    "outcome": "Agentic Commerce Suite + ACP among 288 Sessions 2026 launches.",
+    "metric": "Agentic Commerce Suite + ACP",
+    "status": "Deployed",
+    "event_date": "2026-05-01",
+    "source_name": "Finextra",
+    "source_url": "https://www.finextra.com/blogposting/30920/agentic-ai-in-payments-in-2026-whats-real-whats-pilot-and-whats-still-hype",
+    "source_tier": "secondary",
+    "confidence": "med",
+    "tags": [
+      "agentic commerce",
+      "openai"
+    ],
+    "verified": true,
+    "added_at": "2026-06-26T11:37:59.865103+00:00"
+  },
+  {
+    "id": "adyen-2026-05-01-adyen-agentic-modular-api-suite",
+    "sector": "Payments",
+    "bank": "Adyen",
+    "parent_group": "",
+    "country": "Netherlands",
+    "region": "Europe",
+    "business_area": "Payments & Authorization",
+    "ai_type": "Agentic AI",
+    "title": "Adyen Agentic modular API suite",
+    "description": "Adyen launched 'Adyen Agentic', a modular API suite — Agentic Feed, Agentic Cart and Agentic Payments — for selling through conversational AI.",
+    "vendor": "Adyen",
+    "outcome": "Modular agent APIs (Feed, Cart, Payments) for conversational commerce.",
+    "metric": "Agentic Feed · Cart · Payments APIs",
+    "status": "Deployed",
+    "event_date": "2026-05-01",
+    "source_name": "Finextra",
+    "source_url": "https://www.finextra.com/blogposting/30920/agentic-ai-in-payments-in-2026-whats-real-whats-pilot-and-whats-still-hype",
+    "source_tier": "secondary",
+    "confidence": "med",
+    "tags": [
+      "agentic commerce",
+      "api"
+    ],
+    "verified": true,
+    "added_at": "2026-06-26T11:37:59.865103+00:00"
+  },
+  {
     "id": "ubs-ai-research-avatars-2026",
     "bank": "UBS",
     "country": "Switzerland",
@@ -1812,6 +1866,33 @@
     "added_at": "2026-06-26T07:11:38.817976+00:00"
   },
   {
+    "id": "u-s-bank-2026-03-01-aws-built-ai-agents-across-wealth-commercial-banking",
+    "sector": "Bank",
+    "bank": "U.S. Bank",
+    "parent_group": "",
+    "country": "United States",
+    "region": "North America",
+    "business_area": "Cross-functional",
+    "ai_type": "Agentic AI",
+    "title": "AWS-built AI agents across wealth & commercial banking",
+    "description": "U.S. Bank is shifting critical applications to AWS to build and deploy AI agents across its lines of business, including wealth management and commercial banking.",
+    "vendor": "AWS",
+    "outcome": "AI agents deployed across wealth and commercial banking on AWS.",
+    "metric": "AI agents across wealth & commercial",
+    "status": "Piloting",
+    "event_date": "2026-03-01",
+    "source_name": "Banking Dive",
+    "source_url": "https://www.bankingdive.com/news/us-bank-shifts-critical-apps-aws-ai-push/819964/",
+    "source_tier": "news",
+    "confidence": "med",
+    "tags": [
+      "agentic",
+      "aws"
+    ],
+    "verified": true,
+    "added_at": "2026-06-26T11:37:59.865103+00:00"
+  },
+  {
     "id": "bofa-erica-2026",
     "bank": "Bank of America",
     "country": "United States",
@@ -1892,6 +1973,33 @@
     "metric": "AML investigations cut from hours to minutes",
     "source_tier": "primary",
     "confidence": "high"
+  },
+  {
+    "id": "bbva-2026-02-15-google-workspace-with-gemini-for-100-000-employees",
+    "sector": "Bank",
+    "bank": "BBVA",
+    "parent_group": "",
+    "country": "Spain",
+    "region": "Europe",
+    "business_area": "Cross-functional",
+    "ai_type": "Generative AI",
+    "title": "Google Workspace with Gemini for ~100,000 employees",
+    "description": "BBVA extended its Google Cloud partnership to roll out Google Workspace with Gemini across its global operations, giving around 100,000 employees access to generative-AI experiences.",
+    "vendor": "Google Cloud",
+    "outcome": "~100,000 employees gain Gemini-powered Workspace AI.",
+    "metric": "Gemini Workspace for ~100k staff",
+    "status": "Deployed",
+    "event_date": "2026-02-15",
+    "source_name": "FStech",
+    "source_url": "https://www.fstech.co.uk/fst/BBVA_To_Roll_Out_GenAI_Tools_For_100000_Employees_In_Partnership_With_Google.php",
+    "source_tier": "news",
+    "confidence": "med",
+    "tags": [
+      "gemini",
+      "workspace"
+    ],
+    "verified": true,
+    "added_at": "2026-06-26T11:37:59.865103+00:00"
   },
   {
     "id": "standard-chartered-scgpt-2026",
@@ -3786,6 +3894,33 @@
     ],
     "verified": true,
     "added_at": "2026-06-26T11:33:40.417461+00:00"
+  },
+  {
+    "id": "goldman-sachs-2026-01-15-six-core-processes-targeted-for-ai-redesign",
+    "sector": "Bank",
+    "bank": "Goldman Sachs",
+    "parent_group": "",
+    "country": "United States",
+    "region": "North America",
+    "business_area": "Operations & Back Office",
+    "ai_type": "Agentic AI",
+    "title": "Six core processes targeted for AI redesign",
+    "description": "Goldman Sachs identified six operating processes to reshape with AI to drive efficiency and flexibility, as CEO David Solomon pushes to 'remake processes' across the firm.",
+    "vendor": "in-house",
+    "outcome": "Six operating processes prioritised for AI-driven redesign.",
+    "metric": "6 core processes reshaped by AI",
+    "status": "Piloting",
+    "event_date": "2026-01-15",
+    "source_name": "AI News",
+    "source_url": "https://www.artificialintelligence-news.com/news/wall-street-ai-gains-are-here-banks-plan-for-fewer-people/",
+    "source_tier": "news",
+    "confidence": "med",
+    "tags": [
+      "efficiency",
+      "process"
+    ],
+    "verified": true,
+    "added_at": "2026-06-26T11:37:59.865103+00:00"
   },
   {
     "id": "stripe-2026-01-10-stripe-radar-real-time-ml-fraud-prevention",
