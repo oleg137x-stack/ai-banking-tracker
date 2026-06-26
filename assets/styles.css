@@ -178,16 +178,20 @@ body {
 .outcome--qual { border-left-color: var(--border); }
 .outcome--qual .outcome-metric { font-size: 13px; font-weight: 600; color: var(--text-dim); letter-spacing: 0; }
 .outcome-more { grid-column: 1 / -1; font-size: 12px; color: var(--text-faint); padding: 4px 2px; }
+.outcomes-grid .show-more-btn { grid-column: 1 / -1; margin-top: 2px; }
 
 /* ---------- Dashboard ---------- */
 .dashboard { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; margin-bottom: 26px; }
 .card { background: var(--card); border: 1px solid var(--border); border-radius: var(--radius); padding: 16px 18px; box-shadow: var(--shadow); }
-.chart-card { min-width: 0; min-height: 230px; display: flex; flex-direction: column; }
+.chart-card { min-width: 0; min-height: 320px; display: flex; flex-direction: column; }
 .chart-card h3 { margin: 0 0 12px; font-size: 13.5px; font-weight: 700; }
 .chart-card h3 small { color: var(--text-faint); font-weight: 500; }
-/* Chart.js canvas must never exceed its card width */
+/* Chart.js canvas must never exceed its card width; give it more vertical room */
 .chart-card { position: relative; }
-.chart-card canvas { display: block; width: 100% !important; max-width: 100% !important; height: 220px !important; }
+.chart-card canvas { display: block; width: 100% !important; max-width: 100% !important; height: 300px !important; }
+/* the cumulative timeline (full-width card) can breathe a bit more */
+.rail .dashboard .chart-card:first-child canvas,
+.dashboard .chart-card:first-child canvas { height: 320px !important; }
 .dashboard .chart-card:first-child { grid-column: 1 / -1; }
 .rail .dashboard .chart-card:first-child { grid-column: auto; }
 

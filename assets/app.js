@@ -11,18 +11,21 @@ const PALETTE = [
   "#ff9ed8", "#a0e548", "#ffd166", "#8b9dff", "#6be3c9", "#ff8a65",
 ];
 
+const DEFAULT_FROM = "2026-01-01"; // tracker scope: data from 2026 onwards
 const state = {
   all: [],
   filters: Object.fromEntries(FIELDS.map((f) => [f, new Set()])),
   search: "",
-  dateFrom: null,
+  dateFrom: DEFAULT_FROM,
   dateTo: null,
   sort: "date-desc",
   reports: [],
   sector: "all", // "all" | "Bank" | "Payments"
   feedLimit: 5,  // show 5 newest; "Show more news" reveals the rest
+  outcomesLimit: 6, // show 6 outcomes; "Show more" reveals 6 more
 };
 const FEED_PAGE = 5;
+const OUTCOMES_PAGE = 6;
 const charts = {};
 
 // Records within the current sector scope (banks / payments / both)
@@ -56,6 +59,7 @@ async function load() {
   renderBenchmarks();
   initMeta();
   buildFacets();
+  document.getElementById("date-from").value = DEFAULT_FROM; // pre-select 01/01/2026
   bindEvents();
   render();
 }
@@ -123,6 +127,7 @@ function applyFilters() {
 /* ---------------- Render ---------------- */
 function render() {
   state.feedLimit = FEED_PAGE; // any filter/scope change collapses the feed back to 5
+  state.outcomesLimit = OUTCOMES_PAGE; // and the outcomes back to 6
   const data = applyFilters();
   renderKpis(data);
   renderActiveFilters();
@@ -289,15 +294,15 @@ function renderOutcomes(data) {
     grid.innerHTML = '<p class="ins-empty">No outcomes in the current selection.</p>';
     return;
   }
-  const CAP = 24;
-  const shown = items.slice(0, CAP);
+  const shown = items.slice(0, state.outcomesLimit);
+  const remaining = items.length - shown.length;
   grid.innerHTML = shown.map(({ d, m, q }) => `
-    <a class="outcome ${q ? "" : "outcome--qual"}" href="${escapeAttr(d.source_url)}" target="_blank" rel="noopener" title="${escapeAttr(d.title)}">
+    <a class="outcome ${q ? "" : "outcome--qual"}" href="${escapeAttr(d.source_url)}" target="_blank" rel="noopener" title="Open source: ${escapeAttr(d.title)}">
       <div class="outcome-metric">${escapeHtml(m)}</div>
       <div class="outcome-bank">${escapeHtml(bankLabel(d.bank))}</div>
       <div class="outcome-area">${escapeHtml(d.business_area)} · ${escapeHtml(d.ai_type)}</div>
     </a>`).join("") +
-    (items.length > CAP ? `<div class="outcome-more">+${items.length - CAP} more in the feed →</div>` : "");
+    (remaining > 0 ? `<button id="outcomes-more" class="show-more-btn">Show more (${remaining} more)</button>` : "");
 }
 
 /* ---------------- Industry benchmarks & reports ---------------- */
@@ -482,6 +487,13 @@ function bindEvents() {
   document.getElementById("sort").addEventListener("change", (e) => { state.sort = e.target.value; render(); });
   document.getElementById("reset-filters").addEventListener("click", resetFilters);
   document.getElementById("export-btn").addEventListener("click", exportCsv);
+  // Measured outcomes: "Show more" reveals 6 more
+  document.getElementById("outcomes-card").addEventListener("click", (e) => {
+    if (e.target.closest("#outcomes-more")) {
+      state.outcomesLimit += OUTCOMES_PAGE;
+      renderOutcomes(applyFilters());
+    }
+  });
   // Feed interactions: "Show more news" + expand/collapse a card
   document.getElementById("feed").addEventListener("click", (e) => {
     if (e.target.closest("#show-more-news")) {
@@ -537,9 +549,9 @@ function updateScopeCount() {
 
 function resetFilters() {
   FIELDS.forEach((f) => state.filters[f].clear());
-  state.search = ""; state.dateFrom = null; state.dateTo = null;
+  state.search = ""; state.dateFrom = DEFAULT_FROM; state.dateTo = null;
   document.getElementById("search").value = "";
-  document.getElementById("date-from").value = "";
+  document.getElementById("date-from").value = DEFAULT_FROM;
   document.getElementById("date-to").value = "";
   document.querySelectorAll(".chip.active").forEach((c) => c.classList.remove("active"));
   render();
