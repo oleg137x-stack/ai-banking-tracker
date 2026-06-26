@@ -129,6 +129,8 @@ function render() {
   state.feedLimit = FEED_PAGE; // any filter/scope change collapses the feed back to 5
   state.outcomesLimit = OUTCOMES_PAGE; // and the outcomes back to 6
   const data = applyFilters();
+  // Header pill reflects the current view so it always agrees with the KPI/feed counts.
+  document.getElementById("meta-total").textContent = data.length;
   renderKpis(data);
   renderActiveFilters();
   renderInsights(data);
