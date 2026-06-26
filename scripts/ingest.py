@@ -111,7 +111,12 @@ reported, give a short QUALITATIVE expected improvement instead (e.g. "Faster on
 - "event_date": announcement/deployment date in YYYY-MM-DD (use the article date if the \
 exact event date is unclear)
 - "source_name": publication or "Press release"
-- "source_url": the exact article/press-release URL you found
+- "source_url": the exact article/press-release URL you found (PREFER primary sources — the bank's \
+own newsroom or the vendor's press release — over news, and news over aggregator blogs)
+- "source_tier": "primary" (bank/official newsroom or vendor PR), "news" (reputable outlet e.g. \
+Reuters, CNBC, American Banker, Finextra), or "secondary" (aggregator/blog e.g. klover.ai, emerj)
+- "confidence": "high" (primary, or news with a named metric), "med" (news, no hard metric), or \
+"low" (secondary source only)
 
 Rules:
 - Only include items with a real source_url you actually found via search. Do NOT invent URLs.
@@ -172,6 +177,8 @@ def normalise(rec: dict, today: str) -> dict | None:
     rec.setdefault("outcome", "")
     rec.setdefault("metric", "")
     rec.setdefault("source_name", "")
+    rec["source_tier"] = rec.get("source_tier") if rec.get("source_tier") in ("primary", "news", "secondary") else "secondary"
+    rec["confidence"] = rec.get("confidence") if rec.get("confidence") in ("high", "med", "low") else "low"
     if not re.match(r"\d{4}-\d{2}-\d{2}", str(rec.get("event_date", ""))):
         rec["event_date"] = today
     rec["id"] = slugify(rec["bank"], rec["event_date"], rec["title"])
@@ -180,7 +187,8 @@ def normalise(rec: dict, today: str) -> dict | None:
     # keep only known fields
     keep = {"id", "sector", "bank", "parent_group", "country", "region", "business_area",
             "ai_type", "title", "description", "vendor", "outcome", "metric", "status",
-            "event_date", "source_name", "source_url", "verified", "added_at"}
+            "event_date", "source_name", "source_url", "source_tier", "confidence",
+            "verified", "added_at"}
     return {k: rec[k] for k in keep if k in rec}
 
 

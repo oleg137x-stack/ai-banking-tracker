@@ -367,6 +367,9 @@ function renderCharts(data) {
   barChart("chart-region", groupCount(data, "region"));
   doughnutChart("chart-aitype", groupCount(data, "ai_type"));
   hBarChart("chart-business", groupCount(data, "business_area"));
+  const banksTitle = document.getElementById("chart-banks-title");
+  if (banksTitle) banksTitle.textContent =
+    state.sector === "Payments" ? "Top payment providers" : state.sector === "Bank" ? "Top banks" : "Top institutions";
   hBarChart("chart-banks", groupCount(data, "bank").slice(0, 10).map((e) => [bankLabel(e[0]), e[1]]));
   doughnutChart("chart-status", groupCount(data, "status"));
 }

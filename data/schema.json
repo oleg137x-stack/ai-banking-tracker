@@ -42,6 +42,8 @@
     "source_url": { "type": "string", "format": "uri", "description": "Link to the actual announcement/article." },
     "tags": { "type": "array", "items": { "type": "string" } },
     "verified": { "type": "boolean", "description": "True once a human or the ingest pipeline confirmed the source link resolves." },
+    "source_tier": { "type": "string", "enum": ["primary", "news", "secondary"], "description": "Source quality: 'primary' = bank/official newsroom or vendor press release; 'news' = reputable outlet (Reuters, CNBC, American Banker, Finextra, FT, etc.); 'secondary' = aggregator/blog (klover.ai, emerj, etc.)." },
+    "confidence": { "type": "string", "enum": ["high", "med", "low"], "description": "Evidence confidence: 'high' = primary source, or news with a named quantified metric; 'med' = news without a hard metric; 'low' = secondary source only." },
     "added_at": { "type": "string", "format": "date-time", "description": "When this record entered the dataset." }
   }
 }
