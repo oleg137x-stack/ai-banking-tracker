@@ -23,9 +23,11 @@ const state = {
   sector: "all", // "all" | "Bank" | "Payments"
   feedLimit: 5,  // show 5 newest; "Show more news" reveals the rest
   outcomesLimit: 6, // show 6 outcomes; "Show more" reveals 6 more
+  reportsLimit: 6, // show 6 reports; "Show more" reveals 6 more
 };
 const FEED_PAGE = 5;
 const OUTCOMES_PAGE = 6;
+const REPORTS_PAGE = 6;
 const charts = {};
 
 // Records within the current sector scope (banks / payments / both)
@@ -311,7 +313,9 @@ function renderOutcomes(data) {
 function renderBenchmarks() {
   const el = document.getElementById("insights-benchmarks");
   if (!el || !state.reports.length) return;
-  const cards = state.reports.map((r) => `
+  const shown = state.reports.slice(0, state.reportsLimit);
+  const remaining = state.reports.length - shown.length;
+  const cards = shown.map((r) => `
     <a class="bench" href="${escapeAttr(r.url)}" target="_blank" rel="noopener">
       <div class="bench-top">
         <span class="bench-src">${escapeHtml(r.source)}</span>
@@ -323,7 +327,9 @@ function renderBenchmarks() {
     </a>`).join("");
   el.innerHTML = `
     <p class="ins-label">Industry benchmarks &amp; reports</p>
-    <div class="bench-grid">${cards}</div>`;
+    <div class="bench-grid">${cards}` +
+    (remaining > 0 ? `<button id="reports-more" class="show-more-btn">Show more (${remaining} more)</button>` : "") +
+    `</div>`;
 }
 
 /* ---------------- Charts ---------------- */
@@ -494,6 +500,13 @@ function bindEvents() {
     if (e.target.closest("#outcomes-more")) {
       state.outcomesLimit += OUTCOMES_PAGE;
       renderOutcomes(applyFilters());
+    }
+  });
+  // Industry reports: "Show more" reveals 6 more
+  document.getElementById("insights-benchmarks").addEventListener("click", (e) => {
+    if (e.target.closest("#reports-more")) {
+      state.reportsLimit += REPORTS_PAGE;
+      renderBenchmarks();
     }
   });
   // Feed interactions: "Show more news" + expand/collapse a card

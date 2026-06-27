@@ -145,5 +145,70 @@
       "Targets credit, fraud & onboarding workflows",
       "Launched at Money20/20 Europe"
     ]
+  },
+  {
+    "source": "BCG",
+    "title": "How Retail Banks Can Put Agentic AI to Work (2026)",
+    "url": "https://www.bcg.com/publications/2026/how-retail-banks-can-put-agentic-ai-to-work",
+    "date": "2026",
+    "category": "Consultancy report",
+    "summary": "Where agentic AI creates value in retail banking and how to scale it from pilots to production.",
+    "stats": [
+      "AI could raise bank profitability ~30%",
+      "Cost reductions of 30-40% by 2030",
+      "BFSI a frontrunner in scaling agents"
+    ]
+  },
+  {
+    "source": "BCG",
+    "title": "How Agentic AI Will Industrialize Financial Scams (2026)",
+    "url": "https://www.bcg.com/publications/2026/how-agentic-ai-will-industrialize-financial-scams",
+    "date": "2026",
+    "category": "Consultancy report",
+    "summary": "Why agentic AI sharply lowers the cost of running scams — and what banks must do to keep up.",
+    "stats": [
+      "Scam/fraud running-cost could drop ~90% in 2 years",
+      "2x+ surge in fraud volume expected",
+      "Defence must be AI-vs-AI"
+    ]
+  },
+  {
+    "source": "Accenture",
+    "title": "Agentic AI and the future of work in financial services (2026)",
+    "url": "https://bankingblog.accenture.com/agentic-ai-future-of-work",
+    "date": "2026",
+    "category": "Consultancy report",
+    "summary": "The shift to agentic AI and the emergence of the 'human + AI co-worker' operating model in banking.",
+    "stats": [
+      "Rise of the '10x bank'",
+      "86% plan to increase gen-AI investment",
+      "2026 = year agentic AI scales in FS"
+    ]
+  },
+  {
+    "source": "KPMG / HFS Research",
+    "title": "HFS Horizons: Agentic Services 2026",
+    "url": "https://assets.kpmg.com/content/dam/kpmgsites/xx/pdf/2026/04/hfs-horizons-agentic-services-2026.pdf",
+    "date": "2026-04",
+    "category": "Industry report",
+    "summary": "Benchmark of agentic-services providers and enterprise readiness, with banking among the frontrunners.",
+    "stats": [
+      "82% of US banks to raise AI budget share",
+      "~40% expect AI >20% of total budget",
+      "Banking/FS lead agentic adoption"
+    ]
+  },
+  {
+    "source": "International Monetary Fund",
+    "title": "How Agentic AI Will Reshape Payments (IMF Notes, 2026)",
+    "url": "https://www.elibrary.imf.org/view/journals/068/2026/004/article-A001-en.xml",
+    "date": "2026",
+    "category": "Institutional report",
+    "summary": "IMF analysis of agentic AI payments — faster, cheaper transfers and stronger fraud detection, with new financial-stability risks.",
+    "stats": [
+      "Agentic payments could reshape cross-border flows",
+      "Probabilistic systems add stability risk",
+      "Especially material for fast-digitising economies"
+    ]
   }
 ]
