@@ -203,7 +203,8 @@ def main() -> None:
     today_s = today.isoformat()
 
     if not os.getenv("ANTHROPIC_API_KEY"):
-        sys.exit("ANTHROPIC_API_KEY is not set.")
+        print("ANTHROPIC_API_KEY not set — skipping ingestion (no changes made).")
+        return  # exit 0: don't fail the workflow / no error emails
 
     existing = load_existing()
     seen_ids = {r["id"] for r in existing}
