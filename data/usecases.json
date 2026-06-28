@@ -2167,18 +2167,17 @@
     "outcome": "Scaled research distribution; faster turnaround from note to video.",
     "status": "Deployed",
     "event_date": "2026-04-15",
-    "source_name": "Company newsroom",
-    "source_url": "https://www.ubs.com/global/en/media.html",
+    "source_name": "Finextra",
+    "source_url": "https://www.finextra.com/newsarticle/46009/ubs-rolls-out-ai-avatars-of-its-analysts",
     "tags": [
-      "research",
-      "video"
+      "coverage"
     ],
-    "verified": false,
+    "verified": true,
     "added_at": "2026-06-25T00:00:00Z",
     "parent_group": "",
     "sector": "Bank",
-    "metric": "Scaled research distribution",
-    "source_tier": "primary",
+    "metric": "~5,000 analyst avatar videos/yr (target)",
+    "source_tier": "news",
     "confidence": "high"
   },
   {
@@ -2288,33 +2287,6 @@
     "confidence": "high"
   },
   {
-    "id": "isybank-genai-assistant-2026",
-    "bank": "Isybank",
-    "parent_group": "Intesa Sanpaolo",
-    "country": "Italy",
-    "region": "Europe",
-    "business_area": "Customer Service",
-    "ai_type": "Generative AI",
-    "title": "Generative-AI assistant in the Isybank app",
-    "description": "Intesa Sanpaolo's digital bank Isybank added a generative-AI assistant to handle in-app customer queries and guidance.",
-    "vendor": "in-house / Intesa Sanpaolo",
-    "outcome": "Higher self-serve resolution for the digital-only customer base.",
-    "status": "Piloting",
-    "event_date": "2026-04-10",
-    "source_name": "Company newsroom",
-    "source_url": "https://group.intesasanpaolo.com/en/newsroom",
-    "tags": [
-      "digital bank",
-      "assistant"
-    ],
-    "verified": false,
-    "added_at": "2026-06-25T00:00:00Z",
-    "sector": "Bank",
-    "metric": "Higher self-serve resolution for the digital-only…",
-    "source_tier": "primary",
-    "confidence": "high"
-  },
-  {
     "id": "jpmorgan-chase-2026-04-09-automating-85-of-fx-trading",
     "sector": "Bank",
     "bank": "JPMorgan Chase",
@@ -2391,33 +2363,6 @@
     ],
     "verified": true,
     "added_at": "2026-06-27T07:10:54.432881+00:00"
-  },
-  {
-    "id": "deutsche-bank-google-2026",
-    "bank": "Deutsche Bank",
-    "country": "Germany",
-    "region": "Europe",
-    "business_area": "Corporate & Investment Banking",
-    "ai_type": "Generative AI",
-    "title": "DB Lumin and document AI on Google Cloud",
-    "description": "Deutsche Bank advanced its Google Cloud partnership to apply generative AI to research, document analysis and client service.",
-    "vendor": "Google Cloud",
-    "outcome": "Faster document review and analyst workflows.",
-    "status": "Piloting",
-    "event_date": "2026-04-02",
-    "source_name": "Company newsroom",
-    "source_url": "https://www.db.com/news",
-    "tags": [
-      "document AI",
-      "research"
-    ],
-    "verified": false,
-    "added_at": "2026-06-25T00:00:00Z",
-    "parent_group": "",
-    "sector": "Bank",
-    "metric": "Faster document review and analyst workflows",
-    "source_tier": "primary",
-    "confidence": "high"
   },
   {
     "id": "bbva-2026-04-02-ai-coach-in-the-blue-app",
@@ -2592,17 +2537,16 @@
     "outcome": "Higher digital engagement; improved trade execution analytics.",
     "status": "Deployed",
     "event_date": "2026-03-28",
-    "source_name": "Company newsroom",
-    "source_url": "https://www.rbc.com/newsroom/",
+    "source_name": "RBC Borealis",
+    "source_url": "https://rbcborealis.com/applications/nomi-forecast/",
     "tags": [
-      "personalisation",
-      "capital markets"
+      "coverage"
     ],
-    "verified": false,
+    "verified": true,
     "added_at": "2026-06-25T00:00:00Z",
     "parent_group": "",
     "sector": "Bank",
-    "metric": "Higher digital engagement",
+    "metric": "1.1bn+ insights read; 900k+ Forecast users",
     "source_tier": "primary",
     "confidence": "high"
   },
@@ -2815,33 +2759,6 @@
     "added_at": "2026-06-27T07:10:54.432881+00:00"
   },
   {
-    "id": "bbva-chatgpt-enterprise-2026",
-    "bank": "BBVA",
-    "country": "Spain",
-    "region": "Europe",
-    "business_area": "Cross-functional",
-    "ai_type": "Generative AI",
-    "title": "Large-scale ChatGPT Enterprise rollout",
-    "description": "BBVA expanded its ChatGPT Enterprise deployment to thousands of employees who built custom GPTs for legal, risk and operations.",
-    "vendor": "OpenAI",
-    "outcome": "Thousands of licences; employees reported saving ~3 hours/week on average.",
-    "status": "Deployed",
-    "event_date": "2026-03-20",
-    "source_name": "Company newsroom",
-    "source_url": "https://www.bbva.com/en/press-releases/",
-    "tags": [
-      "employee productivity",
-      "custom GPTs"
-    ],
-    "verified": false,
-    "added_at": "2026-06-25T00:00:00Z",
-    "parent_group": "",
-    "sector": "Bank",
-    "metric": "employees reported saving ~3 hours/week on average",
-    "source_tier": "primary",
-    "confidence": "high"
-  },
-  {
     "id": "commonwealth-bank-of-australia-2026-03-20-agentic-threat-hunter-for-cyber",
     "sector": "Bank",
     "bank": "Commonwealth Bank of Australia",
@@ -2944,33 +2861,6 @@
     ],
     "verified": true,
     "added_at": "2026-06-27T07:09:11.014627+00:00"
-  },
-  {
-    "id": "buddybank-ai-concierge-2026",
-    "bank": "buddybank",
-    "parent_group": "UniCredit",
-    "country": "Italy",
-    "region": "Europe",
-    "business_area": "Customer Service",
-    "ai_type": "Conversational AI",
-    "title": "AI concierge enhancements in buddybank",
-    "description": "UniCredit's mobile-first bank buddybank expanded its conversational AI concierge for everyday banking and lifestyle requests.",
-    "vendor": "in-house / UniCredit",
-    "outcome": "Faster 24/7 chat handling alongside the human concierge.",
-    "status": "Deployed",
-    "event_date": "2026-03-18",
-    "source_name": "Company newsroom",
-    "source_url": "https://www.unicreditgroup.eu/en/press-media.html",
-    "tags": [
-      "digital bank",
-      "concierge"
-    ],
-    "verified": false,
-    "added_at": "2026-06-25T00:00:00Z",
-    "sector": "Bank",
-    "metric": "Faster 24/7 chat handling alongside the human con…",
-    "source_tier": "primary",
-    "confidence": "high"
   },
   {
     "id": "razorpay-2026-03-18-ai-agent-studio-built-on-anthropic-claude",
@@ -3114,21 +3004,20 @@
     "ai_type": "Generative AI",
     "title": "Cora+ generative assistant for customer queries",
     "description": "NatWest enhanced its Cora chatbot with generative AI to answer broader, more conversational customer questions.",
-    "vendor": "OpenAI",
+    "vendor": "IBM",
     "outcome": "Improved query resolution and richer self-serve answers.",
     "status": "Deployed",
     "event_date": "2026-03-12",
-    "source_name": "Company newsroom",
-    "source_url": "https://www.natwestgroup.com/news-and-insights.html",
+    "source_name": "NatWest Group",
+    "source_url": "https://www.natwestgroup.com/news-and-insights/news-room/press-releases/data-and-technology/2024/jun/natwest-launches-cora-plus-the-latest-generative-ai-upgrade-to-t.html",
     "tags": [
-      "chatbot",
-      "retail"
+      "coverage"
     ],
-    "verified": false,
+    "verified": true,
     "added_at": "2026-06-25T00:00:00Z",
     "parent_group": "",
     "sector": "Bank",
-    "metric": "Improved query resolution and richer self-serve a…",
+    "metric": "Cora handles 150+ query types",
     "source_tier": "primary",
     "confidence": "high"
   },
@@ -3223,19 +3112,18 @@
     "outcome": "Pilot stage; targeting reduction in manual handling time.",
     "status": "Piloting",
     "event_date": "2026-03-05",
-    "source_name": "Company newsroom",
-    "source_url": "https://www.citigroup.com/global/news",
+    "source_name": "Citi",
+    "source_url": "https://www.citigroup.com/global/news/press-release/2025/citi-unveils-citi-stylus-workspaces-agentic-ai-turbocharging-productivity",
     "tags": [
-      "agentic",
-      "process automation"
+      "coverage"
     ],
-    "verified": false,
+    "verified": true,
     "added_at": "2026-06-25T00:00:00Z",
     "parent_group": "",
     "sector": "Bank",
-    "metric": "Pilot stage",
+    "metric": "Agentic Citi Stylus Workspaces",
     "source_tier": "primary",
-    "confidence": "high"
+    "confidence": "med"
   },
   {
     "id": "deutsche-bank-2026-03-05-dbsherpa-multi-agent-trade-surveillance",
@@ -3608,60 +3496,6 @@
     "added_at": "2026-06-27T07:09:11.014627+00:00"
   },
   {
-    "id": "bofa-erica-2026",
-    "bank": "Bank of America",
-    "country": "United States",
-    "region": "North America",
-    "business_area": "Customer Service",
-    "ai_type": "Conversational AI",
-    "title": "Erica virtual assistant surpasses new interaction milestone",
-    "description": "Bank of America's virtual financial assistant Erica continued to expand proactive insights and servicing capabilities.",
-    "vendor": "in-house",
-    "outcome": "Reported 2.5bn+ cumulative client interactions since launch.",
-    "status": "Deployed",
-    "event_date": "2026-02-25",
-    "source_name": "Company newsroom",
-    "source_url": "https://newsroom.bankofamerica.com",
-    "tags": [
-      "virtual assistant",
-      "retail"
-    ],
-    "verified": false,
-    "added_at": "2026-06-25T00:00:00Z",
-    "parent_group": "",
-    "sector": "Bank",
-    "metric": "5bn+ cumulative client interactions since launch",
-    "source_tier": "primary",
-    "confidence": "high"
-  },
-  {
-    "id": "hsbc-fraud-ai-2026",
-    "bank": "HSBC",
-    "country": "United Kingdom",
-    "region": "UK & Ireland",
-    "business_area": "Fraud & AML",
-    "ai_type": "Predictive ML",
-    "title": "AI transaction-monitoring for fraud and AML",
-    "description": "HSBC extended its machine-learning transaction-monitoring (Google 'Dynamic Decisioning' collaboration) to catch more financial crime with fewer false positives.",
-    "vendor": "Google Cloud",
-    "outcome": "Reported multi-fold increase in true-positive detection and lower false-positive rates.",
-    "status": "Deployed",
-    "event_date": "2026-02-18",
-    "source_name": "Company newsroom",
-    "source_url": "https://www.hsbc.com/news-and-views",
-    "tags": [
-      "financial crime",
-      "monitoring"
-    ],
-    "verified": false,
-    "added_at": "2026-06-25T00:00:00Z",
-    "parent_group": "",
-    "sector": "Bank",
-    "metric": "Reported multi-fold increase in true-positive det…",
-    "source_tier": "primary",
-    "confidence": "high"
-  },
-  {
     "id": "fis-2026-02-15-agentic-ai-with-anthropic-financial-crimes-ai-agent",
     "bank": "FIS",
     "parent_group": "",
@@ -3755,17 +3589,16 @@
     "outcome": "Available to ~70,000 employees across 40+ markets.",
     "status": "Deployed",
     "event_date": "2026-02-14",
-    "source_name": "Company newsroom",
-    "source_url": "https://www.sc.com/en/media/",
+    "source_name": "Standard Chartered",
+    "source_url": "https://www.sc.com/en/press-release/standard-chartered-rolls-out-sc-gpt-advancing-ai-driven-innovation-in-banking/",
     "tags": [
-      "internal assistant",
-      "global rollout"
+      "coverage"
     ],
-    "verified": false,
+    "verified": true,
     "added_at": "2026-06-25T00:00:00Z",
     "parent_group": "",
     "sector": "Bank",
-    "metric": "Available to ~70,000 employees across 40+ markets",
+    "metric": "70,000 staff · 41 markets · 150k+ prompts",
     "source_tier": "primary",
     "confidence": "high"
   },
@@ -3938,19 +3771,18 @@
     "outcome": "Advisor adoption reported above 90%; faster client query turnaround.",
     "status": "Deployed",
     "event_date": "2026-02-10",
-    "source_name": "Company newsroom",
-    "source_url": "https://www.morganstanley.com/press-releases",
+    "source_name": "OpenAI",
+    "source_url": "https://openai.com/index/morgan-stanley/",
     "tags": [
-      "advisor enablement",
-      "knowledge retrieval"
+      "coverage"
     ],
-    "verified": false,
+    "verified": true,
     "added_at": "2026-06-25T00:00:00Z",
     "parent_group": "",
     "sector": "Bank",
-    "metric": "Advisor adoption reported above 90%",
+    "metric": "Advisor knowledge assistant (OpenAI)",
     "source_tier": "primary",
-    "confidence": "high"
+    "confidence": "med"
   },
   {
     "id": "morgan-stanley-2026-02-10-ai-morgan-stanley-debrief-for-meeting-notes",
@@ -4003,33 +3835,6 @@
     ],
     "verified": true,
     "added_at": "2026-06-25T21:33:30.538593+00:00",
-    "source_tier": "primary",
-    "confidence": "high"
-  },
-  {
-    "id": "cba-scam-ai-2026",
-    "bank": "Commonwealth Bank of Australia",
-    "country": "Australia",
-    "region": "Asia-Pacific",
-    "business_area": "Fraud & AML",
-    "ai_type": "Predictive ML",
-    "title": "AI scam and fraud detection in the CommBank app",
-    "description": "CBA deployed AI models to detect scams in real time and warn customers before payments to suspicious accounts.",
-    "vendor": "in-house / AWS",
-    "outcome": "Reported reductions in scam losses and customer-reported scams.",
-    "status": "Deployed",
-    "event_date": "2026-02-05",
-    "source_name": "Company newsroom",
-    "source_url": "https://www.commbank.com.au/articles/newsroom.html",
-    "tags": [
-      "scam prevention",
-      "real-time"
-    ],
-    "verified": false,
-    "added_at": "2026-06-25T00:00:00Z",
-    "parent_group": "",
-    "sector": "Bank",
-    "metric": "Reported reductions in scam losses and customer-r…",
     "source_tier": "primary",
     "confidence": "high"
   },
@@ -5036,18 +4841,17 @@
     "outcome": "Developer productivity uplift on routine coding tasks reported by the firm.",
     "status": "Deployed",
     "event_date": "2026-01-30",
-    "source_name": "Company newsroom",
-    "source_url": "https://www.goldmansachs.com/media-relations",
+    "source_name": "Fortune",
+    "source_url": "https://fortune.com/2025/06/24/goldman-sachs-internal-ai-assistant/",
     "tags": [
-      "developer tooling",
-      "code generation"
+      "coverage"
     ],
-    "verified": false,
+    "verified": true,
     "added_at": "2026-06-25T00:00:00Z",
     "parent_group": "",
     "sector": "Bank",
-    "metric": "Developer productivity uplift on routine coding t…",
-    "source_tier": "primary",
+    "metric": "Firmwide; ~10,000 early users",
+    "source_tier": "news",
     "confidence": "high"
   },
   {
@@ -5063,18 +4867,17 @@
     "outcome": "Bank cited significant economic value from AI/ML initiatives across the group.",
     "status": "Deployed",
     "event_date": "2026-01-28",
-    "source_name": "Company newsroom",
-    "source_url": "https://www.dbs.com/newsroom/default.page",
+    "source_name": "Computer Weekly",
+    "source_url": "https://www.computerweekly.com/news/366569993/How-DBS-is-industrialising-AI-across-its-business",
     "tags": [
-      "nudges",
-      "employee tooling"
+      "coverage"
     ],
-    "verified": false,
+    "verified": true,
     "added_at": "2026-06-25T00:00:00Z",
     "parent_group": "",
     "sector": "Bank",
-    "metric": "Bank cited significant economic value from AI/ML…",
-    "source_tier": "primary",
+    "metric": "DBS-GPT for 25,000+ employees",
+    "source_tier": "news",
     "confidence": "high"
   },
   {
@@ -5090,17 +4893,16 @@
     "outcome": "Reported to do the work of ~700 agents and resolve issues faster.",
     "status": "Deployed",
     "event_date": "2026-01-22",
-    "source_name": "Company newsroom",
-    "source_url": "https://www.klarna.com/international/press/",
+    "source_name": "OpenAI",
+    "source_url": "https://openai.com/index/klarna/",
     "tags": [
-      "agentic",
-      "customer support"
+      "coverage"
     ],
-    "verified": false,
+    "verified": true,
     "added_at": "2026-06-25T00:00:00Z",
     "parent_group": "",
     "sector": "Bank",
-    "metric": "Reported to do the work of ~700 agents and resolv…",
+    "metric": "Does the work of ~700 agents",
     "source_tier": "primary",
     "confidence": "high"
   },
@@ -5247,18 +5049,17 @@
     "outcome": "Reported to be used by 200,000+ employees; time savings on document-heavy tasks.",
     "status": "Deployed",
     "event_date": "2026-01-20",
-    "source_name": "Company newsroom",
-    "source_url": "https://www.jpmorganchase.com/newsroom",
+    "source_name": "CNBC",
+    "source_url": "https://www.cnbc.com/2025/09/30/jpmorgan-chase-fully-ai-connected-megabank.html",
     "tags": [
-      "employee productivity",
-      "internal assistant"
+      "coverage"
     ],
-    "verified": false,
+    "verified": true,
     "added_at": "2026-06-25T00:00:00Z",
     "parent_group": "",
     "sector": "Bank",
-    "metric": "Reported to be used by 200,000+ employees",
-    "source_tier": "primary",
+    "metric": "LLM Suite to 200,000+ employees",
+    "source_tier": "news",
     "confidence": "high"
   },
   {
@@ -5531,33 +5332,6 @@
     ],
     "verified": true,
     "added_at": "2026-06-26T11:33:40.417461+00:00"
-  },
-  {
-    "id": "wells-fargo-fargo-2026",
-    "bank": "Wells Fargo",
-    "country": "United States",
-    "region": "North America",
-    "business_area": "Customer Service",
-    "ai_type": "Conversational AI",
-    "title": "Fargo assistant scales virtual-assistant interactions",
-    "description": "Wells Fargo's Fargo assistant uses a Google Cloud LLM backbone to handle banking queries via app voice and text.",
-    "vendor": "Google Cloud",
-    "outcome": "Reported hundreds of millions of interactions; privacy-preserving architecture (no PII sent to the LLM).",
-    "status": "Deployed",
-    "event_date": "2026-01-15",
-    "source_name": "Company newsroom",
-    "source_url": "https://newsroom.wf.com",
-    "tags": [
-      "virtual assistant",
-      "privacy"
-    ],
-    "verified": false,
-    "added_at": "2026-06-25T00:00:00Z",
-    "parent_group": "",
-    "sector": "Bank",
-    "metric": "Reported hundreds of millions of interactions",
-    "source_tier": "primary",
-    "confidence": "high"
   },
   {
     "id": "american-express-2026-01-15-real-time-ml-fraud-detection-across-1-2t-in-transact",
