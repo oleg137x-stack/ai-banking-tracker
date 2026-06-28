@@ -2287,6 +2287,32 @@
     "confidence": "high"
   },
   {
+    "id": "isybank-2026-04-10-generative-ai-in-intesa-s-digital-bank-isybank",
+    "sector": "Bank",
+    "bank": "Isybank",
+    "parent_group": "Intesa Sanpaolo",
+    "country": "Italy",
+    "region": "Europe",
+    "business_area": "Customer Service",
+    "ai_type": "Generative AI",
+    "title": "Generative AI in Intesa's digital bank Isybank",
+    "description": "Isybank, Intesa Sanpaolo's cloud-native digital bank, sits within the group's 'AIxelaration' AI programme (190 use cases) spanning customer service and operations.",
+    "vendor": "in-house",
+    "outcome": "Isybank, Intesa Sanpaolo's cloud-native digital bank, sits within the group's 'AIxelaration' AI programme (190 use cases) spanning customer service and operations.",
+    "metric": "Part of Intesa's 190-use-case AI programme",
+    "status": "Piloting",
+    "event_date": "2026-04-10",
+    "source_name": "Intesa Sanpaolo",
+    "source_url": "https://group.intesasanpaolo.com/en/editorial-section/events-and-projects/projects/innovation/2024/ai-solutions-in-digital-business",
+    "source_tier": "secondary",
+    "confidence": "low",
+    "tags": [
+      "restored"
+    ],
+    "verified": true,
+    "added_at": "2026-06-28T07:49:08.613281+00:00"
+  },
+  {
     "id": "jpmorgan-chase-2026-04-09-automating-85-of-fx-trading",
     "sector": "Bank",
     "bank": "JPMorgan Chase",
@@ -2415,6 +2441,32 @@
     ],
     "verified": true,
     "added_at": "2026-06-27T07:10:54.432881+00:00"
+  },
+  {
+    "id": "deutsche-bank-2026-04-02-db-lumin-and-document-ai-on-google-cloud",
+    "sector": "Bank",
+    "bank": "Deutsche Bank",
+    "parent_group": "",
+    "country": "Germany",
+    "region": "Europe",
+    "business_area": "Corporate & Investment Banking",
+    "ai_type": "Generative AI",
+    "title": "DB Lumin and document AI on Google Cloud",
+    "description": "Deutsche Bank applies generative AI on Google Cloud (DB Lumina) to research, document analysis and client service.",
+    "vendor": "Google Cloud",
+    "outcome": "Deutsche Bank applies generative AI on Google Cloud (DB Lumina) to research, document analysis and client service.",
+    "metric": "DB Lumina + document AI on Google Cloud",
+    "status": "Deployed",
+    "event_date": "2026-04-02",
+    "source_name": "Google Cloud",
+    "source_url": "https://cloud.google.com/blog/topics/financial-services/deutsche-bank-delivers-ai-powered-financial-research-with-db-lumina",
+    "source_tier": "primary",
+    "confidence": "high",
+    "tags": [
+      "restored"
+    ],
+    "verified": true,
+    "added_at": "2026-06-28T07:49:08.613281+00:00"
   },
   {
     "id": "natwest-2026-04-01-mastercard-ai-to-detect-real-time-payment-scams",
@@ -2785,6 +2837,32 @@
     "added_at": "2026-06-27T07:10:54.432881+00:00"
   },
   {
+    "id": "bbva-2026-03-20-large-scale-chatgpt-enterprise-rollout",
+    "sector": "Bank",
+    "bank": "BBVA",
+    "parent_group": "",
+    "country": "Spain",
+    "region": "Europe",
+    "business_area": "Cross-functional",
+    "ai_type": "Generative AI",
+    "title": "Large-scale ChatGPT Enterprise rollout",
+    "description": "BBVA rolled out ChatGPT Enterprise at scale, with employees building custom GPTs across legal, risk and operations.",
+    "vendor": "OpenAI",
+    "outcome": "BBVA rolled out ChatGPT Enterprise at scale, with employees building custom GPTs across legal, risk and operations.",
+    "metric": "Thousands of licences; ~3 hrs/week saved per employee",
+    "status": "Deployed",
+    "event_date": "2026-03-20",
+    "source_name": "OpenAI",
+    "source_url": "https://openai.com/index/bbva-collaboration-expansion/",
+    "source_tier": "primary",
+    "confidence": "high",
+    "tags": [
+      "restored"
+    ],
+    "verified": true,
+    "added_at": "2026-06-28T07:49:08.613281+00:00"
+  },
+  {
     "id": "jpmorgan-chase-2026-03-19-agentic-commerce-with-mirakl",
     "sector": "Bank",
     "bank": "JPMorgan Chase",
@@ -2888,6 +2966,32 @@
     ],
     "verified": true,
     "added_at": "2026-06-26T07:11:38.817976+00:00"
+  },
+  {
+    "id": "buddybank-2026-03-18-conversational-mobile-first-banking-buddybank",
+    "sector": "Bank",
+    "bank": "buddybank",
+    "parent_group": "UniCredit",
+    "country": "Italy",
+    "region": "Europe",
+    "business_area": "Customer Service",
+    "ai_type": "Conversational AI",
+    "title": "Conversational mobile-first banking (buddybank)",
+    "description": "UniCredit's buddybank is a fully conversational, mobile-first bank offering 24/7 chat-based banking and concierge, within UniCredit's AI strategy.",
+    "vendor": "in-house",
+    "outcome": "UniCredit's buddybank is a fully conversational, mobile-first bank offering 24/7 chat-based banking and concierge, within UniCredit's AI strategy.",
+    "metric": "24/7 conversational concierge banking",
+    "status": "Deployed",
+    "event_date": "2026-03-18",
+    "source_name": "UniCredit",
+    "source_url": "https://www.unicreditgroup.eu/en/one-unicredit/articles/2026/january/artificial-intelligence-banking-risk-customer-experience.html",
+    "source_tier": "secondary",
+    "confidence": "low",
+    "tags": [
+      "restored"
+    ],
+    "verified": true,
+    "added_at": "2026-06-28T07:49:08.613281+00:00"
   },
   {
     "id": "bank-of-america-2026-03-17-erica-virtual-assistant-does-the-work-of-11-000-peopl",
@@ -3496,6 +3600,58 @@
     "added_at": "2026-06-27T07:09:11.014627+00:00"
   },
   {
+    "id": "bank-of-america-2026-02-25-erica-virtual-assistant-surpasses-new-interaction-mil",
+    "sector": "Bank",
+    "bank": "Bank of America",
+    "parent_group": "",
+    "country": "United States",
+    "region": "North America",
+    "business_area": "Customer Service",
+    "ai_type": "Conversational AI",
+    "title": "Erica virtual assistant surpasses new interaction milestone",
+    "description": "Bank of America's Erica virtual assistant continued to expand proactive insights and servicing.",
+    "vendor": "in-house",
+    "outcome": "Bank of America's Erica virtual assistant continued to expand proactive insights and servicing.",
+    "metric": "2.5bn+ cumulative client interactions",
+    "status": "Deployed",
+    "event_date": "2026-02-25",
+    "source_name": "Bank of America",
+    "source_url": "https://newsroom.bankofamerica.com/content/newsroom/press-releases/2026/03/bofa-ai-and-digital-innovations-fuel-30-billion-client-interacti.html",
+    "source_tier": "primary",
+    "confidence": "high",
+    "tags": [
+      "restored"
+    ],
+    "verified": true,
+    "added_at": "2026-06-28T07:49:08.613281+00:00"
+  },
+  {
+    "id": "hsbc-2026-02-18-ai-transaction-monitoring-for-fraud-and-aml",
+    "sector": "Bank",
+    "bank": "HSBC",
+    "parent_group": "",
+    "country": "United Kingdom",
+    "region": "UK & Ireland",
+    "business_area": "Fraud & AML",
+    "ai_type": "Predictive ML",
+    "title": "AI transaction-monitoring for fraud and AML",
+    "description": "HSBC uses machine-learning transaction monitoring (Google collaboration) to catch more financial crime with fewer false positives.",
+    "vendor": "Google Cloud",
+    "outcome": "HSBC uses machine-learning transaction monitoring (Google collaboration) to catch more financial crime with fewer false positives.",
+    "metric": "Monitors ~1bn transactions/month",
+    "status": "Deployed",
+    "event_date": "2026-02-18",
+    "source_name": "AI Magazine",
+    "source_url": "https://aimagazine.com/news/new-partnership-brings-google-cloud-ai-agents-to-hsbc",
+    "source_tier": "news",
+    "confidence": "high",
+    "tags": [
+      "restored"
+    ],
+    "verified": true,
+    "added_at": "2026-06-28T07:49:08.613281+00:00"
+  },
+  {
     "id": "fis-2026-02-15-agentic-ai-with-anthropic-financial-crimes-ai-agent",
     "bank": "FIS",
     "parent_group": "",
@@ -3968,6 +4124,32 @@
     ],
     "verified": true,
     "added_at": "2026-06-27T07:07:20.473773+00:00"
+  },
+  {
+    "id": "commonwealth-bank-of-australia-2026-02-05-ai-scam-and-fraud-detection-in-the-com",
+    "sector": "Bank",
+    "bank": "Commonwealth Bank of Australia",
+    "parent_group": "",
+    "country": "Australia",
+    "region": "Asia-Pacific",
+    "business_area": "Fraud & AML",
+    "ai_type": "Predictive ML",
+    "title": "AI scam and fraud detection in the CommBank app",
+    "description": "CommBank deployed AI to detect scams in real time and warn customers before payments to suspicious accounts.",
+    "vendor": "in-house / AWS",
+    "outcome": "CommBank deployed AI to detect scams in real time and warn customers before payments to suspicious accounts.",
+    "metric": "20M+ payments/day monitored; 40k+ scam alerts/day",
+    "status": "Deployed",
+    "event_date": "2026-02-05",
+    "source_name": "CommBank",
+    "source_url": "https://www.commbank.com.au/articles/newsroom/2026/02/cba-approach-to-adopting-ai-report-announcement.html",
+    "source_tier": "primary",
+    "confidence": "high",
+    "tags": [
+      "restored"
+    ],
+    "verified": true,
+    "added_at": "2026-06-28T07:49:08.613281+00:00"
   },
   {
     "id": "truist-bank-2026-02-03-ai-enabled-integrated-receivables-platform",
@@ -6059,6 +6241,32 @@
     ],
     "verified": true,
     "added_at": "2026-06-28T07:36:48.520479+00:00"
+  },
+  {
+    "id": "wells-fargo-2026-01-15-fargo-assistant-scales-virtual-assistant-interactions",
+    "sector": "Bank",
+    "bank": "Wells Fargo",
+    "parent_group": "",
+    "country": "United States",
+    "region": "North America",
+    "business_area": "Customer Service",
+    "ai_type": "Conversational AI",
+    "title": "Fargo assistant scales virtual-assistant interactions",
+    "description": "Wells Fargo's Fargo assistant handles banking via a privacy-preserving architecture that keeps PII away from the LLM.",
+    "vendor": "Google Cloud",
+    "outcome": "Wells Fargo's Fargo assistant handles banking via a privacy-preserving architecture that keeps PII away from the LLM.",
+    "metric": "245M+ Fargo interactions; no PII to the model",
+    "status": "Deployed",
+    "event_date": "2026-01-15",
+    "source_name": "American Banker",
+    "source_url": "https://www.americanbanker.com/news/how-wells-fargo-is-building-agentic-ai-into-its-workflows",
+    "source_tier": "news",
+    "confidence": "high",
+    "tags": [
+      "restored"
+    ],
+    "verified": true,
+    "added_at": "2026-06-28T07:49:08.613281+00:00"
   },
   {
     "id": "stripe-2026-01-10-stripe-radar-real-time-ml-fraud-prevention",
