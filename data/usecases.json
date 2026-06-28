@@ -1653,6 +1653,32 @@
     "added_at": "2026-06-27T07:00:39.724924+00:00"
   },
   {
+    "id": "global-payments-2026-05-13-ai-first-genius-handheld-with-voice-ordering",
+    "sector": "Payments",
+    "bank": "Global Payments",
+    "parent_group": "",
+    "country": "United States",
+    "region": "North America",
+    "business_area": "Payments & Authorization",
+    "ai_type": "Generative AI",
+    "title": "AI-First 'Genius' handheld with voice ordering",
+    "description": "Global Payments unveiled an AI-first 'Genius' handheld with AI voice-ordering that builds the ticket as servers talk to customers; it is also a founding member of OpenAI's and Google's Agent Payments Protocol.",
+    "vendor": "in-house",
+    "outcome": "Global Payments unveiled an AI-first 'Genius' handheld with AI voice-ordering that builds the ticket as servers talk to customers; it is also a founding member of OpenAI's and Google's Agent Payments Protocol.",
+    "metric": "AI voice-ordering POS; AP2 founding member",
+    "status": "Deployed",
+    "event_date": "2026-05-13",
+    "source_name": "Global Payments IR",
+    "source_url": "https://investors.globalpayments.com/news-events/press-releases/detail/509/global-payments-unveils-ai-first-genius-handheld-built-for",
+    "source_tier": "primary",
+    "confidence": "med",
+    "tags": [
+      "coverage"
+    ],
+    "verified": true,
+    "added_at": "2026-06-28T07:36:48.520479+00:00"
+  },
+  {
     "id": "amalgamated-bank-2026-05-01-deploying-fis-financial-crimes-ai-agent-built-with-a",
     "sector": "Bank",
     "bank": "Amalgamated Bank",
@@ -3290,6 +3316,32 @@
     "added_at": "2026-06-27T07:09:11.014627+00:00"
   },
   {
+    "id": "nexi-2026-03-03-google-cloud-agentic-commerce-collaboration",
+    "sector": "Payments",
+    "bank": "Nexi",
+    "parent_group": "",
+    "country": "Italy",
+    "region": "Europe",
+    "business_area": "Payments & Authorization",
+    "ai_type": "Agentic AI",
+    "title": "Google Cloud agentic-commerce collaboration",
+    "description": "Nexi Group and Google Cloud agreed to build infrastructure for agentic commerce across Europe and to optimise Nexi's real-time fraud detection and merchant onboarding, supporting open standards (UCP, AP2).",
+    "vendor": "Google Cloud",
+    "outcome": "Nexi Group and Google Cloud agreed to build infrastructure for agentic commerce across Europe and to optimise Nexi's real-time fraud detection and merchant onboarding, supporting open standards (UCP, AP2).",
+    "metric": "Agentic commerce + real-time fraud + onboarding",
+    "status": "Announced",
+    "event_date": "2026-03-03",
+    "source_name": "Google Cloud press",
+    "source_url": "https://www.googlecloudpresscorner.com/2026-03-03-Nexi-Group-and-Google-Cloud-Collaborate-to-Drive-Agentic-Commerce-Across-Europe",
+    "source_tier": "primary",
+    "confidence": "med",
+    "tags": [
+      "coverage"
+    ],
+    "verified": true,
+    "added_at": "2026-06-28T07:36:48.520479+00:00"
+  },
+  {
     "id": "fiserv-2026-03-01-agentos-operating-system-for-agentic-ai",
     "bank": "Fiserv",
     "parent_group": "",
@@ -3313,59 +3365,6 @@
     "verified": true,
     "added_at": "2026-06-25T07:18:13.371756+00:00",
     "metric": "Platform to build and run AI agents across produc…",
-    "source_tier": "primary",
-    "confidence": "high"
-  },
-  {
-    "id": "worldline-2026-03-01-ai-based-fraud-and-risk-management",
-    "bank": "Worldline",
-    "parent_group": "",
-    "sector": "Payments",
-    "country": "France",
-    "region": "Europe",
-    "business_area": "Fraud & AML",
-    "ai_type": "Predictive ML",
-    "title": "AI-based fraud and risk management",
-    "description": "Worldline applies machine learning to fraud and transaction-risk management as part of its technology turnaround.",
-    "vendor": "Worldline",
-    "outcome": "Real-time fraud scoring across transaction flows.",
-    "status": "Deployed",
-    "event_date": "2026-03-01",
-    "source_name": "Worldline newsroom",
-    "source_url": "https://worldline.com/en/home/newsroom",
-    "tags": [
-      "fraud",
-      "risk"
-    ],
-    "verified": false,
-    "added_at": "2026-06-25T07:18:13.371756+00:00",
-    "metric": "Real-time fraud scoring across transaction flows",
-    "source_tier": "primary",
-    "confidence": "high"
-  },
-  {
-    "id": "nexi-2026-03-01-ai-investment-programme-ahead-of-2026-capital-markets-day",
-    "bank": "Nexi",
-    "parent_group": "",
-    "sector": "Payments",
-    "country": "Italy",
-    "region": "Europe",
-    "business_area": "Cross-functional",
-    "ai_type": "Generative AI",
-    "title": "AI investment programme ahead of 2026 Capital Markets Day",
-    "description": "Nexi is framing its AI and technology investment case, with detail expected at its March 2026 Capital Markets Day.",
-    "vendor": "Nexi",
-    "outcome": "Group-wide AI strategy in payments and merchant services.",
-    "status": "Announced",
-    "event_date": "2026-03-01",
-    "source_name": "Nexi newsroom",
-    "source_url": "https://www.nexigroup.com/en/media/",
-    "tags": [
-      "strategy"
-    ],
-    "verified": false,
-    "added_at": "2026-06-25T07:18:13.371756+00:00",
-    "metric": "Group-wide AI strategy in payments and merchant s…",
     "source_tier": "primary",
     "confidence": "high"
   },
@@ -4192,33 +4191,6 @@
     "added_at": "2026-06-28T07:29:01.289490+00:00"
   },
   {
-    "id": "global-payments-2026-02-01-ai-across-commerce-and-fraud-post-worldpay-integratio",
-    "bank": "Global Payments",
-    "parent_group": "",
-    "sector": "Payments",
-    "country": "United States",
-    "region": "North America",
-    "business_area": "Payments & Authorization",
-    "ai_type": "Generative AI",
-    "title": "AI across commerce and fraud, post-Worldpay integration",
-    "description": "Global Payments is extending AI across commerce enablement and fraud, with agentic-commerce vetting via partners for card-issuing clients.",
-    "vendor": "Global Payments",
-    "outcome": "Industry-wide push to embed AI in commerce and risk.",
-    "status": "Announced",
-    "event_date": "2026-02-01",
-    "source_name": "Global Payments newsroom",
-    "source_url": "https://investors.globalpayments.com/news-events/press-releases",
-    "tags": [
-      "commerce",
-      "fraud"
-    ],
-    "verified": false,
-    "added_at": "2026-06-25T07:18:13.371756+00:00",
-    "metric": "Industry-wide push to embed AI in commerce and risk",
-    "source_tier": "primary",
-    "confidence": "high"
-  },
-  {
     "id": "citigroup-2026-02-01-agentic-ai-and-github-copilot-rolled-out-to-40-000-develope",
     "sector": "Bank",
     "bank": "Citigroup",
@@ -5024,6 +4996,32 @@
     ],
     "verified": true,
     "added_at": "2026-06-28T07:29:01.289490+00:00"
+  },
+  {
+    "id": "nexi-2026-02-01-ai-powered-payment-fraud-prevention",
+    "sector": "Payments",
+    "bank": "Nexi",
+    "parent_group": "",
+    "country": "Italy",
+    "region": "Europe",
+    "business_area": "Fraud & AML",
+    "ai_type": "Predictive ML",
+    "title": "AI-powered payment fraud prevention",
+    "description": "Nexi, with KPMG, deployed an AI-powered solution to detect and prevent payment fraud across its processing network.",
+    "vendor": "KPMG",
+    "outcome": "Nexi, with KPMG, deployed an AI-powered solution to detect and prevent payment fraud across its processing network.",
+    "metric": "AI fraud prevention across payments",
+    "status": "Deployed",
+    "event_date": "2026-02-01",
+    "source_name": "KPMG case story",
+    "source_url": "https://kpmg.com/dk/en/about-us/case-stories/nexi-combats-payment-fraud-with-artificial-intelligence.html",
+    "source_tier": "news",
+    "confidence": "med",
+    "tags": [
+      "coverage"
+    ],
+    "verified": true,
+    "added_at": "2026-06-28T07:36:48.520479+00:00"
   },
   {
     "id": "goldman-sachs-gs-ai-assistant-2026",
@@ -6261,6 +6259,32 @@
     ],
     "verified": true,
     "added_at": "2026-06-27T07:07:20.473773+00:00"
+  },
+  {
+    "id": "worldline-2026-01-15-agentic-commerce-ai-capabilities-mcp-to-payment-apis",
+    "sector": "Payments",
+    "bank": "Worldline",
+    "parent_group": "",
+    "country": "France",
+    "region": "Europe",
+    "business_area": "Payments & Authorization",
+    "ai_type": "Agentic AI",
+    "title": "Agentic-commerce AI capabilities (MCP to payment APIs)",
+    "description": "Worldline launched new AI capabilities connecting AI agents to its payment ecosystem; its MCP servers bridge LLMs and payment APIs so agents can initiate transactions, issue refunds and manage workflows in natural language.",
+    "vendor": "Worldline",
+    "outcome": "Worldline launched new AI capabilities connecting AI agents to its payment ecosystem; its MCP servers bridge LLMs and payment APIs so agents can initiate transactions, issue refunds and manage workflows in natural language.",
+    "metric": "Agents initiate payments/refunds via MCP",
+    "status": "Deployed",
+    "event_date": "2026-01-15",
+    "source_name": "Worldline press release",
+    "source_url": "https://worldline.com/en/home/top-navigation/media-relations/press-release/worldline-empowers-agentic-commerce-with-new-ai-capabilities",
+    "source_tier": "primary",
+    "confidence": "med",
+    "tags": [
+      "coverage"
+    ],
+    "verified": true,
+    "added_at": "2026-06-28T07:36:48.520479+00:00"
   },
   {
     "id": "stripe-2026-01-10-stripe-radar-real-time-ml-fraud-prevention",
