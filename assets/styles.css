@@ -190,6 +190,8 @@ body {
 /* Chart.js canvas must never exceed its card width; give it more vertical room */
 .chart-card { position: relative; }
 .chart-card canvas { display: block; width: 100% !important; max-width: 100% !important; height: 300px !important; }
+/* Donut charts need extra height (legend now sits below) so they render as full circles */
+#chart-aitype, #chart-status { height: 360px !important; }
 /* the cumulative timeline (full-width card) can breathe a bit more */
 .rail .dashboard .chart-card:first-child canvas,
 .dashboard .chart-card:first-child canvas { height: 320px !important; }

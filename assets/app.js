@@ -276,6 +276,25 @@ function renderInsights(data) {
 // A quantified signal: %, ×/x-multiplier, currency, big-number words, or time/units.
 const QUANT_RE = /(\d[\d.,]*\s*(%|x\b|×|bn|m\b|k\b|billion|million|thousand|hours?|minutes?|days?|weeks?|seconds?|points?|pp\b))|[€£$]\s*\d|→|->|\bNPS\b/i;
 
+// Showcase cases pinned to the top of Measured outcomes (first 6 visible), in this order.
+const FEATURED = [
+  ["Commonwealth Bank", "auto-approved"],
+  ["Standard Bank", "cross-sell"],
+  ["Nedbank", "hours saved"],
+  ["Capitec", "fraud"],
+  ["First Abu Dhabi Bank", "efficiency"],
+  ["JPMorgan", "more deals"],
+  ["OCBC", "10 days"],
+];
+function featuredRank(d) {
+  const hay = (metricOf(d) + " " + (d.outcome || "")).toLowerCase();
+  for (let i = 0; i < FEATURED.length; i++) {
+    const [bank, kw] = FEATURED[i];
+    if (d.bank.includes(bank) && hay.includes(kw.toLowerCase())) return i;
+  }
+  return 999;
+}
+
 // Prefer the explicit `metric`; otherwise extract the first quantified clause of `outcome`.
 function metricOf(d) {
   if (d.metric) return d.metric;
@@ -289,9 +308,9 @@ function renderOutcomes(data) {
   const countEl = document.getElementById("outcomes-count");
   if (!grid) return;
   const items = data
-    .map((d) => ({ d, m: metricOf(d), q: QUANT_RE.test(metricOf(d)) }))
+    .map((d) => ({ d, m: metricOf(d), q: QUANT_RE.test(metricOf(d)), f: featuredRank(d) }))
     .filter((x) => x.m)
-    .sort((a, b) => (b.q - a.q) || b.d.event_date.localeCompare(a.d.event_date));
+    .sort((a, b) => (a.f - b.f) || (b.q - a.q) || b.d.event_date.localeCompare(a.d.event_date));
   const quant = items.filter((x) => x.q).length;
   countEl.textContent = `${items.length} cases · ${quant} quantified`;
   if (!items.length) {
@@ -420,7 +439,7 @@ function doughnutChart(id, entries) {
   makeOrUpdate(id, {
     type: "doughnut",
     data: { labels: entries.map((e) => e[0]), datasets: [{ data: entries.map((e) => e[1]), backgroundColor: PALETTE, borderWidth: 0 }] },
-    options: baseOpts({ cutout: "62%", plugins: { legend: { position: "right", labels: { color: tickColor, font: { size: 11 }, boxWidth: 12 } } } }),
+    options: baseOpts({ cutout: "60%", plugins: { legend: { position: "bottom", labels: { color: tickColor, font: { size: 11 }, boxWidth: 12, padding: 10 } } } }),
   });
 }
 
