@@ -1,33 +1,5 @@
 [
   {
-    "source": "Evident Insights",
-    "title": "Evident AI Index for Banks (2026)",
-    "url": "https://evidentinsights.com/ai-index/",
-    "date": "2026",
-    "category": "Benchmark",
-    "summary": "The global benchmark of bank AI maturity: 50 of the world's largest banks scored on 70+ indicators across four pillars.",
-    "stats": [
-      "Talent 45%",
-      "Innovation 30%",
-      "Leadership 15%",
-      "Transparency 10%",
-      "Leaders: JPMorganChase, Capital One, RBC, CommBank, Morgan Stanley"
-    ]
-  },
-  {
-    "source": "Evident Insights",
-    "title": "Evident AI Index for Banks — MEA (2026)",
-    "url": "https://evidentinsights.com/insights/2026-evident-ai-index-for-banks-mea-key-findings-report",
-    "date": "2026",
-    "category": "Benchmark",
-    "summary": "Inaugural Middle East & Africa AI-maturity ranking. Leaders scale a larger share of use cases and document outcomes.",
-    "stats": [
-      "Frontrunners: Emirates NBD, Standard Bank Group, First Abu Dhabi Bank, Nedbank",
-      "5 of 6 South African banks in the top 10",
-      "50+ documented AI implementations in the region"
-    ]
-  },
-  {
     "source": "Capgemini Research Institute",
     "title": "Banks & insurers deploy AI agents (2026)",
     "url": "https://www.capgemini.com/us-en/news/press-releases/banks-and-insurers-deploy-ai-agents-to-fight-fraud-and-process-applications-with-plans-for-new-roles-to-supervise-the-ai/",

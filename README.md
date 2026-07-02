@@ -23,7 +23,7 @@ index.html                  The app (feed + filters + dashboard) — no build st
 assets/styles.css            Styling
 assets/app.js                Frontend logic + charts (Chart.js via CDN)
 data/usecases.json           The dataset (one record per use case)
-data/reports.json            Industry benchmarks & reports (Evident AI Index, Capgemini, etc.)
+data/reports.json            Industry benchmarks & reports (Capgemini, McKinsey, BCG, etc.)
 data/schema.json             The record schema (filter dimensions live here)
 scripts/ingest.py            Daily AI-assisted ingestion (Claude + web search)
 .github/workflows/daily-ingest.yml   Free daily cron that updates the data
@@ -97,16 +97,12 @@ gives you a genuinely live, daily-updated tracker with zero infrastructure to ba
 
 ---
 
-## Structuring & benchmarks (Evident Insights)
+## Benchmarks & reports
 
-The dataset and the **Insights** panel are framed using the
-[Evident AI Index](https://evidentinsights.com/ai-index/) — the global benchmark of bank
-AI maturity across four pillars (**Talent 45%, Innovation 30%, Leadership 15%,
-Transparency 10%**) for the world's largest banks. The Insights panel surfaces a
-curated set of industry benchmarks and reports from
-[`data/reports.json`](data/reports.json) — Evident's global and **MEA** rankings,
-Capgemini's agentic-AI survey, Mastercard's fraud report, and Oracle's corporate-banking
-agents. Edit that file to add or change the reference sources shown.
+The **Insights** panel surfaces a curated set of industry benchmarks and reports from
+[`data/reports.json`](data/reports.json) — consultancy and institutional research on AI
+in banking and payments (Capgemini, McKinsey, BCG, Accenture, Deloitte, ECB, IMF and
+others). Edit that file to add or change the reference sources shown.
 
 ## Notes & tuning
 
