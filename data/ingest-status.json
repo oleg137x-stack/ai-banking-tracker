@@ -1,7 +1,7 @@
 {
-  "last_run_utc": "2026-06-30T05:57:26.516405+00:00",
-  "checked_through": "2026-06-30",
-  "new_added": 1,
-  "total_cases": 240,
-  "note": "Manual sweep 30 Jun: most late-June coverage was analysis/reports already tracked; added Santander–G42 (primary)."
+  "last_run_utc": "2026-07-02T06:33:50.859159+00:00",
+  "checked_through": "2026-07-02",
+  "new_added": 4,
+  "total_cases": 244,
+  "note": "Manual sweep 2 Jul: added Amex agentic dev kit, Mastercard merchant agent tools, CBA fraud-hunting agent (-20% losses), Wells Fargo Fargo 1B interactions."
 }
