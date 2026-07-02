@@ -1,7 +1,7 @@
 {
-  "last_run_utc": "2026-07-02T06:33:50.859159+00:00",
+  "last_run_utc": "2026-07-02T06:54:50.404109+00:00",
   "checked_through": "2026-07-02",
-  "new_added": 4,
-  "total_cases": 244,
-  "note": "Manual sweep 2 Jul: added Amex agentic dev kit, Mastercard merchant agent tools, CBA fraud-hunting agent (-20% losses), Wells Fargo Fargo 1B interactions."
+  "new_added": 2,
+  "total_cases": 246,
+  "note": "Deep sweep 2 Jul PM: added Bank of Scotland assistant (500k users) + Meow agentic banking; June 26-Jul 2 window held only regulator/infra news, no named bank AI deployments yet."
 }
