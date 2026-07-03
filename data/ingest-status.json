@@ -1,7 +1,7 @@
 {
-  "last_run_utc": "2026-07-02T07:03:24.188424+00:00",
-  "checked_through": "2026-07-02",
-  "new_added": 6,
-  "total_cases": 252,
-  "note": "Gap-targeted sweep 2 Jul: +6 (Shinhan x2, Paytm, Visa Agentic Ready, Fifth Third, Ally personas) aimed at Korea/India/US-regional coverage gaps."
+  "last_run_utc": "2026-07-03T05:21:07.836135+00:00",
+  "checked_through": "2026-07-03",
+  "new_added": 3,
+  "total_cases": 255,
+  "note": "Added 3 cases (Atom Bank, FNBO, Mercury)"
 }
