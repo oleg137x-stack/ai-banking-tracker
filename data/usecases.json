@@ -1,5 +1,28 @@
 [
   {
+    "sector": "Bank",
+    "bank": "HDFC Bank",
+    "parent_group": "",
+    "country": "India",
+    "region": "Asia-Pacific",
+    "business_area": "Cross-functional",
+    "ai_type": "Generative AI",
+    "title": "In-house GenAI platform 'Neev' plus microsecond fraud detection",
+    "description": "HDFC Bank deployed Neev, a proprietary generative-AI platform built over 18 months by ~150-200 in-house engineers in Gurgaon to automate routine operations, alongside a custom fraud system that analyses transactions in microseconds (incl. UPI and mule detection) to cut reliance on external vendors.",
+    "vendor": "",
+    "outcome": "",
+    "metric": "Built in-house by ~200 engineers",
+    "status": "Deployed",
+    "event_date": "2026-07-03",
+    "source_name": "Whalesbook",
+    "source_url": "https://www.whalesbook.com/news/English/technology/HDFC-Bank-Deploys-Proprietary-AI-Platform-Neev-and-Fraud-Tools/6a46bad8003e8c7640ef4417",
+    "source_tier": "secondary",
+    "confidence": "low",
+    "id": "hdfc-bank-2026-07-03-in-house-genai-platform-neev-plus-microsecond-fraud-detecti",
+    "verified": true,
+    "added_at": "2026-07-04T06:30:33.354545+00:00"
+  },
+  {
     "id": "visa-2026-06-25-digital-card-for-ai-agents-via-alchemy-nuvion-partnerships",
     "sector": "Payments",
     "bank": "Visa",
