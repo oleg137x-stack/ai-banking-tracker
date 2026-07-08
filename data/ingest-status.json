@@ -1,7 +1,7 @@
 {
-  "last_run_utc": "2026-07-06T19:34:40.382670+00:00",
-  "checked_through": "2026-07-06",
-  "new_added": 1,
-  "total_cases": 257,
-  "note": "Added 1 case (Cross River Bank / Stripe agentic commerce card issuance)"
+  "last_run_utc": "2026-07-08T09:06:50.256341+00:00",
+  "checked_through": "2026-07-08",
+  "new_added": 2,
+  "total_cases": 259,
+  "note": "Manual sweep 8 Jul: +2 (Visa Agent Score/Agentic Directory at Payments Forum; PayPal x Google UCP). Jul 4-8 window otherwise regulators (ECB cyber directive, NY Fed research) and dups."
 }
