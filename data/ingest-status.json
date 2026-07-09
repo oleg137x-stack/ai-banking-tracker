@@ -1,7 +1,7 @@
 {
-  "last_run_utc": "2026-07-08T09:06:50.256341+00:00",
-  "checked_through": "2026-07-08",
-  "new_added": 2,
+  "last_run_utc": "2026-07-09T08:34:48.640796+00:00",
+  "checked_through": "2026-07-09",
+  "new_added": 0,
   "total_cases": 259,
-  "note": "Manual sweep 8 Jul: +2 (Visa Agent Score/Agentic Directory at Payments Forum; PayPal x Google UCP). Jul 4-8 window otherwise regulators (ECB cyber directive, NY Fed research) and dups."
+  "note": "Manual sweep 9 Jul: no genuinely new, well-sourced cases; candidates (Kinexys/ACI, Klarna UCP, BNP IB Portal, Fiserv agentOS) were older or already tracked."
 }
