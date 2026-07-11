@@ -1,7 +1,7 @@
 {
-  "last_run_utc": "2026-07-09T08:34:48.640796+00:00",
-  "checked_through": "2026-07-09",
-  "new_added": 0,
-  "total_cases": 259,
-  "note": "Manual sweep 9 Jul: no genuinely new, well-sourced cases; candidates (Kinexys/ACI, Klarna UCP, BNP IB Portal, Fiserv agentOS) were older or already tracked."
+  "last_run_utc": "2026-07-11T07:35:37.577708+00:00",
+  "checked_through": "2026-07-11",
+  "new_added": 5,
+  "total_cases": 264,
+  "note": "Evident Brief 9 Jul processed with original sources: MS FIXR, JPM-SambaNova, Scotiabank AI Consortium, Nubank simulation, Coinbase AI-cost. Skipped: Bridgewater (hedge fund), ICML research items, Techstars accelerator."
 }
