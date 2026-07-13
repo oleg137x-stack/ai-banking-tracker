@@ -1,7 +1,7 @@
 {
-  "last_run_utc": "2026-07-13T12:29:11.637497+00:00",
+  "last_run_utc": "2026-07-13T13:05:00+00:00",
   "checked_through": "2026-07-13",
   "new_added": 3,
-  "total_cases": 266,
-  "note": "Added 3 cases: BBVA/Visa AI-agent payment (Europe), Century Bank/Abrigo agentic lending (US), HDFC Bank Neev automation workforce impact (India). Removed Coinbase (crypto firms out of scope)."
+  "total_cases": 269,
+  "note": "Thorough regional sweep (NA/EU/LatAm/Asia): added Standard Chartered 7,800-role AI restructuring, MUFG-IBM AI-driven core dev partnership, Santander-Visa LatAm agentic payments pilot."
 }
