@@ -1,7 +1,7 @@
 {
-  "last_run_utc": "2026-07-13T13:20:00+00:00",
+  "last_run_utc": "2026-07-13T13:35:00+00:00",
   "checked_through": "2026-07-13",
-  "new_added": 1,
-  "total_cases": 267,
-  "note": "Regional sweep net result: +3 added (MUFG-IBM dev partnership, Santander-Visa LatAm agentic payments, BBVA-Visa earlier today), -2 removed (Standard Chartered & HDFC layoff-framed cases \u2014 out of scope per curation rule)."
+  "new_added": 2,
+  "total_cases": 269,
+  "note": "Reinstated Standard Chartered and HDFC cases reframed around business improvements (efficiency targets, back-office automation); headcount impact kept as secondary outcome context."
 }
