@@ -1,7 +1,7 @@
 {
-  "last_run_utc": "2026-07-14T19:23:14.732265+00:00",
-  "checked_through": "2026-07-14",
-  "new_added": 3,
-  "total_cases": 279,
-  "note": "Added 3 cases: Visa-OpenAI ChatGPT payments, Mastercard live agentic payments across LAC (17 issuers), LHV Bank-Gradient Labs support PoC."
+  "last_run_utc": "2026-07-15T05:25:48.511953+00:00",
+  "checked_through": "2026-07-15",
+  "new_added": 2,
+  "total_cases": 281,
+  "note": "Added 2 cases (Visa AI Financial Assistant, Morgan Stanley wealth digital assistants)"
 }
