@@ -210,5 +210,47 @@
       "5 of 6 South African banks in the top 10",
       "50+ documented AI implementations in the region"
     ]
+  },
+  {
+    "source": "Bank for International Settlements",
+    "title": "BIS Annual Economic Report 2026 — AI: progress and peril",
+    "url": "https://www.bis.org/publ/arpdf/ar2026e.htm",
+    "date": "2026-06",
+    "category": "Institutional report",
+    "summary": "The 'central bank of central banks' assesses the AI investment boom's macro-financial risks for banks and the economy, drawing parallels with historical infrastructure manias.",
+    "stats": [
+      "$1T+ hyperscaler AI capex across 2025-26",
+      "Capex outpacing earnings and free cash flow",
+      "Parallels: railway mania, dot-com",
+      "Priority: price & financial stability"
+    ]
+  },
+  {
+    "source": "Financial Stability Board",
+    "title": "Sound Practices for Responsible Adoption of AI (2026)",
+    "url": "https://www.fsb.org/2026/06/sound-practices-for-responsible-adoption-of-artificial-intelligence-ai-consultation-report/",
+    "date": "2026-06",
+    "category": "Regulatory framework",
+    "summary": "FSB consultation proposing 12 sound practices for financial institutions' AI governance — board oversight, lifecycle risk management, and cyber/third-party risks. Final report due October 2026.",
+    "stats": [
+      "12 sound practices in 3 areas",
+      "Board & senior-management accountability",
+      "Covers full AI development lifecycle",
+      "Consultation closes 22 Jul 2026"
+    ]
+  },
+  {
+    "source": "Accenture",
+    "title": "Banks aim for agentic AI scale in 2026",
+    "url": "https://www.bankingdive.com/news/banks-agentic-ai-scale-2026-accenture/809585/",
+    "date": "2026-06",
+    "category": "Industry survey",
+    "summary": "Accenture research on banks moving agentic AI from isolated pilots to enterprise-wide deployment in 2026.",
+    "stats": [
+      "14% run AI agents at partial/full scale",
+      "23% in active pilots",
+      "~45% of scalers deploy multi-agent systems",
+      "BFSI leads adoption across industries"
+    ]
   }
 ]
