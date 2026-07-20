@@ -1,7 +1,7 @@
 {
-  "last_run_utc": "2026-07-19T06:13:36.635786+00:00",
-  "checked_through": "2026-07-19",
-  "new_added": 1,
-  "total_cases": 294,
-  "note": "Added 1 case (Bank of America Q2 earnings AI productivity); most other recent AI news items (JPMorgan, Wells Fargo, Morgan Stanley, HSBC, Santander, Citi, Revolut, Adyen, LHV, ConnectOne/nCino) were already in the dataset."
+  "last_run_utc": "2026-07-20T12:54:48.421478+00:00",
+  "checked_through": "2026-07-20",
+  "new_added": 3,
+  "total_cases": 297,
+  "note": "Added 3 cases (Banco do Brasil, First Interstate Bank, Boulder Dam Credit Union)"
 }
