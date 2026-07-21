@@ -1,7 +1,7 @@
 {
-  "last_run_utc": "2026-07-20T12:54:48.421478+00:00",
-  "checked_through": "2026-07-20",
-  "new_added": 3,
-  "total_cases": 297,
-  "note": "Added 3 cases (Banco do Brasil, First Interstate Bank, Boulder Dam Credit Union)"
+  "last_run_utc": "2026-07-21T12:52:09.680521+00:00",
+  "checked_through": "2026-07-21",
+  "new_added": 1,
+  "total_cases": 298,
+  "note": "Added 1 case (Commerzbank Gemini/Copilot rollout); other candidates found this run were already in dataset."
 }
