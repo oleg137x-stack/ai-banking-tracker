@@ -1,7 +1,7 @@
 {
-  "last_run_utc": "2026-07-21T13:20:00.000000+00:00",
-  "checked_through": "2026-07-21",
-  "new_added": 2,
-  "total_cases": 300,
-  "note": "Added 2 cases from the July 17-21 window (UnionPay APOP/foundation models, Bank of Jiangsu AI credit card)."
+  "last_run_utc": "2026-07-24T07:06:57.662063+00:00",
+  "checked_through": "2026-07-24",
+  "new_added": 1,
+  "total_cases": 301,
+  "note": "Added 1 case (Bank of America EricaAssist gen-AI upgrade); most other candidates found today (ConnectOne/nCino, Cross River/Stripe, Wells Fargo AI Teammate, JPMorgan lockbox) were already in the dataset."
 }
