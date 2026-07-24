@@ -1,7 +1,7 @@
 {
-  "last_run_utc": "2026-07-24T07:06:57.662063+00:00",
+  "last_run_utc": "2026-07-24T07:36:12.641116+00:00",
   "checked_through": "2026-07-24",
-  "new_added": 1,
-  "total_cases": 301,
-  "note": "Added 1 case (Bank of America EricaAssist gen-AI upgrade); most other candidates found today (ConnectOne/nCino, Cross River/Stripe, Wells Fargo AI Teammate, JPMorgan lockbox) were already in the dataset."
+  "new_added": 3,
+  "total_cases": 304,
+  "note": "Evident Brief (Best AI Banks in LatAm): added 3 (Capital One VulnHunter, BNY Mellon Eliza contract-review, State Street $1bn-by-2029) and refreshed Santander realized-value metric; LatAm flagships (Nubank/Ita\u00fa/Bradesco) already in dataset or pre-2026."
 }
