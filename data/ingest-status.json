@@ -1,7 +1,7 @@
 {
-  "last_run_utc": "2026-07-27T19:33:47.523109+00:00",
+  "last_run_utc": "2026-07-27T19:51:57.778048+00:00",
   "checked_through": "2026-07-27",
-  "new_added": 2,
-  "total_cases": 309,
-  "note": "Added 2 cases (Customers Bank, Citizens Financial Group)."
+  "new_added": 9,
+  "total_cases": 318,
+  "note": "Deep research run: added 9 cases (Mizuho, SMBC, Rakuten Bank, KB Kookmin, BMO, NatWest, CIBC, RBC, Danske); enriched Revolut PRAGMA with hard metrics."
 }
