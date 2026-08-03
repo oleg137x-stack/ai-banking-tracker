@@ -1,7 +1,7 @@
 {
-  "last_run_utc": "2026-07-31T00:00:00+00:00",
-  "checked_through": "2026-07-31",
-  "new_added": 4,
-  "total_cases": 329,
-  "note": "Added 4 cases (Bank of America EricaAssist, Onity Mortgage/Blend Autopilot, Bank of Singapore/OCBC Helios KYC, DBS credit memo agents)."
+  "last_run_utc": "2026-08-03T00:00:00+00:00",
+  "checked_through": "2026-08-03",
+  "new_added": 2,
+  "total_cases": 330,
+  "note": "Added 2 cases (Lloyds agentic-AI £2bn cost programme, Santander €84m AI value in H1) after a UK/US deep dive; also removed a duplicate Bank of America EricaAssist record."
 }
