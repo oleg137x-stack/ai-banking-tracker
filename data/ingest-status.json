@@ -1,7 +1,7 @@
 {
-  "last_run_utc": "2026-08-03T00:00:00+00:00",
-  "checked_through": "2026-08-03",
-  "new_added": 2,
+  "last_run_utc": "2026-08-05T08:15:42+00:00",
+  "checked_through": "2026-08-05",
+  "new_added": 0,
   "total_cases": 330,
-  "note": "Added 2 cases (Lloyds agentic-AI £2bn cost programme, Santander €84m AI value in H1) after a UK/US deep dive; also removed a duplicate Bank of America EricaAssist record."
+  "note": "No genuinely new, well-sourced cases found today \u2014 recent leads (BMO/FIS, Mastercard AP4M, Wells Fargo AI Teammate, HSBC/BofA earnings mentions) already in dataset or lacked a concrete case."
 }
