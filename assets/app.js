@@ -76,9 +76,21 @@ function initMeta() {
   const latest =
     (state.ingestStatus && state.ingestStatus.last_run_utc) ||
     state.all.reduce((m, d) => (d.added_at > m ? d.added_at : m), "");
-  document.getElementById("meta-updated").textContent = latest
+  const updatedEl = document.getElementById("meta-updated");
+  updatedEl.textContent = latest
     ? new Date(latest).toLocaleDateString(undefined, { day: "numeric", month: "short", year: "numeric" })
     : "—";
+  // The date is when sources were last checked, not when data last changed —
+  // spell that out on hover so a quiet day doesn't look like a stalled tracker.
+  const st = state.ingestStatus;
+  if (st && st.last_run_utc) {
+    const n = st.new_added;
+    updatedEl.parentElement.title =
+      "Sources last checked " + new Date(st.last_run_utc).toLocaleString() +
+      (typeof n === "number"
+        ? " · " + (n === 0 ? "no new cases found" : n + (n === 1 ? " new case" : " new cases") + " added")
+        : "");
+  }
 }
 
 /* ---------------- Facets (filter chips) ---------------- */
