@@ -1,7 +1,7 @@
 {
-  "last_run_utc": "2026-08-06T06:37:07.036976+00:00",
+  "last_run_utc": "2026-08-06T06:59:42.313264+00:00",
   "checked_through": "2026-08-06",
-  "new_added": 2,
-  "total_cases": 332,
-  "note": "Added 2 cases (Fiserv/Stuut receivables, Thredd/Visa agent-ready issuing)"
+  "new_added": 4,
+  "total_cases": 334,
+  "note": "Added 4 cases (Fiserv/Stuut, Thredd/Visa, Connect CU/Appli, Revolut/OpenAI) after a deeper US/UK/Europe sweep of 1-6 Aug"
 }
