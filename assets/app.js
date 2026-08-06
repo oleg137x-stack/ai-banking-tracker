@@ -58,6 +58,11 @@ async function load() {
   } catch (e) {
     state.reports = [];
   }
+  try {
+    state.ingestStatus = await (await fetch("data/ingest-status.json", { cache: "no-store" })).json();
+  } catch (e) {
+    state.ingestStatus = null;
+  }
   renderBenchmarks();
   initMeta();
   buildFacets();
@@ -68,7 +73,9 @@ async function load() {
 
 function initMeta() {
   document.getElementById("meta-total").textContent = scoped().length;
-  const latest = state.all.reduce((m, d) => (d.added_at > m ? d.added_at : m), "");
+  const latest =
+    (state.ingestStatus && state.ingestStatus.last_run_utc) ||
+    state.all.reduce((m, d) => (d.added_at > m ? d.added_at : m), "");
   document.getElementById("meta-updated").textContent = latest
     ? new Date(latest).toLocaleDateString(undefined, { day: "numeric", month: "short", year: "numeric" })
     : "—";

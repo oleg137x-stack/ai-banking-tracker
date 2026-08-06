@@ -1,7 +1,7 @@
 {
-  "last_run_utc": "2026-08-05T08:15:42+00:00",
-  "checked_through": "2026-08-05",
-  "new_added": 0,
-  "total_cases": 330,
-  "note": "No genuinely new, well-sourced cases found today \u2014 recent leads (BMO/FIS, Mastercard AP4M, Wells Fargo AI Teammate, HSBC/BofA earnings mentions) already in dataset or lacked a concrete case."
+  "last_run_utc": "2026-08-06T06:37:07.036976+00:00",
+  "checked_through": "2026-08-06",
+  "new_added": 2,
+  "total_cases": 332,
+  "note": "Added 2 cases (Fiserv/Stuut receivables, Thredd/Visa agent-ready issuing)"
 }
