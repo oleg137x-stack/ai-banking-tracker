@@ -14,6 +14,20 @@
     ]
   },
   {
+    "source": "PYMNTS Intelligence & Visa Acceptance Solutions",
+    "title": "Global Digital Shopping Index — U.S. Playbook: The New American Shopper (2026)",
+    "url": "https://www.pymnts.com/study/global-digital-shopping-index-new-american-shopper/",
+    "date": "2026-08-05",
+    "category": "Benchmark",
+    "summary": "US consumer companion to the Merchant Edition, pairing 5,241 shoppers with 1,185 merchants. AI users already shop far more often than non-users — but almost no merchant can see them coming: product data is unreadable to agents and AI-sourced sales go unattributed.",
+    "stats": [
+      "AI users: 52 buying days a month vs 28 for non-users",
+      "Only 15% of merchants have product data AI agents can read",
+      "Just 24% can identify a sale that came from an AI platform",
+      "65% say accepted payment methods influence where they shop (58% in 2023)"
+    ]
+  },
+  {
     "source": "EY",
     "title": "EY US AI Pulse Survey — Wave 5 (2026)",
     "url": "https://www.ey.com/en_us/newsroom/2026/07/ey-survey-c-suites-pivot-from-ai-adoption-to-unlocking-value-as-escalating-token-costs-trigger-fiscal-scrutiny",
