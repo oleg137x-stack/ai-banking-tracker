@@ -1,7 +1,7 @@
 {
-  "last_run_utc": "2026-08-06T06:59:42.313264+00:00",
-  "checked_through": "2026-08-06",
+  "last_run_utc": "2026-08-10T08:08:00.967996+00:00",
+  "checked_through": "2026-08-10",
   "new_added": 4,
-  "total_cases": 334,
-  "note": "Added 4 cases (Fiserv/Stuut, Thredd/Visa, Connect CU/Appli, Revolut/OpenAI) after a deeper US/UK/Europe sweep of 1-6 Aug"
+  "total_cases": 338,
+  "note": "Added 4 cases (Block, MVB Bank, Rabobank, Global Payments) from a 3-10 Aug sweep of US/European bank and payments announcements"
 }
