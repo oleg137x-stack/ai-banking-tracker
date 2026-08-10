@@ -1,5 +1,103 @@
 [
   {
+    "source": "Evident Insights",
+    "title": "Banking AI Use Case Trends — Q2 2026",
+    "url": "https://evidentinsights.com/bankingbrief/agentic-slowdown",
+    "date": "2026-08-06",
+    "category": "Benchmark",
+    "summary": "Quarterly read of every publicly announced AI use case across the 50 banks in the Evident AI Index. Q2 shows record deployment volume but a sharp pullback in the agentic share, as banks re-engineer agents for whole processes rather than single tasks. Headline findings published in the 'Agentic Slowdown' brief; full deck is members-only.",
+    "stats": [
+      "+40% new AI use cases vs Q1 2026",
+      "Agentic share of new deployments fell 30% → 17%",
+      "6 banks shipped their first agentic tool",
+      "Over half of tracked banks now have agents in production"
+    ]
+  },
+  {
+    "source": "U.S. Payments Forum",
+    "title": "Agentic Commerce: A Primer for the Payments Industry (2026)",
+    "url": "https://www.uspaymentsforum.org/",
+    "date": "2026-07-22",
+    "category": "Industry report",
+    "summary": "White paper from the Forum's Emerging Payments and Payments Fraud Working Committees on AI agents as autonomous transaction initiators — a class of payment initiation existing frameworks were not designed for. Educational rather than prescriptive: it maps the questions issuers, networks, wallets and merchants must answer.",
+    "stats": [
+      "Agentic vs traditional e-commerce transaction models",
+      "Customer-, merchant- and agent-initiated frameworks",
+      "Authorization, consent and trust mechanisms",
+      "Prompt injection and agentic fraud vectors"
+    ]
+  },
+  {
+    "source": "Evident Insights",
+    "title": "Evident AI Index for Banks — LATAM (2026)",
+    "url": "https://evidentinsights.com/insights/banking-ai-index-latam-2026-report",
+    "date": "2026-07-21",
+    "category": "Benchmark",
+    "summary": "Inaugural Latin American AI-maturity ranking, scoring banks across Argentina, Brazil, Chile, Colombia, Ecuador, Mexico, Peru and Panama on the Index's four pillars. Brazil's scale, Pix and AI-talent base put its lenders clear of regional peers.",
+    "stats": [
+      "Brazil takes all four top spots",
+      "Nubank #1 overall — and #1 in Talent, Innovation and Leadership",
+      "Itaú Unibanco #2, Bradesco and Banco do Brasil close behind",
+      "Scored on Talent, Innovation, Leadership, Transparency"
+    ]
+  },
+  {
+    "source": "ECB Banking Supervision",
+    "title": "Letter to banks on AI-enabled cybersecurity threats (2026)",
+    "url": "https://www.bankingsupervision.europa.eu/press/letterstobanks/shared/pdf/2026/ssm.2026_letter_on_AI_enabled_cybersecurity_threats.en.pdf",
+    "date": "2026-07",
+    "category": "Regulatory framework",
+    "summary": "Supervisory Board chair Claudia Buch ordered every directly supervised bank — including the European arms of JPMorganChase, Goldman Sachs, Citi and Morgan Stanley — to file a formal plan for defending against AI-powered cyberattacks, with the ECB running a horizontal analysis of what comes back.",
+    "stats": [
+      "Action plans due to Joint Supervisory Teams by 31 Oct 2026",
+      "Requires patch management at scale, smaller internet-facing surface, board-level ownership",
+      "ESRB: frontier models build working exploits in minutes, not weeks",
+      "AI risk sits in the 2026-28 supervisory priorities"
+    ]
+  },
+  {
+    "source": "KPMG",
+    "title": "AI Quarterly Pulse Survey — Q2 2026 (Banking edition)",
+    "url": "https://kpmg.com/us/en/media/news/q2-ai-pulse-2026.html",
+    "date": "2026-06-24",
+    "category": "Industry survey",
+    "summary": "Quarterly pulse of 204 US C-suite leaders at $1bn+ businesses plus 100 banking leaders (fielded Apr–Jun 2026). Agent deployment and spend have plateaued; the new bottleneck is knowing what the agents cost to run.",
+    "stats": [
+      "Banking employee adoption of AI agents 23% → 56% QoQ",
+      "$170M average banking AI investment planned over 12 months",
+      "Only 31% of banking leaders see AI operating costs in real time (54% in tech)",
+      "Blockers: data readiness 63%, system complexity 49%, oversight skills 41%"
+    ]
+  },
+  {
+    "source": "KPMG",
+    "title": "2026 Banking Technology Survey",
+    "url": "https://kpmg.com/us/en/media/news/2026-banking-technology-survey.html",
+    "date": "2026-06-17",
+    "category": "Industry survey",
+    "summary": "Survey of 200 US banking executives on where technology budgets are going. AI is now assumed to be disruptive rather than optional — and it is simultaneously driving the cyber budget, the payments roadmap and the M&A screen.",
+    "stats": [
+      "80% expect AI to significantly disrupt their business model within 3-5 years",
+      "84% raising cyber investment specifically for AI-introduced risk",
+      "72% plan AI-enabled biometrics for payments within 3 years (32% today)",
+      "67% rank data/analytics/AI capability as the top M&A objective"
+    ]
+  },
+  {
+    "source": "European Central Bank",
+    "title": "Strengthening operational resilience for the age of AI (2026)",
+    "url": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp260603~5b8e67f237.en.html",
+    "date": "2026-06-03",
+    "category": "Central bank speech",
+    "summary": "Frank Elderson (ECB Executive Board, Vice-Chair of the Supervisory Board) argues that frontier AI is a structural shift in the economics of cyber risk, and that operational resilience — not capital — is where AI hits banks first.",
+    "stats": [
+      "85%+ of ECB-supervised banks already use AI",
+      "AI 'a structural shift in the economics of cyber risk'",
+      "109 banks in the 2024 cyber-resilience stress test",
+      "~75% of stress-test findings since addressed"
+    ]
+  },
+  {
     "source": "Capgemini Research Institute",
     "title": "Banks & insurers deploy AI agents (2026)",
     "url": "https://www.capgemini.com/us-en/news/press-releases/banks-and-insurers-deploy-ai-agents-to-fight-fraud-and-process-applications-with-plans-for-new-roles-to-supervise-the-ai/",
