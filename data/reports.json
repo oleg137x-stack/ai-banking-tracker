@@ -14,6 +14,20 @@
     ]
   },
   {
+    "source": "EY",
+    "title": "EY US AI Pulse Survey — Wave 5 (2026)",
+    "url": "https://www.ey.com/en_us/newsroom/2026/07/ey-survey-c-suites-pivot-from-ai-adoption-to-unlocking-value-as-escalating-token-costs-trigger-fiscal-scrutiny",
+    "date": "2026-07-28",
+    "category": "Industry survey",
+    "summary": "Fifth wave of EY's pulse of 534 US senior leaders (SVP+) across sectors including financial services, fielded Apr–May 2026. The story has shifted from adoption to unit economics: token spend is now the thing the C-suite is scrutinising, and off-the-shelf tools are losing ground to in-house builds.",
+    "stats": [
+      "82% of AI-investing leaders worried about token costs",
+      "98% rethinking their approach because of token spend",
+      "76% say off-the-shelf software no longer meets their needs",
+      "91% call in-house AI development critical; 98% report positive ROI"
+    ]
+  },
+  {
     "source": "U.S. Payments Forum",
     "title": "Agentic Commerce: A Primer for the Payments Industry (2026)",
     "url": "https://www.uspaymentsforum.org/",
@@ -70,6 +84,20 @@
     ]
   },
   {
+    "source": "PayPal & Commerce (Logica Research)",
+    "title": "Consumer readiness for agentic shopping (2026)",
+    "url": "https://investors.commerce.com/news-releases/news-release-details/two-thirds-consumers-are-ready-try-agentic-shopping-many-demand",
+    "date": "2026-06-23",
+    "category": "Industry survey",
+    "summary": "Survey of 3,000 online shoppers (1,000 each in the US, UK and Australia) on how far they will let an AI agent go. Appetite is broad for research and comparison, and narrow at the moment of payment — purchase confirmation was the single most important feature for adoption.",
+    "stats": [
+      "~2 in 3 willing to try agentic shopping (US 67%, UK 64%, AU 63%)",
+      "82% of US shoppers demand payment security equal to existing methods",
+      "50-54% say AI tools already cut time spent searching",
+      "Consumers want AI in research, not at checkout"
+    ]
+  },
+  {
     "source": "KPMG",
     "title": "2026 Banking Technology Survey",
     "url": "https://kpmg.com/us/en/media/news/2026-banking-technology-survey.html",
@@ -84,6 +112,20 @@
     ]
   },
   {
+    "source": "BCG",
+    "title": "Time to Shift Gears? Financial Institutions Have Earned the Right to Be Bolder (2026)",
+    "url": "https://www.bcg.com/press/8june2026-banner-year-banks-moment-to-shift-gears",
+    "date": "2026-06-08",
+    "category": "Consultancy report",
+    "summary": "Proprietary analysis of 1,498 financial institutions worldwide. BCG's argument: banking's productivity problem is structural, not cyclical, and layering digitisation onto old processes never fixed it — AI only pays when the operating model is rebuilt around it.",
+    "stats": [
+      "FIs plan to invest 2% of revenue in AI this year — second only to tech",
+      "80%+ of global bank equity now trades above book value",
+      "Industry headcount still growing ~2% a year despite tech spend",
+      "Leader-laggard gap widening faster than expected"
+    ]
+  },
+  {
     "source": "European Central Bank",
     "title": "Strengthening operational resilience for the age of AI (2026)",
     "url": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp260603~5b8e67f237.en.html",
@@ -95,6 +137,129 @@
       "AI 'a structural shift in the economics of cyber risk'",
       "109 banks in the 2024 cyber-resilience stress test",
       "~75% of stress-test findings since addressed"
+    ]
+  },
+  {
+    "source": "PYMNTS Intelligence & Visa Acceptance Solutions",
+    "title": "Global Digital Shopping Index — Merchant Edition (2026)",
+    "url": "https://www.pymnts.com/study/global-digital-shopping-index-ai-agent-checkout/",
+    "date": "2026-06",
+    "category": "Benchmark",
+    "summary": "Visa-commissioned benchmark of 1,185 retail merchants across the US, Brazil and the UAE. Merchants expect AI agents to reshape shopping, payments and loyalty — but most cannot yet see which traffic and which purchases are agent-driven, leaving attribution and fraud controls flying blind.",
+    "stats": [
+      "1,185 merchants across US, Brazil and UAE",
+      "87% say checkout still falls short",
+      "Few can identify AI-driven traffic or purchases today",
+      "Merchant-owned apps outgrowing web and store channels"
+    ]
+  },
+  {
+    "source": "Experian",
+    "title": "Agent Operating System for financial services (2026)",
+    "url": "https://www.experianplc.com/newsroom/press-releases/2026/experian-brings-trusted-agentic-ai-to-financial-services-with-th",
+    "date": "2026-06",
+    "category": "Vendor capability",
+    "summary": "Experian launched an 'Agent Operating System' (AOS) — infrastructure for trusted autonomous AI decisioning used by banks and lenders; ServiceNow is the first integration partner.",
+    "stats": [
+      "Trusted/credentialed agent decisioning",
+      "Targets credit, fraud & onboarding workflows",
+      "Launched at Money20/20 Europe"
+    ]
+  },
+  {
+    "source": "Bank for International Settlements",
+    "title": "BIS Annual Economic Report 2026 — AI: progress and peril",
+    "url": "https://www.bis.org/publ/arpdf/ar2026e.htm",
+    "date": "2026-06",
+    "category": "Institutional report",
+    "summary": "The 'central bank of central banks' assesses the AI investment boom's macro-financial risks for banks and the economy, drawing parallels with historical infrastructure manias.",
+    "stats": [
+      "$1T+ hyperscaler AI capex across 2025-26",
+      "Capex outpacing earnings and free cash flow",
+      "Parallels: railway mania, dot-com",
+      "Priority: price & financial stability"
+    ]
+  },
+  {
+    "source": "Financial Stability Board",
+    "title": "Sound Practices for Responsible Adoption of AI (2026)",
+    "url": "https://www.fsb.org/2026/06/sound-practices-for-responsible-adoption-of-artificial-intelligence-ai-consultation-report/",
+    "date": "2026-06",
+    "category": "Regulatory framework",
+    "summary": "FSB consultation proposing 12 sound practices for financial institutions' AI governance — board oversight, lifecycle risk management, and cyber/third-party risks. Final report due October 2026.",
+    "stats": [
+      "12 sound practices in 3 areas",
+      "Board & senior-management accountability",
+      "Covers full AI development lifecycle",
+      "Consultation closes 22 Jul 2026"
+    ]
+  },
+  {
+    "source": "Accenture",
+    "title": "Banks aim for agentic AI scale in 2026",
+    "url": "https://www.bankingdive.com/news/banks-agentic-ai-scale-2026-accenture/809585/",
+    "date": "2026-06",
+    "category": "Industry survey",
+    "summary": "Accenture research on banks moving agentic AI from isolated pilots to enterprise-wide deployment in 2026.",
+    "stats": [
+      "14% run AI agents at partial/full scale",
+      "23% in active pilots",
+      "~45% of scalers deploy multi-agent systems",
+      "BFSI leads adoption across industries"
+    ]
+  },
+  {
+    "source": "McKinsey & Company",
+    "title": "Global Banking Annual Review 2026 — Precision with speed",
+    "url": "https://www.mckinsey.com/industries/financial-services/our-insights/global-banking-annual-review",
+    "date": "2026-05-21",
+    "category": "Consultancy report",
+    "summary": "McKinsey's flagship banking report. Record profits mask a valuation problem, and four forces are converging on the customer relationship: mature fintechs, neobanks, agentic AI and digital assets — the last two making it easier to bank without a bank.",
+    "stats": [
+      "Global banking net income $1.3tn in 2025, up 7%",
+      "Mature fintechs claim ~17% of industry revenues",
+      "55% of US working-age adults used gen AI by 2025",
+      "ROTE slipped 12.4% → 11.8%; banking still lowest P/B of any industry"
+    ]
+  },
+  {
+    "source": "Anthropic",
+    "title": "Claude for Financial Services — agent templates (2026)",
+    "url": "https://www.anthropic.com/news/claude-for-financial-services",
+    "date": "2026-05",
+    "category": "Vendor capability",
+    "summary": "Pre-built AI agent templates for banks across research, operations and finance, plus Microsoft 365 (Excel/PowerPoint/Word) integration.",
+    "stats": [
+      "10 agent templates (pitch builder, earnings reviewer, GL reconciler, KYC screener…)",
+      "Claude Opus 4.7 for financial work",
+      "Adopted across Wall Street research & operations"
+    ]
+  },
+  {
+    "source": "Oracle Financial Services",
+    "title": "Agentic AI platform extended to corporate banking (2026)",
+    "url": "https://www.oracle.com/news/announcement/oracle-financial-services-extends-agentic-ai-platform-to-corporate-banking-2026-04-14/",
+    "date": "2026-04-14",
+    "category": "Vendor capability",
+    "summary": "Embedded agents for corporate credit and trade/supply-chain finance (data extraction, validation, narrative generation).",
+    "stats": [
+      "Loan & financial data extraction agents",
+      "Loan data validation agent",
+      "Credit-memo narrative generation agent",
+      "Trade application validator & SCF program-creation agents"
+    ]
+  },
+  {
+    "source": "KPMG / HFS Research",
+    "title": "HFS Horizons: Agentic Services 2026",
+    "url": "https://assets.kpmg.com/content/dam/kpmgsites/xx/pdf/2026/04/hfs-horizons-agentic-services-2026.pdf",
+    "date": "2026-04",
+    "category": "Industry report",
+    "summary": "Benchmark of agentic-services providers and enterprise readiness, with banking among the frontrunners.",
+    "stats": [
+      "82% of US banks to raise AI budget share",
+      "~40% expect AI >20% of total budget",
+      "Banking/FS lead agentic adoption"
     ]
   },
   {
@@ -122,33 +287,6 @@
       "$60M average payment-fraud loss per organisation",
       "83% say AI reduced false positives & churn",
       "Deloitte: gen AI could fuel $40bn US fraud losses by 2027 (vs $12.3bn in 2023)"
-    ]
-  },
-  {
-    "source": "Oracle Financial Services",
-    "title": "Agentic AI platform extended to corporate banking (2026)",
-    "url": "https://www.oracle.com/news/announcement/oracle-financial-services-extends-agentic-ai-platform-to-corporate-banking-2026-04-14/",
-    "date": "2026-04-14",
-    "category": "Vendor capability",
-    "summary": "Embedded agents for corporate credit and trade/supply-chain finance (data extraction, validation, narrative generation).",
-    "stats": [
-      "Loan & financial data extraction agents",
-      "Loan data validation agent",
-      "Credit-memo narrative generation agent",
-      "Trade application validator & SCF program-creation agents"
-    ]
-  },
-  {
-    "source": "Anthropic",
-    "title": "Claude for Financial Services — agent templates (2026)",
-    "url": "https://www.anthropic.com/news/claude-for-financial-services",
-    "date": "2026-05",
-    "category": "Vendor capability",
-    "summary": "Pre-built AI agent templates for banks across research, operations and finance, plus Microsoft 365 (Excel/PowerPoint/Word) integration.",
-    "stats": [
-      "10 agent templates (pitch builder, earnings reviewer, GL reconciler, KYC screener…)",
-      "Claude Opus 4.7 for financial work",
-      "Adopted across Wall Street research & operations"
     ]
   },
   {
@@ -204,19 +342,6 @@
     ]
   },
   {
-    "source": "Experian",
-    "title": "Agent Operating System for financial services (2026)",
-    "url": "https://www.experianplc.com/newsroom/press-releases/2026/experian-brings-trusted-agentic-ai-to-financial-services-with-th",
-    "date": "2026-06",
-    "category": "Vendor capability",
-    "summary": "Experian launched an 'Agent Operating System' (AOS) — infrastructure for trusted autonomous AI decisioning used by banks and lenders; ServiceNow is the first integration partner.",
-    "stats": [
-      "Trusted/credentialed agent decisioning",
-      "Targets credit, fraud & onboarding workflows",
-      "Launched at Money20/20 Europe"
-    ]
-  },
-  {
     "source": "BCG",
     "title": "How Retail Banks Can Put Agentic AI to Work (2026)",
     "url": "https://www.bcg.com/publications/2026/how-retail-banks-can-put-agentic-ai-to-work",
@@ -253,19 +378,6 @@
       "Rise of the '10x bank'",
       "86% plan to increase gen-AI investment",
       "2026 = year agentic AI scales in FS"
-    ]
-  },
-  {
-    "source": "KPMG / HFS Research",
-    "title": "HFS Horizons: Agentic Services 2026",
-    "url": "https://assets.kpmg.com/content/dam/kpmgsites/xx/pdf/2026/04/hfs-horizons-agentic-services-2026.pdf",
-    "date": "2026-04",
-    "category": "Industry report",
-    "summary": "Benchmark of agentic-services providers and enterprise readiness, with banking among the frontrunners.",
-    "stats": [
-      "82% of US banks to raise AI budget share",
-      "~40% expect AI >20% of total budget",
-      "Banking/FS lead agentic adoption"
     ]
   },
   {
@@ -307,48 +419,6 @@
       "Frontrunners: Emirates NBD, Standard Bank Group, First Abu Dhabi Bank, Nedbank",
       "5 of 6 South African banks in the top 10",
       "50+ documented AI implementations in the region"
-    ]
-  },
-  {
-    "source": "Bank for International Settlements",
-    "title": "BIS Annual Economic Report 2026 — AI: progress and peril",
-    "url": "https://www.bis.org/publ/arpdf/ar2026e.htm",
-    "date": "2026-06",
-    "category": "Institutional report",
-    "summary": "The 'central bank of central banks' assesses the AI investment boom's macro-financial risks for banks and the economy, drawing parallels with historical infrastructure manias.",
-    "stats": [
-      "$1T+ hyperscaler AI capex across 2025-26",
-      "Capex outpacing earnings and free cash flow",
-      "Parallels: railway mania, dot-com",
-      "Priority: price & financial stability"
-    ]
-  },
-  {
-    "source": "Financial Stability Board",
-    "title": "Sound Practices for Responsible Adoption of AI (2026)",
-    "url": "https://www.fsb.org/2026/06/sound-practices-for-responsible-adoption-of-artificial-intelligence-ai-consultation-report/",
-    "date": "2026-06",
-    "category": "Regulatory framework",
-    "summary": "FSB consultation proposing 12 sound practices for financial institutions' AI governance — board oversight, lifecycle risk management, and cyber/third-party risks. Final report due October 2026.",
-    "stats": [
-      "12 sound practices in 3 areas",
-      "Board & senior-management accountability",
-      "Covers full AI development lifecycle",
-      "Consultation closes 22 Jul 2026"
-    ]
-  },
-  {
-    "source": "Accenture",
-    "title": "Banks aim for agentic AI scale in 2026",
-    "url": "https://www.bankingdive.com/news/banks-agentic-ai-scale-2026-accenture/809585/",
-    "date": "2026-06",
-    "category": "Industry survey",
-    "summary": "Accenture research on banks moving agentic AI from isolated pilots to enterprise-wide deployment in 2026.",
-    "stats": [
-      "14% run AI agents at partial/full scale",
-      "23% in active pilots",
-      "~45% of scalers deploy multi-agent systems",
-      "BFSI leads adoption across industries"
     ]
   }
 ]
