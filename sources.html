@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+  <meta http-equiv="Pragma" content="no-cache" />
+  <meta http-equiv="Expires" content="0" />
+  <title>Data Sources &amp; Methodology — Bank &amp; Payment Systems AI Tracker</title>
+  <meta name="description" content="How cases are found, sourced, graded and updated in the Bank & Payment Systems AI Tracker." />
+  <link rel="stylesheet" href="assets/styles.css?v=11" />
+</head>
+<body>
+  <div class="sticky-top">
+    <header class="app-header">
+      <div class="brand">
+        <div class="brand-mark">◆</div>
+        <div>
+          <h1>Data Sources &amp; Methodology</h1>
+          <p class="subtitle">How cases get found, sourced, graded and kept current</p>
+        </div>
+      </div>
+      <div class="header-meta">
+        <a class="btn ghost" href="index.html">← Back to tracker</a>
+      </div>
+    </header>
+  </div>
+
+  <main class="doc">
+
+    <!-- ---------- LIVE SNAPSHOT ---------- -->
+    <section class="doc-section">
+      <h2>Where the data stands right now</h2>
+      <p class="doc-lede">
+        Every number on this page is computed live from the dataset the tracker itself runs on
+        (<code>data/usecases.json</code>) — so it can't drift out of date as new cases are added.
+      </p>
+      <div class="stat-row" id="stat-row"></div>
+    </section>
+
+    <!-- ---------- APPROACH ---------- -->
+    <section class="doc-section">
+      <h2>The approach in one paragraph</h2>
+      <p>
+        The tracker records <strong>concrete, named things banks and payment companies are actually doing
+        with AI</strong> — a deployment, a pilot, a partnership, a measurable result. It deliberately does
+        not try to be a news feed about AI in finance. Vendor launches, analyst predictions, regulatory
+        consultations and executive commentary are all interesting, but they are not use cases, and mixing
+        them in would quietly inflate the counts. Those belong in the
+        <strong>Industry benchmarks &amp; reports</strong> panel instead, which is curated separately.
+      </p>
+    </section>
+
+    <!-- ---------- INCLUSION RULES ---------- -->
+    <section class="doc-section">
+      <h2>What gets in, what doesn't</h2>
+      <div class="rule-grid">
+        <div class="rule-card rule-in">
+          <h3>Included</h3>
+          <ul>
+            <li>A <strong>named bank or payment company</strong> deploying, piloting or announcing a specific AI capability.</li>
+            <li>Cases announced by a <strong>technology partner</strong> (Microsoft, Google, OpenAI, Anthropic, AWS, NVIDIA, FIS, Fiserv…) — the record is created for the <em>bank</em>, with the partner recorded in the vendor field.</li>
+            <li>Card networks, processors, acquirers, BNPL and payment fintechs, alongside banks.</li>
+            <li>Events dated <strong>1 January 2026 onwards</strong>, without exception.</li>
+            <li>Cases framed around the <strong>business improvement</strong> — what got faster, cheaper, safer or better.</li>
+          </ul>
+        </div>
+        <div class="rule-card rule-out">
+          <h3>Excluded</h3>
+          <ul>
+            <li><strong>Pure technology vendors, consultancies and credit bureaus</strong> that aren't themselves a bank or payment system.</li>
+            <li><strong>Reports, surveys and predictions</strong> — these go to the benchmarks panel.</li>
+            <li><strong>Regulatory actions and central-bank commentary</strong> — context, not deployments.</li>
+            <li><strong>Personnel moves, hiring and M&amp;A</strong>, unless the substance is an AI capability.</li>
+            <li>Anything <strong>without a working source URL</strong>. Nothing is ever recorded from memory or inference.</li>
+            <li>Duplicate coverage of an event already in the dataset.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ---------- SOURCE TIERS ---------- -->
+    <section class="doc-section">
+      <h2>How sources are graded</h2>
+      <p>
+        Every record carries a <strong>source tier</strong> (how authoritative the source is) and a
+        <strong>confidence</strong> rating (how much weight the claim can bear). Weaker sourcing is never
+        hidden or dressed up — a case backed only by an aggregator is kept and labelled honestly, so the
+        mix stays visible.
+      </p>
+      <div class="tier-grid" id="tier-grid"></div>
+      <p class="doc-note">
+        Preference order when several sources cover the same event: <strong>the institution's own newsroom
+        → the technology partner's press release → established trade or business press → everything else.</strong>
+        When a stronger source appears later, the record is upgraded.
+      </p>
+    </section>
+
+    <!-- ---------- DOMAIN TABLE ---------- -->
+    <section class="doc-section">
+      <h2>The sources actually being used</h2>
+      <p>
+        Not a wish list — this is every domain currently cited in the dataset, grouped by type and counted.
+        <span id="domain-summary"></span>
+      </p>
+      <div id="domain-groups"></div>
+    </section>
+
+    <!-- ---------- CADENCE ---------- -->
+    <section class="doc-section">
+      <h2>How often it updates</h2>
+      <p>
+        An automated research task runs <strong>every morning</strong>. It searches for announcements from
+        roughly the previous week, applies the rules above, de-duplicates against every existing record by
+        both ID and source URL, and commits the result. The published site redeploys automatically.
+      </p>
+      <p>
+        On days when nothing new clears the bar, the task still writes a <strong>heartbeat</strong> recording
+        that it ran and found nothing. That's deliberate: silence should never be ambiguous between
+        "no news today" and "the pipeline is broken."
+      </p>
+      <div class="heartbeat-card" id="heartbeat"></div>
+    </section>
+
+    <!-- ---------- LIMITATIONS ---------- -->
+    <section class="doc-section">
+      <h2>Honest limitations</h2>
+      <ul class="limits">
+        <li><strong>English-language bias.</strong> Coverage of institutions that publish mainly in other languages is thinner than their actual AI activity warrants.</li>
+        <li><strong>Announcement bias.</strong> The dataset records what organisations choose to make public. Banks that deploy quietly are under-represented, and announced ≠ delivered.</li>
+        <li><strong>Self-reported metrics.</strong> Outcome figures come from the institutions themselves and are rarely independently audited. Treat them as claims, not findings.</li>
+        <li><strong>Uneven depth.</strong> Large, communicative institutions accumulate more records — that reflects publishing behaviour as much as it reflects AI maturity.</li>
+        <li><strong>A curated view, not a census.</strong> Search has finite reach; this is a well-sourced sample of the market, not a complete register of it.</li>
+      </ul>
+      <p class="doc-note">
+        Every record links to its source. Anything that matters should be confirmed there before it's relied on.
+      </p>
+    </section>
+
+    <footer class="app-footer">
+      <span>Data is AI-assisted curation — always confirm details via the source link before relying on them.</span>
+      <span class="footer-contact">For any questions and ideas please contact me via email: <a href="mailto:Oleg.Tolkachev@outlook.com">Oleg.Tolkachev@outlook.com</a></span>
+    </footer>
+  </main>
+
+<script>
+// ---- Domain classification -------------------------------------------------
+const INSTITUTION = new Set(["santander.com","commbank.com.au","capitalone.com","newsroom.bankofamerica.com",
+  "newsroom.wf.com","natwestgroup.com","unicreditgroup.eu","lloydsbankinggroup.com","jpmorgan.com","rbc.com",
+  "abnamro.com","customersbank.com","scotiabank.investorroom.com","crossriver.com","bbva.com","nuvei.com",
+  "ocbc.com","airwallex.com","investors.sofi.com","investor.visa.com","newsroom-en.groupebpce.fr",
+  "investors.globalpayments.com","capitalone.science","group.intesasanpaolo.com","mastercard.com",
+  "starlingbank.com","citigroup.com","investors.fiserv.com","newsroom.kbc.com","coinbase.com",
+  "investor.fisglobal.com","fisglobal.com","sc.com","westpac.com.au","ir.truist.com","ubs.com","rabobank.jobs",
+  "creditmutuel.fr","emiratesnbd.com","group.bnpparibas","worldline.com","stripe.com","rbcborealis.com"]);
+const VENDOR = new Set(["microsoft.com","openai.com","blogs.nvidia.com","nvidia.com","cloud.google.com",
+  "googlecloudpresscorner.com","blog.google","aws.amazon.com","snowflake.com","anthropic.com"]);
+const TRADE = new Set(["americanbanker.com","finextra.com","pymnts.com","gfmag.com","ffnews.com","thepaypers.com",
+  "bankingdive.com","paymentsdive.com","fstech.co.uk","electronicpaymentsinternational.com","fintechnews.sg",
+  "thefintechtimes.com","bankingjournal.aba.com","theasianbanker.com","thefinancialbrand.com","amlintelligence.com",
+  "fintech.global","mortgagesolutions.co.uk","connect.cefpro.com","banklesstimes.com","inc42.com"]);
+const WIRE = new Set(["globenewswire.com","prnewswire.com","businesswire.com","stocktitan.net","financialcontent.com"]);
+const RESEARCH = new Set(["evidentinsights.com","arxiv.org","kpmg.com","gam.com","lucidate.substack.com"]);
+const AGGREGATOR = new Set(["emerj.com","klover.ai","medium.com","analyticsvidhya.com","whalesbook.com",
+  "africaainews.com","ainvest.com","finance.biggo.com","mid-east.info"]);
+
+const GROUPS = [
+  {key:"institution", label:"Institution newsrooms &amp; investor relations",
+   blurb:"The banks and payment companies themselves — the most authoritative source for what they're doing."},
+  {key:"vendor", label:"Technology partner press rooms",
+   blurb:"Microsoft, Google, OpenAI, NVIDIA, AWS and others, which frequently name their bank clients first."},
+  {key:"trade", label:"Banking, payments &amp; fintech trade press",
+   blurb:"Specialist outlets that cover this beat daily and report deployments in useful detail."},
+  {key:"business", label:"Business, technology &amp; national media",
+   blurb:"Wire-grade and mainstream coverage, including regional outlets for non-US/EU institutions."},
+  {key:"wire", label:"Press-release wires",
+   blurb:"Carriers of official announcements — effectively primary sourcing, one step removed."},
+  {key:"research", label:"Research, academic &amp; industry newsletters",
+   blurb:"Peer-reviewed papers and analyst publications, used mainly where no other coverage exists."},
+  {key:"aggregator", label:"Aggregators &amp; secondary blogs",
+   blurb:"Used only as a last resort, and always graded secondary / low confidence."}
+];
+function classify(host){
+  if (INSTITUTION.has(host)) return "institution";
+  if (VENDOR.has(host)) return "vendor";
+  if (TRADE.has(host)) return "trade";
+  if (WIRE.has(host)) return "wire";
+  if (RESEARCH.has(host)) return "research";
+  if (AGGREGATOR.has(host)) return "aggregator";
+  return "business";
+}
+const esc = s => String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+
+fetch("data/usecases.json?ts=" + Date.now())
+  .then(r => r.json())
+  .then(data => {
+    const total = data.length;
+    const tiers = {primary:0, news:0, secondary:0};
+    const conf  = {high:0, med:0, low:0};
+    const domains = new Map();
+    let newest = "";
+
+    data.forEach(r => {
+      if (tiers[r.source_tier] !== undefined) tiers[r.source_tier]++;
+      if (conf[r.confidence] !== undefined) conf[r.confidence]++;
+      if ((r.event_date || "") > newest) newest = r.event_date;
+      let host = "";
+      try { host = new URL(r.source_url).hostname.toLowerCase().replace(/^www\./, ""); } catch (e) { return; }
+      domains.set(host, (domains.get(host) || 0) + 1);
+    });
+
+    const pct = n => Math.round(n / total * 100);
+
+    // ---- headline stats
+    document.getElementById("stat-row").innerHTML = [
+      [total, "use cases tracked", "every one carrying a working source link"],
+      [domains.size, "distinct sources", "no single outlet dominates the record"],
+      [pct(tiers.primary + tiers.news) + "%", "primary or established press", "the tiers that carry real evidential weight"],
+      [newest || "—", "most recent case", "the newest dated event in the dataset"]
+    ].map(([v, l, s]) => `<div class="stat-box"><div class="stat-v">${esc(v)}</div>
+        <div class="stat-l">${esc(l)}</div><div class="stat-s">${esc(s)}</div></div>`).join("");
+
+    // ---- tiers
+    document.getElementById("tier-grid").innerHTML = [
+      ["primary", "Primary", tiers.primary,
+       "The institution's own newsroom or investor relations, or the technology partner's press release. The organisation is speaking for itself."],
+      ["news", "News", tiers.news,
+       "Established trade or business press — American Banker, Finextra, PYMNTS, Reuters-grade wires, national outlets."],
+      ["secondary", "Secondary", tiers.secondary,
+       "Aggregators, analyst blogs and summaries. Kept only when nothing better exists, and always flagged low confidence."]
+    ].map(([k, name, n, desc]) => `
+      <div class="tier-card tier-${k}">
+        <div class="tier-head"><span class="tier-name">${name}</span>
+          <span class="tier-count">${n} <small>· ${pct(n)}%</small></span></div>
+        <div class="tier-bar"><span style="width:${pct(n)}%"></span></div>
+        <p>${desc}</p>
+      </div>`).join("");
+
+    // ---- confidence line
+    document.getElementById("domain-summary").innerHTML =
+      `Across <strong>${domains.size}</strong> domains, <strong>${conf.high}</strong> records are rated high confidence,
+       <strong>${conf.med}</strong> medium and <strong>${conf.low}</strong> low.`;
+
+    // ---- domain groups
+    const grouped = {};
+    GROUPS.forEach(g => grouped[g.key] = []);
+    [...domains.entries()].forEach(([host, n]) => grouped[classify(host)].push([host, n]));
+
+    document.getElementById("domain-groups").innerHTML = GROUPS.map(g => {
+      const rows = grouped[g.key].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]));
+      if (!rows.length) return "";
+      const cases = rows.reduce((s, r) => s + r[1], 0);
+      return `<div class="dom-group">
+        <div class="dom-head">
+          <h3>${g.label}</h3>
+          <span class="dom-meta">${rows.length} source${rows.length > 1 ? "s" : ""} · ${cases} case${cases > 1 ? "s" : ""} · ${pct(cases)}%</span>
+        </div>
+        <p class="dom-blurb">${g.blurb}</p>
+        <div class="dom-list">${rows.map(([h, n]) =>
+          `<span class="dom-chip"><em>${esc(h)}</em><b>${n}</b></span>`).join("")}</div>
+      </div>`;
+    }).join("");
+  })
+  .catch(() => {
+    document.getElementById("stat-row").innerHTML =
+      `<p class="doc-note">Live statistics couldn't be loaded — open this page through the site rather than as a local file.</p>`;
+  });
+
+// ---- heartbeat
+fetch("data/ingest-status.json?ts=" + Date.now())
+  .then(r => r.json())
+  .then(s => {
+    document.getElementById("heartbeat").innerHTML = `
+      <div class="hb-title">Latest automated run</div>
+      <div class="hb-grid">
+        <div><span>Checked through</span><b>${esc(s.checked_through || "—")}</b></div>
+        <div><span>Added that run</span><b>${esc(s.new_added ?? "—")}</b></div>
+        <div><span>Dataset size</span><b>${esc(s.total_cases ?? "—")}</b></div>
+      </div>
+      ${s.note ? `<div class="hb-note">${esc(s.note)}</div>` : ""}`;
+  })
+  .catch(() => { document.getElementById("heartbeat").style.display = "none"; });
+</script>
+</body>
+</html>
