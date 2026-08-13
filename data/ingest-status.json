@@ -1,7 +1,7 @@
 {
-  "last_run_utc": "2026-08-12T08:20:13.881571+00:00",
-  "checked_through": "2026-08-12",
-  "new_added": 3,
+  "last_run_utc": "2026-08-13T07:28:58Z",
+  "checked_through": "2026-08-13",
+  "new_added": 0,
   "total_cases": 350,
-  "note": "Added 3 cases (Corpay, BBVA, HSBC) incl. a deep sweep of the largest European banks"
+  "note": "No genuinely new, well-sourced cases found today \u2014 all leads (Corpay, FIS/BMO, Wells Fargo, Adyen, Airwallex) already in dataset."
 }
