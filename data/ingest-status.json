@@ -1,7 +1,7 @@
 {
-  "last_run_utc": "2026-08-13T07:28:58Z",
-  "checked_through": "2026-08-13",
-  "new_added": 0,
-  "total_cases": 350,
-  "note": "No genuinely new, well-sourced cases found today \u2014 all leads (Corpay, FIS/BMO, Wells Fargo, Adyen, Airwallex) already in dataset."
+  "last_run_utc": "2026-08-14T08:39:53.751136+00:00",
+  "checked_through": "2026-08-14",
+  "new_added": 1,
+  "total_cases": 351,
+  "note": "Added 1 case (SoFi AI Coach); rejected an unverifiable NatWest/'SynthMind AI' claim sourced only to a conference marketing page."
 }
