@@ -263,6 +263,35 @@
     ]
   },
   {
+    "source": "NVIDIA",
+    "title": "State of AI in Financial Services 2026",
+    "url": "https://www.nvidia.com/en-us/industries/finance/ai-financial-services-report/",
+    "date": "2026-01-22",
+    "category": "Industry survey",
+    "summary": "NVIDIA's sixth annual survey of more than 800 financial-services professionals, and the clearest read available on how far AI has moved from pilot to production. Active use jumped by 20 points year on year, nearly every respondent expects budgets to hold or rise, and the money is now shifting from net-new experiments toward optimising workflows that already run. Agentic AI is at the assessment stage for most, with reliability — not cost — cited as the top blocker.",
+    "stats": [
+      "65% actively using AI, up from 45% a year earlier",
+      "89% say AI is raising revenue while lowering operating costs",
+      "42% using or assessing agentic AI; 21% have deployed agents",
+      "83% call open source important to their AI strategy",
+      "Top agentic blockers: reliability 34%, internal skills 33%, data 30%"
+    ]
+  },
+  {
+    "source": "Oliver Wyman",
+    "title": "How AI Agents Are Becoming the New Gateway to Banking (2026)",
+    "url": "https://www.oliverwyman.com/our-expertise/insights/2026/jan/ai-agents-separate-banks-from-customers.html",
+    "date": "2026-01",
+    "category": "Consultancy report",
+    "summary": "A counter-thesis to the prevailing productivity narrative: the risk from agentic AI is distribution, not cost. Oliver Wyman argues AI agents are becoming a customer-acquisition channel in their own right, sitting between banks and their customers, and that the strategic question is no longer whether to participate but how — directly through agent apps, indirectly via digital marketplaces, or not at all, with non-participants ceding share. It sketches an 'assistance economy', real-time adaptive customer experiences, and 'agentic twins' acting with delegated authority across a customer's financial relationships.",
+    "stats": [
+      "AI-driven traffic to US banking sites up 1,200% in six months (Adobe Analytics)",
+      "Agentic commerce projected at 12%+ of total e-commerce by 2029",
+      "Credit cards represent 10%+ of the US consumer banking fee pool",
+      "Digital-marketplace card acquisition growing ~10% CAGR over five years"
+    ]
+  },
+  {
     "source": "Capgemini Research Institute",
     "title": "Banks & insurers deploy AI agents (2026)",
     "url": "https://www.capgemini.com/us-en/news/press-releases/banks-and-insurers-deploy-ai-agents-to-fight-fraud-and-process-applications-with-plans-for-new-roles-to-supervise-the-ai/",
