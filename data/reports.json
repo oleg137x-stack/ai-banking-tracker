@@ -1,6 +1,20 @@
 [
   {
     "source": "Evident Insights",
+    "title": "Banks' AI ROI Reporting — 'Bank Full Monty' Brief (August 2026)",
+    "url": "https://evidentinsights.com/bankingbrief/bank-full-monty",
+    "date": "2026-08-13",
+    "category": "Benchmark",
+    "summary": "Evident's weekly read on the 50 banks in its AI Index finds a sharp rise in banks publicly reporting projected or realised value from their AI portfolios — the number has roughly doubled since October 2025 — though methodologies differ enough that the figures are not directly comparable. The brief also flags a new supervisory worry about 'AI-accelerated contagions', where rival banks' agents reach the same conclusion simultaneously, and notes banks are now tuning the efficiency of existing AI systems rather than only shipping new ones.",
+    "stats": [
+      "17 banks now report AI portfolio value, up from ~8 in Oct 2025",
+      "40 of 50 tracked banks run at least one OpenAI-powered use case",
+      "CommBank: ~US$141m (A$200m) AI value realised, expected to double",
+      "Santander targeting €1bn new business value by 2028 (70% cost, 30% revenue)"
+    ]
+  },
+  {
+    "source": "Evident Insights",
     "title": "Banking AI Use Case Trends — Q2 2026",
     "url": "https://evidentinsights.com/bankingbrief/agentic-slowdown",
     "date": "2026-08-06",
