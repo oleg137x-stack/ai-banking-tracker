@@ -1,7 +1,7 @@
 {
-  "last_run_utc": "2026-08-17T16:50:25.756644+00:00",
+  "last_run_utc": "2026-08-17T16:51:46.853552+00:00",
   "checked_through": "2026-08-17",
-  "new_added": 6,
-  "total_cases": 413,
-  "note": "Deep sweep round 4: UBS Red, BNY Eliza 2.0, BNP Paribas 800 use cases, CIBC CAI (200k hrs pilot), Revolut Sherlock, Square ML underwriting. Historical corpus 75."
+  "new_added": 4,
+  "total_cases": 417,
+  "note": "Deep sweep round 5: Rabobank Agentic Hub, NAB banker assistant, Credit Agricole EUR500m, U.S. Bank gen-AI. Removed a misattributed PNC record (source was about U.S. Bank and lacked the stat). Historical corpus 79."
 }
