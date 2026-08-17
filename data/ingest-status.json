@@ -1,7 +1,7 @@
 {
-  "last_run_utc": "2026-08-17T16:19:31.477751+00:00",
+  "last_run_utc": "2026-08-17T16:21:17.255803+00:00",
   "checked_through": "2026-08-17",
-  "new_added": 5,
-  "total_cases": 367,
-  "note": "Backfill batch 2/8 (US majors 2025 + regionals): BofA Erica 3bn, Truist x2, Amex travel copilot, Capital One Chat Concierge."
+  "new_added": 4,
+  "total_cases": 371,
+  "note": "Backfill batch 3/8 (UK & Europe H2-2023 & 2024): NatWest x IBM watsonx, Cora+ launch, BBVA ChatGPT x2. Also re-dated DB Lumina to its true Sept-2024 go-live."
 }
