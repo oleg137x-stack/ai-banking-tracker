@@ -1,7 +1,7 @@
 {
-  "last_run_utc": "2026-08-17T07:34:00.198092+00:00",
+  "last_run_utc": "2026-08-17T07:43:55.727919+00:00",
   "checked_through": "2026-08-17",
-  "new_added": 1,
-  "total_cases": 354,
-  "note": "Added 1 case (Mercury Agent Cards); most other August candidates (Glia, Fiserv, CommBank, Wells Fargo, HSBC/Lloyds/NatWest, Visa/Mastercard/Stripe agentic-payments) were already in the dataset or were pure tech-vendor/network announcements out of scope."
+  "new_added": 2,
+  "total_cases": 355,
+  "note": "Added Emirates NBD x Dubai Future District Fund AI partnership (2026-08-10, low confidence) on top of earlier Mercury Agent Cards addition."
 }
