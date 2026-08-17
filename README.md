@@ -63,7 +63,7 @@ structure them into the schema, dedupe, and append.
 ```bash
 pip install -r requirements.txt
 export ANTHROPIC_API_KEY=sk-ant-...      # from console.anthropic.com
-python3 scripts/ingest.py --since 2026-01-01     # backfill from start of 2026
+python3 scripts/ingest.py --since 2023-08-01     # backfill from the start of the tracked window
 ```
 
 Useful flags:

@@ -9,7 +9,7 @@ schema, dedupe against what we already have, and append to data/usecases.json.
 Run:
     export ANTHROPIC_API_KEY=sk-ant-...
     python3 scripts/ingest.py                 # look back 3 days (daily mode)
-    python3 scripts/ingest.py --since 2026-01-01   # backfill from a date
+    python3 scripts/ingest.py --since 2023-08-01   # backfill from a date
     python3 scripts/ingest.py --dry-run       # print, don't write
 
 Schedule it daily with GitHub Actions (see .github/workflows/daily-ingest.yml)
@@ -64,7 +64,7 @@ def build_prompt(since: str, today: str) -> str:
 of AI and Agentic AI deployed or announced at banks AND payments providers worldwide.
 
 Search the web for news articles, press releases, and official announcements published \
-between {since} and {today} about specific banks OR payments companies using AI or \
+between {since} and {today} (tracker scope: August 2023 onwards) about specific banks OR payments companies using AI or \
 Agentic AI. Payments companies include card networks, processors and fintech payment \
 firms such as Visa, Mastercard, PayPal, American Express, Stripe, Block (Square/Cash App), \
 Adyen, Fiserv, FIS, Worldline, Global Payments and Nexi — but search for others too. \

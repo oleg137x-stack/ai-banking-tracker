@@ -11,7 +11,7 @@ const PALETTE = [
   "#ff9ed8", "#a0e548", "#ffd166", "#8b9dff", "#6be3c9", "#ff8a65",
 ];
 
-const DEFAULT_FROM = "2026-01-01"; // tracker scope: data from 2026 onwards
+const DEFAULT_FROM = "2023-08-01"; // tracker scope: data from August 2023 onwards
 const state = {
   all: [],
   filters: Object.fromEntries(FIELDS.map((f) => [f, new Set()])),
