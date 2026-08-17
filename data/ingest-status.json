@@ -1,7 +1,7 @@
 {
-  "last_run_utc": "2026-08-17T16:11:32.697989+00:00",
+  "last_run_utc": "2026-08-17T16:19:31.477751+00:00",
   "checked_through": "2026-08-17",
-  "new_added": 7,
-  "total_cases": 362,
-  "note": "Scope widened to Aug 2023. Backfill batch 1/8 (US majors H2-2023 & 2024): Morgan Stanley x2, JPMorgan LLM Suite, BofA Erica 2bn, Citi x2, Goldman."
+  "new_added": 5,
+  "total_cases": 367,
+  "note": "Backfill batch 2/8 (US majors 2025 + regionals): BofA Erica 3bn, Truist x2, Amex travel copilot, Capital One Chat Concierge."
 }
