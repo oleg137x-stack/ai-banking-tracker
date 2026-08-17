@@ -1,7 +1,7 @@
 {
-  "last_run_utc": "2026-08-17T16:46:57.872478+00:00",
+  "last_run_utc": "2026-08-17T16:50:25.756644+00:00",
   "checked_through": "2026-08-17",
   "new_added": 6,
-  "total_cases": 407,
-  "note": "Deep historical sweep round 3: BofA Erica for Employees, Westpac scam call assistant, Morgan Stanley AskResearchGPT, Mastercard Agent Pay, JPM Coach AI. Historical corpus now 69 cases."
+  "total_cases": 413,
+  "note": "Deep sweep round 4: UBS Red, BNY Eliza 2.0, BNP Paribas 800 use cases, CIBC CAI (200k hrs pilot), Revolut Sherlock, Square ML underwriting. Historical corpus 75."
 }
