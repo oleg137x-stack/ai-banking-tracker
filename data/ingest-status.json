@@ -1,7 +1,7 @@
 {
-  "last_run_utc": "2026-08-17T16:26:05.935148+00:00",
+  "last_run_utc": "2026-08-17T16:29:13.563304+00:00",
   "checked_through": "2026-08-17",
-  "new_added": 5,
-  "total_cases": 383,
-  "note": "Backfill batch 7/8 (payments networks & processors): PayPal Fastlane/Smart Receipts, Visa VAAI Score, $40bn fraud blocked and Scam Disruption, Stripe Payments Foundation Model."
+  "new_added": 3,
+  "total_cases": 385,
+  "note": "Backfill batches 4 & 6 (Europe mid-tier + LatAm): KBC Kate FY2024, Itau x2. Emirates NBD/Microsoft record removed - true date 2023-07-10 is before the Aug-2023 floor."
 }
