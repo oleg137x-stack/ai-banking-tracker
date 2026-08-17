@@ -1,7 +1,7 @@
 {
-  "last_run_utc": "2026-08-17T16:32:02.361204+00:00",
+  "last_run_utc": "2026-08-17T16:35:35.282856+00:00",
   "checked_through": "2026-08-17",
-  "new_added": 0,
-  "total_cases": 377,
-  "note": "Re-dating audit: removed 8 duplicate/unsupported records and corrected 4 event dates to their sources' true dates (JPMorgan, Goldman, Citi, HDFC)."
+  "new_added": 6,
+  "total_cases": 383,
+  "note": "Backfill continued: TD (75 use cases CAD170m, Copilot pilot, contact-centre pilot), HSBC 85% gen-AI access, FAB 1,000+ copilot agents, Swift AI fraud defence."
 }
