@@ -1,7 +1,7 @@
 {
-  "last_run_utc": "2026-08-17T07:43:55.727919+00:00",
+  "last_run_utc": "2026-08-17T16:11:32.697989+00:00",
   "checked_through": "2026-08-17",
-  "new_added": 2,
-  "total_cases": 355,
-  "note": "Added Emirates NBD x Dubai Future District Fund AI partnership (2026-08-10, low confidence) on top of earlier Mercury Agent Cards addition."
+  "new_added": 7,
+  "total_cases": 362,
+  "note": "Scope widened to Aug 2023. Backfill batch 1/8 (US majors H2-2023 & 2024): Morgan Stanley x2, JPMorgan LLM Suite, BofA Erica 2bn, Citi x2, Goldman."
 }
