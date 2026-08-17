@@ -1,7 +1,7 @@
 {
-  "last_run_utc": "2026-08-17T16:51:46.853552+00:00",
+  "last_run_utc": "2026-08-17T16:57:09.624796+00:00",
   "checked_through": "2026-08-17",
-  "new_added": 4,
-  "total_cases": 417,
-  "note": "Deep sweep round 5: Rabobank Agentic Hub, NAB banker assistant, Credit Agricole EUR500m, U.S. Bank gen-AI. Removed a misattributed PNC record (source was about U.S. Bank and lacked the stat). Historical corpus 79."
+  "new_added": 5,
+  "total_cases": 422,
+  "note": "Deep sweep round 6: Commerzbank Ava, Worldline AI routing, KakaoBank, ICBC, CCB. Re-dated SC GPT to its true Mar-2025 launch. Historical corpus 85."
 }
