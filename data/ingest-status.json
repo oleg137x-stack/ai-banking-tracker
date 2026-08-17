@@ -1,7 +1,7 @@
 {
-  "last_run_utc": "2026-08-17T16:57:09.624796+00:00",
+  "last_run_utc": "2026-08-17T16:57:59.794938+00:00",
   "checked_through": "2026-08-17",
-  "new_added": 5,
-  "total_cases": 422,
-  "note": "Deep sweep round 6: Commerzbank Ava, Worldline AI routing, KakaoBank, ICBC, CCB. Re-dated SC GPT to its true Mar-2025 launch. Historical corpus 85."
+  "new_added": 3,
+  "total_cases": 425,
+  "note": "Deep sweep round 7: Charles Schwab Knowledge Assistant, Fifth Third Jeanie (25%->90% accuracy), Absa Virtual Investor. Historical corpus 88 across 57 institutions."
 }
