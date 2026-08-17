@@ -1,7 +1,7 @@
 {
-  "last_run_utc": "2026-08-17T16:42:05.836365+00:00",
+  "last_run_utc": "2026-08-17T16:45:44.042440+00:00",
   "checked_through": "2026-08-17",
-  "new_added": 9,
-  "total_cases": 392,
-  "note": "Deep historical sweep: ING first EU genAI chatbot, Lloyds Athena, CommBank Apate, Standard Bank, Starling, RBC, Goldman Devin, Barclays Copilot, Mizuho; re-dated Santander and Nedbank to true years."
+  "new_added": 13,
+  "total_cases": 405,
+  "note": "Deep historical sweep round 2: HSBC DRA, UOB Copilot, Intesa reskilling, Ally.ai, Wells Fargo 245m, Citizens, Bradesco x2, Morgan Stanley AskResearchGPT, Mastercard Agent Pay x2, JPM Coach AI."
 }
