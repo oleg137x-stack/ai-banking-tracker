@@ -1,7 +1,7 @@
 {
-  "last_run_utc": "2026-08-17T16:29:13.563304+00:00",
+  "last_run_utc": "2026-08-17T16:32:02.361204+00:00",
   "checked_through": "2026-08-17",
-  "new_added": 3,
-  "total_cases": 385,
-  "note": "Backfill batches 4 & 6 (Europe mid-tier + LatAm): KBC Kate FY2024, Itau x2. Emirates NBD/Microsoft record removed - true date 2023-07-10 is before the Aug-2023 floor."
+  "new_added": 0,
+  "total_cases": 377,
+  "note": "Re-dating audit: removed 8 duplicate/unsupported records and corrected 4 event dates to their sources' true dates (JPMorgan, Goldman, Citi, HDFC)."
 }

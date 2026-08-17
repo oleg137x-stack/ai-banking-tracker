@@ -4683,32 +4683,6 @@
     "added_at": "2026-07-02T06:33:50.859159+00:00"
   },
   {
-    "id": "isybank-2026-04-10-generative-ai-in-intesa-s-digital-bank-isybank",
-    "sector": "Bank",
-    "bank": "Isybank",
-    "parent_group": "Intesa Sanpaolo",
-    "country": "Italy",
-    "region": "Europe",
-    "business_area": "Customer Service",
-    "ai_type": "Generative AI",
-    "title": "Generative AI in Intesa's digital bank Isybank",
-    "description": "Isybank, Intesa Sanpaolo's cloud-native digital bank, sits within the group's 'AIxelaration' AI programme (190 use cases) spanning customer service and operations.",
-    "vendor": "in-house",
-    "outcome": "Isybank, Intesa Sanpaolo's cloud-native digital bank, sits within the group's 'AIxelaration' AI programme (190 use cases) spanning customer service and operations.",
-    "metric": "Part of Intesa's 190-use-case AI programme",
-    "status": "Piloting",
-    "event_date": "2026-04-10",
-    "source_name": "Intesa Sanpaolo",
-    "source_url": "https://group.intesasanpaolo.com/en/editorial-section/events-and-projects/projects/innovation/2024/ai-solutions-in-digital-business",
-    "source_tier": "secondary",
-    "confidence": "low",
-    "tags": [
-      "restored"
-    ],
-    "verified": true,
-    "added_at": "2026-06-28T07:49:08.613281+00:00"
-  },
-  {
     "id": "jpmorgan-chase-2026-04-09-automating-85-of-fx-trading",
     "sector": "Bank",
     "bank": "JPMorgan Chase",
@@ -4827,32 +4801,6 @@
     "tags": [],
     "verified": true,
     "added_at": "2026-06-27T07:10:54.432881+00:00"
-  },
-  {
-    "id": "deutsche-bank-2026-04-02-db-lumin-and-document-ai-on-google-cloud",
-    "sector": "Bank",
-    "bank": "Deutsche Bank",
-    "parent_group": "",
-    "country": "Germany",
-    "region": "Europe",
-    "business_area": "Corporate & Investment Banking",
-    "ai_type": "Generative AI",
-    "title": "DB Lumin and document AI on Google Cloud",
-    "description": "Deutsche Bank applies generative AI on Google Cloud (DB Lumina) to research, document analysis and client service.",
-    "vendor": "Google Cloud",
-    "outcome": "Deutsche Bank applies generative AI on Google Cloud (DB Lumina) to research, document analysis and client service.",
-    "metric": "DB Lumina + document AI on Google Cloud",
-    "status": "Deployed",
-    "event_date": "2026-04-02",
-    "source_name": "Google Cloud",
-    "source_url": "https://cloud.google.com/blog/topics/financial-services/deutsche-bank-delivers-ai-powered-financial-research-with-db-lumina",
-    "source_tier": "primary",
-    "confidence": "high",
-    "tags": [
-      "restored"
-    ],
-    "verified": true,
-    "added_at": "2026-06-28T07:49:08.613281+00:00"
   },
   {
     "id": "natwest-2026-04-01-mastercard-ai-to-detect-real-time-payment-scams",
@@ -5274,32 +5222,6 @@
     "added_at": "2026-06-27T07:10:54.432881+00:00"
   },
   {
-    "id": "bbva-2026-03-20-large-scale-chatgpt-enterprise-rollout",
-    "sector": "Bank",
-    "bank": "BBVA",
-    "parent_group": "",
-    "country": "Spain",
-    "region": "Europe",
-    "business_area": "Cross-functional",
-    "ai_type": "Generative AI",
-    "title": "Large-scale ChatGPT Enterprise rollout",
-    "description": "BBVA rolled out ChatGPT Enterprise at scale, with employees building custom GPTs across legal, risk and operations.",
-    "vendor": "OpenAI",
-    "outcome": "BBVA rolled out ChatGPT Enterprise at scale, with employees building custom GPTs across legal, risk and operations.",
-    "metric": "Thousands of licences; ~3 hrs/week saved per employee",
-    "status": "Deployed",
-    "event_date": "2026-03-20",
-    "source_name": "OpenAI",
-    "source_url": "https://openai.com/index/bbva-collaboration-expansion/",
-    "source_tier": "primary",
-    "confidence": "high",
-    "tags": [
-      "restored"
-    ],
-    "verified": true,
-    "added_at": "2026-06-28T07:49:08.613281+00:00"
-  },
-  {
     "sector": "Bank",
     "bank": "Starling Bank",
     "parent_group": "",
@@ -5573,32 +5495,6 @@
     "added_at": "2026-06-27T07:00:39.724924+00:00"
   },
   {
-    "id": "natwest-cora-2026",
-    "bank": "NatWest",
-    "country": "United Kingdom",
-    "region": "UK & Ireland",
-    "business_area": "Customer Service",
-    "ai_type": "Generative AI",
-    "title": "Cora+ generative assistant for customer queries",
-    "description": "NatWest enhanced its Cora chatbot with generative AI to answer broader, more conversational customer questions.",
-    "vendor": "IBM",
-    "outcome": "Improved query resolution and richer self-serve answers.",
-    "status": "Deployed",
-    "event_date": "2026-03-12",
-    "source_name": "NatWest Group",
-    "source_url": "https://www.natwestgroup.com/news-and-insights/news-room/press-releases/data-and-technology/2024/jun/natwest-launches-cora-plus-the-latest-generative-ai-upgrade-to-t.html",
-    "tags": [
-      "coverage"
-    ],
-    "verified": true,
-    "added_at": "2026-06-25T00:00:00Z",
-    "parent_group": "",
-    "sector": "Bank",
-    "metric": "Cora handles 150+ query types",
-    "source_tier": "primary",
-    "confidence": "high"
-  },
-  {
     "id": "dbs-bank-2026-03-12-analytics-ai-deliver-sgd-1bn-value",
     "sector": "Bank",
     "bank": "DBS Bank",
@@ -5692,32 +5588,6 @@
     "tags": [],
     "verified": true,
     "added_at": "2026-06-27T07:09:11.014627+00:00"
-  },
-  {
-    "id": "citi-agentic-ops-2026",
-    "bank": "Citigroup",
-    "country": "United States",
-    "region": "North America",
-    "business_area": "Operations & Back Office",
-    "ai_type": "Agentic AI",
-    "title": "Agentic workflows piloted in operations and servicing",
-    "description": "Citi began piloting multi-step AI agents to automate reconciliation and servicing workflows on top of its internal GenAI tools (Citi Assist / Stylus).",
-    "vendor": "in-house",
-    "outcome": "Pilot stage; targeting reduction in manual handling time.",
-    "status": "Piloting",
-    "event_date": "2026-03-05",
-    "source_name": "Citi",
-    "source_url": "https://www.citigroup.com/global/news/press-release/2025/citi-unveils-citi-stylus-workspaces-agentic-ai-turbocharging-productivity",
-    "tags": [
-      "coverage"
-    ],
-    "verified": true,
-    "added_at": "2026-06-25T00:00:00Z",
-    "parent_group": "",
-    "sector": "Bank",
-    "metric": "Agentic Citi Stylus Workspaces",
-    "source_tier": "primary",
-    "confidence": "med"
   },
   {
     "id": "deutsche-bank-2026-03-05-dbsherpa-multi-agent-trade-surveillance",
@@ -6400,59 +6270,6 @@
     "tags": [],
     "verified": true,
     "added_at": "2026-06-27T07:07:20.473773+00:00"
-  },
-  {
-    "id": "morgan-stanley-advisor-ai-2026",
-    "bank": "Morgan Stanley",
-    "country": "United States",
-    "region": "North America",
-    "business_area": "Wealth & Asset Management",
-    "ai_type": "Generative AI",
-    "title": "AI @ Morgan Stanley Assistant for financial advisors",
-    "description": "GenAI assistant gives advisors instant access to the firm's research and knowledge base, plus meeting-note summarisation.",
-    "vendor": "OpenAI",
-    "outcome": "Advisor adoption reported above 90%; faster client query turnaround.",
-    "status": "Deployed",
-    "event_date": "2026-02-10",
-    "source_name": "OpenAI",
-    "source_url": "https://openai.com/index/morgan-stanley/",
-    "tags": [
-      "coverage"
-    ],
-    "verified": true,
-    "added_at": "2026-06-25T00:00:00Z",
-    "parent_group": "",
-    "sector": "Bank",
-    "metric": "Advisor knowledge assistant (OpenAI)",
-    "source_tier": "primary",
-    "confidence": "med"
-  },
-  {
-    "id": "morgan-stanley-2026-02-10-ai-morgan-stanley-debrief-for-meeting-notes",
-    "sector": "Bank",
-    "bank": "Morgan Stanley",
-    "parent_group": "",
-    "country": "United States",
-    "region": "North America",
-    "business_area": "Wealth & Asset Management",
-    "ai_type": "Generative AI",
-    "title": "AI @ Morgan Stanley Debrief for meeting notes",
-    "description": "Morgan Stanley's 'Debrief' (built with OpenAI) automatically generates notes and summaries from advisor-client meetings.",
-    "vendor": "OpenAI",
-    "outcome": "Saves advisor time on documentation after every meeting.",
-    "metric": "Auto meeting summaries",
-    "status": "Deployed",
-    "event_date": "2026-02-10",
-    "source_name": "OpenAI",
-    "source_url": "https://openai.com/index/morgan-stanley/",
-    "tags": [
-      "genAI",
-      "advisors"
-    ],
-    "verified": true,
-    "added_at": "2026-06-25T21:33:30.538593+00:00",
-    "source_tier": "primary",
-    "confidence": "high"
   },
   {
     "id": "morgan-stanley-2026-02-10-askresearchgpt-for-institutional-research",
@@ -7513,32 +7330,6 @@
     "added_at": "2026-06-28T07:36:48.520479+00:00"
   },
   {
-    "id": "goldman-sachs-gs-ai-assistant-2026",
-    "bank": "Goldman Sachs",
-    "country": "United States",
-    "region": "North America",
-    "business_area": "Software Engineering",
-    "ai_type": "Generative AI",
-    "title": "GS AI Assistant and AI coding tools firm-wide",
-    "description": "Generative-AI assistant and code-generation tooling deployed across engineering and banking divisions.",
-    "vendor": "in-house / multiple",
-    "outcome": "Developer productivity uplift on routine coding tasks reported by the firm.",
-    "status": "Deployed",
-    "event_date": "2026-01-30",
-    "source_name": "Fortune",
-    "source_url": "https://fortune.com/2025/06/24/goldman-sachs-internal-ai-assistant/",
-    "tags": [
-      "coverage"
-    ],
-    "verified": true,
-    "added_at": "2026-06-25T00:00:00Z",
-    "parent_group": "",
-    "sector": "Bank",
-    "metric": "Firmwide; ~10,000 early users",
-    "source_tier": "news",
-    "confidence": "high"
-  },
-  {
     "id": "dbs-genai-2026",
     "bank": "DBS Bank",
     "country": "Singapore",
@@ -7709,32 +7500,6 @@
     "tags": [],
     "verified": true,
     "added_at": "2026-06-27T07:07:20.473773+00:00"
-  },
-  {
-    "id": "jpmorgan-llm-suite-2026",
-    "bank": "JPMorgan Chase",
-    "country": "United States",
-    "region": "North America",
-    "business_area": "Cross-functional",
-    "ai_type": "Generative AI",
-    "title": "LLM Suite expanded to firm-wide employee assistant",
-    "description": "JPMorgan continued the rollout of its internal generative-AI assistant 'LLM Suite' to the majority of its workforce for drafting, summarisation and research.",
-    "vendor": "OpenAI / in-house",
-    "outcome": "Reported to be used by 200,000+ employees; time savings on document-heavy tasks.",
-    "status": "Deployed",
-    "event_date": "2026-01-20",
-    "source_name": "CNBC",
-    "source_url": "https://www.cnbc.com/2025/09/30/jpmorgan-chase-fully-ai-connected-megabank.html",
-    "tags": [
-      "coverage"
-    ],
-    "verified": true,
-    "added_at": "2026-06-25T00:00:00Z",
-    "parent_group": "",
-    "sector": "Bank",
-    "metric": "LLM Suite to 200,000+ employees",
-    "source_tier": "news",
-    "confidence": "high"
   },
   {
     "id": "bnp-paribas-2026-01-20-ai-factory-800-ai-use-cases-in-production-and-llm-as-a-se",
@@ -8112,33 +7877,6 @@
     "confidence": "med"
   },
   {
-    "id": "hdfc-bank-2026-01-15-genai-academy-and-15-genai-programmes",
-    "sector": "Bank",
-    "bank": "HDFC Bank",
-    "parent_group": "",
-    "country": "India",
-    "region": "Asia-Pacific",
-    "business_area": "Customer Service",
-    "ai_type": "Generative AI",
-    "title": "GenAI Academy and 15+ GenAI programmes",
-    "description": "HDFC Bank launched a GenAI Academy and 15+ high-impact GenAI programmes; gen-AI agents interpret open-ended queries with contextual answers.",
-    "vendor": "in-house",
-    "outcome": "Routine query time cut from ~8 minutes to under 90 seconds.",
-    "status": "Deployed",
-    "event_date": "2026-01-15",
-    "source_name": "Analytics Vidhya",
-    "source_url": "https://www.analyticsvidhya.com/blog/2025/08/hdfc-bank-a-case-study/",
-    "tags": [
-      "genAI academy",
-      "customer service"
-    ],
-    "verified": true,
-    "added_at": "2026-06-25T11:27:49.509657+00:00",
-    "metric": "Routine query time cut from ~8 minutes to under 9…",
-    "source_tier": "secondary",
-    "confidence": "low"
-  },
-  {
     "id": "icici-bank-2026-01-15-ai-chatbots-with-24-7-natural-language-support",
     "sector": "Bank",
     "bank": "ICICI Bank",
@@ -8164,34 +7902,6 @@
     "metric": "Round-the-clock conversational customer support",
     "source_tier": "secondary",
     "confidence": "low"
-  },
-  {
-    "id": "capital-one-2026-01-15-chat-concierge-multi-agent-system-for-car-buying",
-    "sector": "Bank",
-    "bank": "Capital One",
-    "parent_group": "",
-    "country": "United States",
-    "region": "North America",
-    "business_area": "Customer Service",
-    "ai_type": "Agentic AI",
-    "title": "Chat Concierge multi-agent system for car buying",
-    "description": "Capital One's first production multi-agent workflow, Chat Concierge, helps auto dealers and customers through the car-buying journey using self-reflection, layered reasoning and live API checks.",
-    "vendor": "in-house",
-    "outcome": "Up to +55% dealer customer engagement; 5x lower latency since launch.",
-    "metric": "+55% dealer engagement",
-    "status": "Deployed",
-    "event_date": "2026-01-15",
-    "source_name": "VentureBeat",
-    "source_url": "https://venturebeat.com/ai/how-capital-one-built-production-multi-agent-ai-workflows-to-power-enterprise-use-cases",
-    "tags": [
-      "agentic",
-      "multi-agent",
-      "auto"
-    ],
-    "verified": true,
-    "added_at": "2026-06-25T11:39:40.511434+00:00",
-    "source_tier": "news",
-    "confidence": "high"
   },
   {
     "id": "deutsche-bank-2026-01-15-gen-ai-document-processing-at-97-accuracy",
@@ -8697,32 +8407,6 @@
     "added_at": "2026-06-28T07:36:48.520479+00:00"
   },
   {
-    "id": "wells-fargo-2026-01-15-fargo-assistant-scales-virtual-assistant-interactions",
-    "sector": "Bank",
-    "bank": "Wells Fargo",
-    "parent_group": "",
-    "country": "United States",
-    "region": "North America",
-    "business_area": "Customer Service",
-    "ai_type": "Conversational AI",
-    "title": "Fargo assistant scales virtual-assistant interactions",
-    "description": "Wells Fargo's Fargo assistant handles banking via a privacy-preserving architecture that keeps PII away from the LLM.",
-    "vendor": "Google Cloud",
-    "outcome": "Wells Fargo's Fargo assistant handles banking via a privacy-preserving architecture that keeps PII away from the LLM.",
-    "metric": "245M+ Fargo interactions; no PII to the model",
-    "status": "Deployed",
-    "event_date": "2026-01-15",
-    "source_name": "American Banker",
-    "source_url": "https://www.americanbanker.com/news/how-wells-fargo-is-building-agentic-ai-into-its-workflows",
-    "source_tier": "news",
-    "confidence": "high",
-    "tags": [
-      "restored"
-    ],
-    "verified": true,
-    "added_at": "2026-06-28T07:49:08.613281+00:00"
-  },
-  {
     "sector": "Payments",
     "bank": "PayPal",
     "parent_group": "",
@@ -8824,6 +8508,32 @@
     "added_at": "2026-06-27T07:07:20.473773+00:00"
   },
   {
+    "id": "jpmorgan-chase-2025-09-30-llm-suite-expanded-to-firm-wide-employee-assistant",
+    "bank": "JPMorgan Chase",
+    "country": "United States",
+    "region": "North America",
+    "business_area": "Cross-functional",
+    "ai_type": "Generative AI",
+    "title": "LLM Suite expanded to firm-wide employee assistant",
+    "description": "JPMorgan continued the rollout of its internal generative-AI assistant 'LLM Suite' to the majority of its workforce for drafting, summarisation and research.",
+    "vendor": "OpenAI / in-house",
+    "outcome": "Reported to be used by 200,000+ employees; time savings on document-heavy tasks.",
+    "status": "Deployed",
+    "event_date": "2025-09-30",
+    "source_name": "CNBC",
+    "source_url": "https://www.cnbc.com/2025/09/30/jpmorgan-chase-fully-ai-connected-megabank.html",
+    "tags": [
+      "coverage"
+    ],
+    "verified": true,
+    "added_at": "2026-06-25T00:00:00Z",
+    "parent_group": "",
+    "sector": "Bank",
+    "metric": "LLM Suite to 200,000+ employees",
+    "source_tier": "news",
+    "confidence": "high"
+  },
+  {
     "sector": "Bank",
     "bank": "Itaú Unibanco",
     "parent_group": "",
@@ -8868,6 +8578,32 @@
     "id": "american-express-2025-09-26-travel-counselor-assist-copilot-reaches-5-000-counse",
     "verified": true,
     "added_at": "2026-08-17T16:19:18.925230+00:00"
+  },
+  {
+    "id": "citigroup-2025-09-22-agentic-workflows-piloted-in-operations-and-servicing",
+    "bank": "Citigroup",
+    "country": "United States",
+    "region": "North America",
+    "business_area": "Operations & Back Office",
+    "ai_type": "Agentic AI",
+    "title": "Agentic workflows piloted in operations and servicing",
+    "description": "Citi began piloting multi-step AI agents to automate reconciliation and servicing workflows on top of its internal GenAI tools (Citi Assist / Stylus).",
+    "vendor": "in-house",
+    "outcome": "Pilot stage; targeting reduction in manual handling time.",
+    "status": "Piloting",
+    "event_date": "2025-09-22",
+    "source_name": "Citi",
+    "source_url": "https://www.citigroup.com/global/news/press-release/2025/citi-unveils-citi-stylus-workspaces-agentic-ai-turbocharging-productivity",
+    "tags": [
+      "coverage"
+    ],
+    "verified": true,
+    "added_at": "2026-06-25T00:00:00Z",
+    "parent_group": "",
+    "sector": "Bank",
+    "metric": "Agentic Citi Stylus Workspaces",
+    "source_tier": "primary",
+    "confidence": "med"
   },
   {
     "sector": "Bank",
@@ -8939,6 +8675,33 @@
     "added_at": "2026-08-17T16:19:18.925230+00:00"
   },
   {
+    "id": "hdfc-bank-2025-08-01-genai-academy-and-15-genai-programmes",
+    "sector": "Bank",
+    "bank": "HDFC Bank",
+    "parent_group": "",
+    "country": "India",
+    "region": "Asia-Pacific",
+    "business_area": "Customer Service",
+    "ai_type": "Generative AI",
+    "title": "GenAI Academy and 15+ GenAI programmes",
+    "description": "HDFC Bank launched a GenAI Academy and 15+ high-impact GenAI programmes; gen-AI agents interpret open-ended queries with contextual answers.",
+    "vendor": "in-house",
+    "outcome": "Routine query time cut from ~8 minutes to under 90 seconds.",
+    "status": "Deployed",
+    "event_date": "2025-08-01",
+    "source_name": "Analytics Vidhya",
+    "source_url": "https://www.analyticsvidhya.com/blog/2025/08/hdfc-bank-a-case-study/",
+    "tags": [
+      "genAI academy",
+      "customer service"
+    ],
+    "verified": true,
+    "added_at": "2026-06-25T11:27:49.509657+00:00",
+    "metric": "Routine query time cut from ~8 minutes to under 9…",
+    "source_tier": "secondary",
+    "confidence": "low"
+  },
+  {
     "sector": "Bank",
     "bank": "DBS",
     "parent_group": "",
@@ -8960,6 +8723,32 @@
     "id": "dbs-2025-07-01-named-world-s-best-ai-bank-on-a-sgd-1bn-value-target",
     "verified": true,
     "added_at": "2026-08-17T16:23:13.795684+00:00"
+  },
+  {
+    "id": "goldman-sachs-2025-06-24-gs-ai-assistant-and-ai-coding-tools-firm-wide",
+    "bank": "Goldman Sachs",
+    "country": "United States",
+    "region": "North America",
+    "business_area": "Software Engineering",
+    "ai_type": "Generative AI",
+    "title": "GS AI Assistant and AI coding tools firm-wide",
+    "description": "Generative-AI assistant and code-generation tooling deployed across engineering and banking divisions.",
+    "vendor": "in-house / multiple",
+    "outcome": "Developer productivity uplift on routine coding tasks reported by the firm.",
+    "status": "Deployed",
+    "event_date": "2025-06-24",
+    "source_name": "Fortune",
+    "source_url": "https://fortune.com/2025/06/24/goldman-sachs-internal-ai-assistant/",
+    "tags": [
+      "coverage"
+    ],
+    "verified": true,
+    "added_at": "2026-06-25T00:00:00Z",
+    "parent_group": "",
+    "sector": "Bank",
+    "metric": "Firmwide; ~10,000 early users",
+    "source_tier": "news",
+    "confidence": "high"
   },
   {
     "sector": "Payments",
