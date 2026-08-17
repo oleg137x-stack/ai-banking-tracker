@@ -1,7 +1,7 @@
 {
-  "last_run_utc": "2026-08-17T16:57:59.794938+00:00",
+  "last_run_utc": "2026-08-17T17:58:51.844323+00:00",
   "checked_through": "2026-08-17",
-  "new_added": 3,
-  "total_cases": 425,
-  "note": "Deep sweep round 7: Charles Schwab Knowledge Assistant, Fifth Third Jeanie (25%->90% accuracy), Absa Virtual Investor. Historical corpus 88 across 57 institutions."
+  "new_added": 12,
+  "total_cases": 619,
+  "note": "Full Evident Brief archive mined (91 editions indexed, ~30 mined). Dataset 619 cases across 157 institutions; historical corpus Aug2023-Dec2025 now 239 cases across 82 institutions."
 }
