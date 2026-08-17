@@ -1,7 +1,7 @@
 {
-  "last_run_utc": "2026-08-14T15:18:35.843736+00:00",
-  "checked_through": "2026-08-14",
-  "new_added": 2,
-  "total_cases": 353,
-  "note": "Added 2 cases (Commonwealth Bank FY26 AI value and SME lending automation) and 1 new industry report (Evident 'Bank Full Monty', 13 Aug)."
+  "last_run_utc": "2026-08-17T07:34:00.198092+00:00",
+  "checked_through": "2026-08-17",
+  "new_added": 1,
+  "total_cases": 354,
+  "note": "Added 1 case (Mercury Agent Cards); most other August candidates (Glia, Fiserv, CommBank, Wells Fargo, HSBC/Lloyds/NatWest, Visa/Mastercard/Stripe agentic-payments) were already in the dataset or were pure tech-vendor/network announcements out of scope."
 }
