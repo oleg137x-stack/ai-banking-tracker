@@ -1,7 +1,7 @@
 {
-  "last_run_utc": "2026-08-18T07:59:07.955557+00:00",
+  "last_run_utc": "2026-08-18T08:11:42.515217+00:00",
   "checked_through": "2026-08-18",
-  "new_added": 2,
-  "total_cases": 672,
-  "note": "Added 2 cases (CaixaBank, FORUM Credit Union); Aug 16-18 announcements checked, nothing else new and well-sourced."
+  "new_added": 20,
+  "total_cases": 692,
+  "note": "New source channels: added source_channel field to all records; award-programme sweep (Celent, Qorus-Infosys) and payments-gap pass. 692 cases, new countries: Czechia, Vietnam, Turkey, Greece, Poland, Egypt."
 }

@@ -8,7 +8,7 @@
   <meta http-equiv="Expires" content="0" />
   <title>Data Sources &amp; Methodology — Bank &amp; Payment Systems AI Tracker</title>
   <meta name="description" content="How cases are found, sourced, graded and updated in the Bank & Payment Systems AI Tracker." />
-  <link rel="stylesheet" href="assets/styles.css?v=12" />
+  <link rel="stylesheet" href="assets/styles.css?v=13" />
 </head>
 <body>
   <div class="sticky-top">
@@ -94,6 +94,18 @@
         → the technology partner's press release → established trade or business press → everything else.</strong>
         When a stronger source appears later, the record is upgraded.
       </p>
+    </section>
+
+    <!-- ---------- CHANNEL MIX ---------- -->
+    <section class="doc-section">
+      <h2>How cases get found</h2>
+      <p>
+        Publishers are one thing; the <em>route</em> by which a case surfaces is another. Award programmes,
+        institutions' own newsrooms and vendor case studies each catch different deployments, so the tracker
+        records the channel behind every case. A healthy mix matters — leaning on any single channel
+        would quietly shape which banks and regions get represented.
+      </p>
+      <div class="chan-grid" id="channel-mix"></div>
     </section>
 
     <!-- ---------- DOMAIN TABLE ---------- -->
@@ -242,6 +254,29 @@ fetch("data/usecases.json?ts=" + Date.now())
     document.getElementById("domain-summary").innerHTML =
       `Across <strong>${domains.size}</strong> domains, <strong>${conf.high}</strong> records are rated high confidence,
        <strong>${conf.med}</strong> medium and <strong>${conf.low}</strong> low.`;
+
+    // ---- channel mix
+    const CHAN = {
+      "award":            ["Award programmes", "Industry award catalogues that name specific bank deployments — Celent, Qorus-Infosys and peers."],
+      "newsroom":         ["Institution newsrooms", "The bank or payments company speaking for itself, including investor relations and press wires."],
+      "vendor case study":["Vendor case studies", "Technology partners publishing what they built with a named client."],
+      "trade press":      ["Trade &amp; business press", "Specialist and mainstream outlets reporting deployments."],
+      "newsletter":       ["Industry newsletters", "Subscription research briefs that catalogue use cases across many institutions."],
+      "research":         ["Research &amp; institutional", "Peer-reviewed papers, central-bank and consultancy publications."],
+      "earnings":         ["Earnings &amp; investor calls", "Disclosures made to investors, usually carrying hard value figures."],
+      "aggregator":       ["Aggregators", "Secondary summaries, used only where nothing better exists."]
+    };
+    const chanCount = {};
+    data.forEach(r => { const c = r.source_channel || "trade press"; chanCount[c] = (chanCount[c] || 0) + 1; });
+    document.getElementById("channel-mix").innerHTML = Object.entries(chanCount)
+      .sort((a, b) => b[1] - a[1])
+      .map(([k, n]) => {
+        const meta = CHAN[k] || [k, ""];
+        return `<div class="chan-card">
+          <div class="chan-head"><span class="chan-name">${meta[0]}</span><span class="chan-count">${n} <small>· ${pct(n)}%</small></span></div>
+          <div class="chan-bar"><span style="width:${pct(n)}%"></span></div>
+          <p>${meta[1]}</p></div>`;
+      }).join("");
 
     // ---- domain groups
     const grouped = {};
