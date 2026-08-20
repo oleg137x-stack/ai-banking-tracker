@@ -1,7 +1,7 @@
 {
-  "last_run_utc": "2026-08-20T10:48:54.906485+00:00",
+  "last_run_utc": "2026-08-20T12:25:51.123718+00:00",
   "checked_through": "2026-08-20",
-  "new_added": 5,
-  "total_cases": 769,
-  "note": "Added 5 cases (NewtekOne, FIS, b1BANK, Investec, Plaid)"
+  "new_added": 2,
+  "total_cases": 771,
+  "note": "Added 2 Synchrony cases (OpenAI enterprise rollout, ChatGPT offer plugin)"
 }
