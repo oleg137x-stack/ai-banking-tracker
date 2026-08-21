@@ -1,7 +1,7 @@
 {
-  "last_run_utc": "2026-08-21T08:51:15.026164+00:00",
+  "last_run_utc": "2026-08-21T09:14:44.508401+00:00",
   "checked_through": "2026-08-21",
-  "new_added": 5,
-  "total_cases": 776,
-  "note": "Added 5 cases (Alipay, Bank of China (Hong Kong), Charles Schwab, Belize Bank, First Internet Bank)"
+  "new_added": 3,
+  "total_cases": 779,
+  "note": "Added 3 cases (Razorpay, TransFi, U.S. Bank)"
 }
