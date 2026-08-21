@@ -1,7 +1,7 @@
 {
-  "last_run_utc": "2026-08-20T12:25:51.123718+00:00",
-  "checked_through": "2026-08-20",
-  "new_added": 2,
-  "total_cases": 771,
-  "note": "Added 2 Synchrony cases (OpenAI enterprise rollout, ChatGPT offer plugin)"
+  "last_run_utc": "2026-08-21T08:51:15.026164+00:00",
+  "checked_through": "2026-08-21",
+  "new_added": 5,
+  "total_cases": 776,
+  "note": "Added 5 cases (Alipay, Bank of China (Hong Kong), Charles Schwab, Belize Bank, First Internet Bank)"
 }
