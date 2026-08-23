@@ -1,7 +1,7 @@
 {
-  "last_run_utc": "2026-08-22T09:14:17.648475+00:00",
-  "checked_through": "2026-08-22",
-  "new_added": 3,
-  "total_cases": 785,
-  "note": "Added 3 cases (BNY, Standard Bank Group)"
+  "last_run_utc": "2026-08-23T09:14:43.905411+00:00",
+  "checked_through": "2026-08-23",
+  "new_added": 2,
+  "total_cases": 787,
+  "note": "Added 2 cases (ruya, Stripe)"
 }
