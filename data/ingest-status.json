@@ -1,7 +1,7 @@
 {
-  "last_run_utc": "2026-08-26T09:11:33.726264+00:00",
+  "last_run_utc": "2026-08-26T13:59:03.035657+00:00",
   "checked_through": "2026-08-26",
-  "new_added": 0,
-  "total_cases": 791,
-  "note": "No genuinely new, well-sourced cases found today; all last-7-day leads were already tracked"
+  "new_added": 1,
+  "total_cases": 792,
+  "note": "Added 1 case (Deutsche Bank / Google Cloud Gemini Enterprise)"
 }
