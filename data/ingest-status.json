@@ -1,7 +1,7 @@
 {
-  "last_run_utc": "2026-08-26T13:59:03.035657+00:00",
-  "checked_through": "2026-08-26",
-  "new_added": 1,
-  "total_cases": 792,
-  "note": "Added 1 case (Deutsche Bank / Google Cloud Gemini Enterprise)"
+  "last_run_utc": "2026-08-27T09:14:33.769532+00:00",
+  "checked_through": "2026-08-27",
+  "new_added": 4,
+  "total_cases": 796,
+  "note": "Added 4 cases (Starling, Scotiabank, BMO x2)"
 }
