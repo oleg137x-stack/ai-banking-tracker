@@ -1,7 +1,7 @@
 {
-  "last_run_utc": "2026-08-28T09:12:30.547658+00:00",
+  "last_run_utc": "2026-08-28T16:09:17.801791+00:00",
   "checked_through": "2026-08-28",
-  "new_added": 3,
-  "total_cases": 799,
-  "note": "Added 3 cases (TD Bank, CIBC, Municipal Credit Union)"
+  "new_added": 1,
+  "total_cases": 800,
+  "note": "Added 1 case (Airwallex AgentOS) on top of an earlier run today that added 3 (TD Bank, CIBC, Municipal Credit Union); most other leads found (Deutsche Bank/Gemini, Mercury, CommBank, DBS, Citi, Wells Fargo, FIS/Anthropic, Banco do Brasil/Visa) were already in the dataset."
 }
