@@ -1,7 +1,7 @@
 {
-  "last_run_utc": "2026-08-31T09:09:22.491366+00:00",
-  "checked_through": "2026-08-31",
-  "new_added": 0,
-  "total_cases": 805,
-  "note": "No genuinely new, well-sourced cases found today; direct source fetching was blocked so search-only leads could not be verified."
+  "last_run_utc": "2026-09-01T09:12:06.184251+00:00",
+  "checked_through": "2026-09-01",
+  "new_added": 4,
+  "total_cases": 809,
+  "note": "Added 4 cases (Woori Bank, DBS Bank, Technology Credit Union, Rogue Credit Union)"
 }
