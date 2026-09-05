@@ -1,7 +1,7 @@
 {
-  "last_run_utc": "2026-09-04T09:14:04.313866+00:00",
-  "checked_through": "2026-09-04",
-  "new_added": 4,
-  "total_cases": 820,
-  "note": "Added 4 cases (InCore Bank, Welcome Savings Bank, Mizuho Bank, CaixaBank)"
+  "last_run_utc": "2026-09-05T09:13:13.297509+00:00",
+  "checked_through": "2026-09-05",
+  "new_added": 3,
+  "total_cases": 823,
+  "note": "Added 3 cases (Berenberg, DBS Bank, WestStar Credit Union)"
 }
