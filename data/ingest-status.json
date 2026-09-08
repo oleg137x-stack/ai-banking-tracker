@@ -1,7 +1,7 @@
 {
-  "last_run_utc": "2026-09-07T09:13:00.146811+00:00",
-  "checked_through": "2026-09-07",
+  "last_run_utc": "2026-09-08T08:58:18.488997+00:00",
+  "checked_through": "2026-09-08",
   "new_added": 2,
-  "total_cases": 828,
-  "note": "Added 2 cases (Dukascopy Bank, Discovery Bank)"
+  "total_cases": 830,
+  "note": "Added 2 cases (Social Development Bank); most sources unreachable this run due to network egress restrictions"
 }
