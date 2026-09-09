@@ -1,7 +1,7 @@
 {
-  "last_run_utc": "2026-09-08T09:10:54.707133+00:00",
-  "checked_through": "2026-09-08",
-  "new_added": 0,
-  "total_cases": 830,
-  "note": "No genuinely new, well-sourced cases found today; most news domains unreachable this run due to network egress restrictions"
+  "last_run_utc": "2026-09-09T09:10:13.916786+00:00",
+  "checked_through": "2026-09-09",
+  "new_added": 1,
+  "total_cases": 831,
+  "note": "Added 1 case (Paytm 'Pi' agent platform); egress proxy blocked all direct URL fetches this run, so sourcing relied on cross-outlet corroboration"
 }
