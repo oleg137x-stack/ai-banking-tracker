@@ -1,7 +1,7 @@
 {
-  "last_run_utc": "2026-09-09T09:10:13.916786+00:00",
-  "checked_through": "2026-09-09",
-  "new_added": 1,
-  "total_cases": 831,
-  "note": "Added 1 case (Paytm 'Pi' agent platform); egress proxy blocked all direct URL fetches this run, so sourcing relied on cross-outlet corroboration"
+  "last_run_utc": "2026-09-10T09:10:08.770970+00:00",
+  "checked_through": "2026-09-10",
+  "new_added": 4,
+  "total_cases": 835,
+  "note": "Added 4 cases (Mastercard, BharatPe, CCAvenue, L&T Finance)"
 }
