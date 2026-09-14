@@ -1,7 +1,7 @@
 {
-  "last_run_utc": "2026-09-14T08:47:45.950622+00:00",
+  "last_run_utc": "2026-09-14T09:11:17.283842+00:00",
   "checked_through": "2026-09-14",
-  "new_added": 1,
-  "total_cases": 854,
-  "note": "Added 1 case (HSBC FalconTST 2.0 FX forecasting model); other leads found today (Paytm Pi, Visa A2A Protect, Revolut/Visa passkey agentic payment) were already in the dataset from the cloud runner's recent runs."
+  "new_added": 3,
+  "total_cases": 857,
+  "note": "Added 3 cases (Figure, PicPay, Union Savings Bank)."
 }
