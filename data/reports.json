@@ -1,39 +1,121 @@
 [
   {
     "source": "Evident Insights",
-    "title": "Banks' AI ROI Reporting — 'Bank Full Monty' Brief (August 2026)",
-    "url": "https://evidentinsights.com/bankingbrief/bank-full-monty",
-    "date": "2026-08-13",
+    "title": "Bankers Shrug at GPT-6 Astra's 'AGI' Debut \u2014 'New Model? Whatever' Brief (September 2026)",
+    "url": "https://evidentinsights.com/bankingbrief/new-model-whatever",
+    "date": "2026-09-10",
     "category": "Benchmark",
-    "summary": "Evident's weekly read on the 50 banks in its AI Index finds a sharp rise in banks publicly reporting projected or realised value from their AI portfolios — the number has roughly doubled since October 2025 — though methodologies differ enough that the figures are not directly comparable. The brief also flags a new supervisory worry about 'AI-accelerated contagions', where rival banks' agents reach the same conclusion simultaneously, and notes banks are now tuning the efficiency of existing AI systems rather than only shipping new ones.",
+    "summary": "Weekly Banking Brief on banks' muted reaction to OpenAI's GPT-6 Astra launch, framed as evidence that frontier-model breakthroughs and banks' practical AI needs are diverging \u2014 plus Nubank's new tool for vetting internally-built AI 'skills' before they spread, and data on India becoming banks' hottest AI-hiring market.",
     "stats": [
-      "17 banks now report AI portfolio value, up from ~8 in Oct 2025",
-      "40 of 50 tracked banks run at least one OpenAI-powered use case",
-      "CommBank: ~US$141m (A$200m) AI value realised, expected to double",
-      "Santander targeting €1bn new business value by 2028 (70% cost, 30% revenue)"
+      "OpenAI's share of AI use cases among the 50 banks Evident tracks fell another 15% over the past 12 months",
+      "GPT-6 Astra costs 60% more to run than predecessor GPT-5.6 Sol on workplace-skill benchmarks, with mixed accuracy gains",
+      "Nubank's Skill Vetter has screened 2,000+ internal AI 'skills', flagging 1,600 potential risks (~1,000 already fixed)",
+      "Banks added 3,000 AI hires in India in 6 months; Bengaluru hiring alone matched New York + London + Toronto combined"
+    ]
+  },
+  {
+    "source": "Visa",
+    "title": "Visa Trust Index for Agentic Commerce (2026)",
+    "url": "https://investor.visa.com/news/news-details/2026/New-Visa-Research-Finds-Consumer-Trust-is-Accelerating-the-Path-to-Agentic-Commerce/default.aspx",
+    "date": "2026-09-09",
+    "category": "Industry survey",
+    "summary": "Harris Poll survey of U.S. consumers commissioned by Visa, finding that while AI-assisted shopping is already mainstream, trust is the binding constraint on letting agents actually pay \u2014 and that established payment brands narrow the trust gap more than any other factor.",
+    "stats": [
+      "72% of consumers have used an AI assistant, but only 23% trust GenAI to handle payments on their behalf",
+      "61% would trust Visa specifically to handle agentic transactions (68% of ages 18-34, 71% of frequent AI users)",
+      "Surveyed 2,065 U.S. consumers via Harris Poll, May 26-28 2026, weighted to Census demographics"
+    ]
+  },
+  {
+    "source": "Mastercard",
+    "title": "A Short History of the Future of Shopping and Payments (2026)",
+    "url": "https://www.mastercard.com/news/europe/en/newsroom/press-releases/en/2026/mastercard-report-predicts-that-one-in-10-people-will-routinely-use-ai-agents-to-shop-and-pay-by-2030/",
+    "date": "2026-09-08",
+    "category": "Industry report",
+    "summary": "Mastercard report combining original consumer research with predictions from four futurists across the US, Europe and Asia on how agentic AI reshapes retail and payments through 2030 \u2014 covering AI agents that negotiate prices, wearables that track post-purchase product performance, and physical AI shopping agents.",
+    "stats": [
+      "More than 1 in 10 online shoppers (~300m people) expected to routinely use AI agents to shop and pay by 2030",
+      "Groceries, medicines and subscriptions flagged as the first categories people hand over to agents",
+      "Follows Mastercard's and partners' completion of Europe's first live end-to-end agentic payment transaction"
     ]
   },
   {
     "source": "Evident Insights",
-    "title": "Banking AI Use Case Trends — Q2 2026",
+    "title": "Banks Build Internal AI-Enablement Armies \u2014 'New AI Talent War' Brief (September 2026)",
+    "url": "https://evidentinsights.com/bankingbrief/new-ai-talent-war",
+    "date": "2026-09-03",
+    "category": "Benchmark",
+    "summary": "Weekly Banking Brief on banks racing to convert existing staff into AI-enablement roles that drive adoption, rather than only hiring model-building engineers \u2014 plus a look at Stripe becoming a favorite recruiting ground for frontier AI labs poaching bank talent. Evident also expanded its Use Case Tracker to cover payments firms this week.",
+    "stats": [
+      "AI-enablement teams grew more than 20% in a year across the 50 banks Evident tracks, even as overall headcount stayed flat",
+      "All 50 tracked banks made at least one AI-enablement hire in the past year; roughly 2,000 people moved into the role bank-wide",
+      "The 7 banks that have published realized AI portfolio gains made about a quarter of all enablement hires between them",
+      "Evident's Use Case Tracker now covers 200+ AI use cases across the 12 firms in its new AI Index for Payments"
+    ]
+  },
+  {
+    "source": "Evident Insights",
+    "title": "Interns Ship Production AI Tools; FalconTST Cuts FX Costs \u2014 'What Good's Your Intern' Brief (August 2026)",
+    "url": "https://evidentinsights.com/bankingbrief/what-goods-your-intern",
+    "date": "2026-08-27",
+    "category": "Benchmark",
+    "summary": "Weekly Banking Brief on 2026 summer interns at Goldman Sachs and BNY shipping real AI cost- and support-tooling, plus a 'Model Corner' teardown of Ant International's FalconTST 2.0 time-series foundation model now running FX forecasting at Barclays, Citi, Deutsche Bank and Standard Chartered.",
+    "stats": [
+      "Citi paired FalconTST 2.0 with its Fixed FX Rates product to cut an Asian airline client's currency-management costs by 30%",
+      "Standard Chartered used FalconTST 2.0 to predict Ant International's own FX cash-flow needs with 90% accuracy",
+      "Goldman Sachs interns built 'Token Talk', a hackathon-winning tool that scans bank-wide AI usage to cut model costs",
+      "BNY interns' 'Eliza Green' tool routes prompts to smaller models to cut energy and compute overhead"
+    ]
+  },
+  {
+    "source": "Evident Insights",
+    "title": "Banks Retrofit Frontier AI Into Legacy Models \u2014 'Back to AI Future' Brief (August 2026)",
+    "url": "https://evidentinsights.com/bankingbrief/back-to-ai-future",
+    "date": "2026-08-20",
+    "category": "Benchmark",
+    "summary": "Weekly Banking Brief on banks reusing frontier-lab techniques to upgrade older production models rather than chasing new agentic showcases \u2014 Nubank's transformer-based credit model, JPMorganChase's new fraud model and Morgan Stanley's agent-run model research all follow the pattern. A separate item finds consumers and merchants far more skeptical of agentic commerce than the consultants promoting it.",
+    "stats": [
+      "JPMorganChase's new Large Payments Model caught 64% more fraud (by $ value) at the same operating cost",
+      "Nubank's rebuilt NuFormer credit model quadrupled context length, training speed and inference speed",
+      "More than half of millennials wouldn't let an AI agent buy anything over $250, even with a 7-day return window",
+      "About half of merchants see agentic commerce as a threat to their business, per a Visa survey"
+    ]
+  },
+  {
+    "source": "Evident Insights",
+    "title": "Banks' AI ROI Reporting \u2014 'Bank Full Monty' Brief (August 2026)",
+    "url": "https://evidentinsights.com/bankingbrief/bank-full-monty",
+    "date": "2026-08-13",
+    "category": "Benchmark",
+    "summary": "Evident's weekly read on the 50 banks in its AI Index finds a sharp rise in banks publicly reporting projected or realised value from their AI portfolios \u2014 the number has roughly doubled since October 2025 \u2014 though methodologies differ enough that the figures are not directly comparable. The brief also flags a new supervisory worry about 'AI-accelerated contagions', where rival banks' agents reach the same conclusion simultaneously, and notes banks are now tuning the efficiency of existing AI systems rather than only shipping new ones.",
+    "stats": [
+      "17 banks now report AI portfolio value, up from ~8 in Oct 2025",
+      "40 of 50 tracked banks run at least one OpenAI-powered use case",
+      "CommBank: ~US$141m (A$200m) AI value realised, expected to double",
+      "Santander targeting \u20ac1bn new business value by 2028 (70% cost, 30% revenue)"
+    ]
+  },
+  {
+    "source": "Evident Insights",
+    "title": "Banking AI Use Case Trends \u2014 Q2 2026",
     "url": "https://evidentinsights.com/bankingbrief/agentic-slowdown",
     "date": "2026-08-06",
     "category": "Benchmark",
     "summary": "Quarterly read of every publicly announced AI use case across the 50 banks in the Evident AI Index. Q2 shows record deployment volume but a sharp pullback in the agentic share, as banks re-engineer agents for whole processes rather than single tasks. Headline findings published in the 'Agentic Slowdown' brief; full deck is members-only.",
     "stats": [
       "+40% new AI use cases vs Q1 2026",
-      "Agentic share of new deployments fell 30% → 17%",
+      "Agentic share of new deployments fell 30% \u2192 17%",
       "6 banks shipped their first agentic tool",
       "Over half of tracked banks now have agents in production"
     ]
   },
   {
     "source": "EY",
-    "title": "EY US AI Pulse Survey — Wave 5 (2026)",
+    "title": "EY US AI Pulse Survey \u2014 Wave 5 (2026)",
     "url": "https://www.ey.com/en_us/newsroom/2026/07/ey-survey-c-suites-pivot-from-ai-adoption-to-unlocking-value-as-escalating-token-costs-trigger-fiscal-scrutiny",
     "date": "2026-07-28",
     "category": "Industry survey",
-    "summary": "Fifth wave of EY's pulse of 534 US senior leaders (SVP+) across sectors including financial services, fielded Apr–May 2026. The story has shifted from adoption to unit economics: token spend is now the thing the C-suite is scrutinising, and off-the-shelf tools are losing ground to in-house builds.",
+    "summary": "Fifth wave of EY's pulse of 534 US senior leaders (SVP+) across sectors including financial services, fielded Apr\u2013May 2026. The story has shifted from adoption to unit economics: token spend is now the thing the C-suite is scrutinising, and off-the-shelf tools are losing ground to in-house builds.",
     "stats": [
       "82% of AI-investing leaders worried about token costs",
       "98% rethinking their approach because of token spend",
@@ -47,7 +129,7 @@
     "url": "https://www.uspaymentsforum.org/",
     "date": "2026-07-22",
     "category": "Industry report",
-    "summary": "White paper from the Forum's Emerging Payments and Payments Fraud Working Committees on AI agents as autonomous transaction initiators — a class of payment initiation existing frameworks were not designed for. Educational rather than prescriptive: it maps the questions issuers, networks, wallets and merchants must answer.",
+    "summary": "White paper from the Forum's Emerging Payments and Payments Fraud Working Committees on AI agents as autonomous transaction initiators \u2014 a class of payment initiation existing frameworks were not designed for. Educational rather than prescriptive: it maps the questions issuers, networks, wallets and merchants must answer.",
     "stats": [
       "Agentic vs traditional e-commerce transaction models",
       "Customer-, merchant- and agent-initiated frameworks",
@@ -57,15 +139,15 @@
   },
   {
     "source": "Evident Insights",
-    "title": "Evident AI Index for Banks — LATAM (2026)",
+    "title": "Evident AI Index for Banks \u2014 LATAM (2026)",
     "url": "https://evidentinsights.com/insights/banking-ai-index-latam-2026-report",
     "date": "2026-07-21",
     "category": "Benchmark",
     "summary": "Inaugural Latin American AI-maturity ranking, scoring banks across Argentina, Brazil, Chile, Colombia, Ecuador, Mexico, Peru and Panama on the Index's four pillars. Brazil's scale, Pix and AI-talent base put its lenders clear of regional peers.",
     "stats": [
       "Brazil takes all four top spots",
-      "Nubank #1 overall — and #1 in Talent, Innovation and Leadership",
-      "Itaú Unibanco #2, Bradesco and Banco do Brasil close behind",
+      "Nubank #1 overall \u2014 and #1 in Talent, Innovation and Leadership",
+      "Ita\u00fa Unibanco #2, Bradesco and Banco do Brasil close behind",
       "Scored on Talent, Innovation, Leadership, Transparency"
     ]
   },
@@ -75,7 +157,7 @@
     "url": "https://www.bankingsupervision.europa.eu/press/letterstobanks/shared/pdf/2026/ssm.2026_letter_on_AI_enabled_cybersecurity_threats.en.pdf",
     "date": "2026-07",
     "category": "Regulatory framework",
-    "summary": "Supervisory Board chair Claudia Buch ordered every directly supervised bank — including the European arms of JPMorganChase, Goldman Sachs, Citi and Morgan Stanley — to file a formal plan for defending against AI-powered cyberattacks, with the ECB running a horizontal analysis of what comes back.",
+    "summary": "Supervisory Board chair Claudia Buch ordered every directly supervised bank \u2014 including the European arms of JPMorganChase, Goldman Sachs, Citi and Morgan Stanley \u2014 to file a formal plan for defending against AI-powered cyberattacks, with the ECB running a horizontal analysis of what comes back.",
     "stats": [
       "Action plans due to Joint Supervisory Teams by 31 Oct 2026",
       "Requires patch management at scale, smaller internet-facing surface, board-level ownership",
@@ -85,13 +167,13 @@
   },
   {
     "source": "KPMG",
-    "title": "AI Quarterly Pulse Survey — Q2 2026 (Banking edition)",
+    "title": "AI Quarterly Pulse Survey \u2014 Q2 2026 (Banking edition)",
     "url": "https://kpmg.com/us/en/media/news/q2-ai-pulse-2026.html",
     "date": "2026-06-24",
     "category": "Industry survey",
-    "summary": "Quarterly pulse of 204 US C-suite leaders at $1bn+ businesses plus 100 banking leaders (fielded Apr–Jun 2026). Agent deployment and spend have plateaued; the new bottleneck is knowing what the agents cost to run.",
+    "summary": "Quarterly pulse of 204 US C-suite leaders at $1bn+ businesses plus 100 banking leaders (fielded Apr\u2013Jun 2026). Agent deployment and spend have plateaued; the new bottleneck is knowing what the agents cost to run.",
     "stats": [
-      "Banking employee adoption of AI agents 23% → 56% QoQ",
+      "Banking employee adoption of AI agents 23% \u2192 56% QoQ",
       "$170M average banking AI investment planned over 12 months",
       "Only 31% of banking leaders see AI operating costs in real time (54% in tech)",
       "Blockers: data readiness 63%, system complexity 49%, oversight skills 41%"
@@ -103,7 +185,7 @@
     "url": "https://investors.commerce.com/news-releases/news-release-details/two-thirds-consumers-are-ready-try-agentic-shopping-many-demand",
     "date": "2026-06-23",
     "category": "Industry survey",
-    "summary": "Survey of 3,000 online shoppers (1,000 each in the US, UK and Australia) on how far they will let an AI agent go. Appetite is broad for research and comparison, and narrow at the moment of payment — purchase confirmation was the single most important feature for adoption.",
+    "summary": "Survey of 3,000 online shoppers (1,000 each in the US, UK and Australia) on how far they will let an AI agent go. Appetite is broad for research and comparison, and narrow at the moment of payment \u2014 purchase confirmation was the single most important feature for adoption.",
     "stats": [
       "~2 in 3 willing to try agentic shopping (US 67%, UK 64%, AU 63%)",
       "82% of US shoppers demand payment security equal to existing methods",
@@ -117,7 +199,7 @@
     "url": "https://kpmg.com/us/en/media/news/2026-banking-technology-survey.html",
     "date": "2026-06-17",
     "category": "Industry survey",
-    "summary": "Survey of 200 US banking executives on where technology budgets are going. AI is now assumed to be disruptive rather than optional — and it is simultaneously driving the cyber budget, the payments roadmap and the M&A screen.",
+    "summary": "Survey of 200 US banking executives on where technology budgets are going. AI is now assumed to be disruptive rather than optional \u2014 and it is simultaneously driving the cyber budget, the payments roadmap and the M&A screen.",
     "stats": [
       "80% expect AI to significantly disrupt their business model within 3-5 years",
       "84% raising cyber investment specifically for AI-introduced risk",
@@ -131,9 +213,9 @@
     "url": "https://www.bcg.com/press/8june2026-banner-year-banks-moment-to-shift-gears",
     "date": "2026-06-08",
     "category": "Consultancy report",
-    "summary": "Proprietary analysis of 1,498 financial institutions worldwide. BCG's argument: banking's productivity problem is structural, not cyclical, and layering digitisation onto old processes never fixed it — AI only pays when the operating model is rebuilt around it.",
+    "summary": "Proprietary analysis of 1,498 financial institutions worldwide. BCG's argument: banking's productivity problem is structural, not cyclical, and layering digitisation onto old processes never fixed it \u2014 AI only pays when the operating model is rebuilt around it.",
     "stats": [
-      "FIs plan to invest 2% of revenue in AI this year — second only to tech",
+      "FIs plan to invest 2% of revenue in AI this year \u2014 second only to tech",
       "80%+ of global bank equity now trades above book value",
       "Industry headcount still growing ~2% a year despite tech spend",
       "Leader-laggard gap widening faster than expected"
@@ -145,7 +227,7 @@
     "url": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp260603~5b8e67f237.en.html",
     "date": "2026-06-03",
     "category": "Central bank speech",
-    "summary": "Frank Elderson (ECB Executive Board, Vice-Chair of the Supervisory Board) argues that frontier AI is a structural shift in the economics of cyber risk, and that operational resilience — not capital — is where AI hits banks first.",
+    "summary": "Frank Elderson (ECB Executive Board, Vice-Chair of the Supervisory Board) argues that frontier AI is a structural shift in the economics of cyber risk, and that operational resilience \u2014 not capital \u2014 is where AI hits banks first.",
     "stats": [
       "85%+ of ECB-supervised banks already use AI",
       "AI 'a structural shift in the economics of cyber risk'",
@@ -159,7 +241,7 @@
     "url": "https://www.experianplc.com/newsroom/press-releases/2026/experian-brings-trusted-agentic-ai-to-financial-services-with-th",
     "date": "2026-06",
     "category": "Vendor capability",
-    "summary": "Experian launched an 'Agent Operating System' (AOS) — infrastructure for trusted autonomous AI decisioning used by banks and lenders; ServiceNow is the first integration partner.",
+    "summary": "Experian launched an 'Agent Operating System' (AOS) \u2014 infrastructure for trusted autonomous AI decisioning used by banks and lenders; ServiceNow is the first integration partner.",
     "stats": [
       "Trusted/credentialed agent decisioning",
       "Targets credit, fraud & onboarding workflows",
@@ -168,7 +250,7 @@
   },
   {
     "source": "Bank for International Settlements",
-    "title": "BIS Annual Economic Report 2026 — AI: progress and peril",
+    "title": "BIS Annual Economic Report 2026 \u2014 AI: progress and peril",
     "url": "https://www.bis.org/publ/arpdf/ar2026e.htm",
     "date": "2026-06",
     "category": "Institutional report",
@@ -186,7 +268,7 @@
     "url": "https://www.fsb.org/2026/06/sound-practices-for-responsible-adoption-of-artificial-intelligence-ai-consultation-report/",
     "date": "2026-06",
     "category": "Regulatory framework",
-    "summary": "FSB consultation proposing 12 sound practices for financial institutions' AI governance — board oversight, lifecycle risk management, and cyber/third-party risks. Final report due October 2026.",
+    "summary": "FSB consultation proposing 12 sound practices for financial institutions' AI governance \u2014 board oversight, lifecycle risk management, and cyber/third-party risks. Final report due October 2026.",
     "stats": [
       "12 sound practices in 3 areas",
       "Board & senior-management accountability",
@@ -210,27 +292,27 @@
   },
   {
     "source": "McKinsey & Company",
-    "title": "Global Banking Annual Review 2026 — Precision with speed",
+    "title": "Global Banking Annual Review 2026 \u2014 Precision with speed",
     "url": "https://www.mckinsey.com/industries/financial-services/our-insights/global-banking-annual-review",
     "date": "2026-05-21",
     "category": "Consultancy report",
-    "summary": "McKinsey's flagship banking report. Record profits mask a valuation problem, and four forces are converging on the customer relationship: mature fintechs, neobanks, agentic AI and digital assets — the last two making it easier to bank without a bank.",
+    "summary": "McKinsey's flagship banking report. Record profits mask a valuation problem, and four forces are converging on the customer relationship: mature fintechs, neobanks, agentic AI and digital assets \u2014 the last two making it easier to bank without a bank.",
     "stats": [
       "Global banking net income $1.3tn in 2025, up 7%",
       "Mature fintechs claim ~17% of industry revenues",
       "55% of US working-age adults used gen AI by 2025",
-      "ROTE slipped 12.4% → 11.8%; banking still lowest P/B of any industry"
+      "ROTE slipped 12.4% \u2192 11.8%; banking still lowest P/B of any industry"
     ]
   },
   {
     "source": "Anthropic",
-    "title": "Claude for Financial Services — agent templates (2026)",
+    "title": "Claude for Financial Services \u2014 agent templates (2026)",
     "url": "https://www.anthropic.com/news/claude-for-financial-services",
     "date": "2026-05",
     "category": "Vendor capability",
     "summary": "Pre-built AI agent templates for banks across research, operations and finance, plus Microsoft 365 (Excel/PowerPoint/Word) integration.",
     "stats": [
-      "10 agent templates (pitch builder, earnings reviewer, GL reconciler, KYC screener…)",
+      "10 agent templates (pitch builder, earnings reviewer, GL reconciler, KYC screener\u2026)",
       "Claude Opus 4.7 for financial work",
       "Adopted across Wall Street research & operations"
     ]
@@ -268,7 +350,7 @@
     "url": "https://www.nvidia.com/en-us/industries/finance/ai-financial-services-report/",
     "date": "2026-01-22",
     "category": "Industry survey",
-    "summary": "NVIDIA's sixth annual survey of more than 800 financial-services professionals, and the clearest read available on how far AI has moved from pilot to production. Active use jumped by 20 points year on year, nearly every respondent expects budgets to hold or rise, and the money is now shifting from net-new experiments toward optimising workflows that already run. Agentic AI is at the assessment stage for most, with reliability — not cost — cited as the top blocker.",
+    "summary": "NVIDIA's sixth annual survey of more than 800 financial-services professionals, and the clearest read available on how far AI has moved from pilot to production. Active use jumped by 20 points year on year, nearly every respondent expects budgets to hold or rise, and the money is now shifting from net-new experiments toward optimising workflows that already run. Agentic AI is at the assessment stage for most, with reliability \u2014 not cost \u2014 cited as the top blocker.",
     "stats": [
       "65% actively using AI, up from 45% a year earlier",
       "89% say AI is raising revenue while lowering operating costs",
@@ -283,7 +365,7 @@
     "url": "https://www.oliverwyman.com/our-expertise/insights/2026/jan/ai-agents-separate-banks-from-customers.html",
     "date": "2026-01",
     "category": "Consultancy report",
-    "summary": "A counter-thesis to the prevailing productivity narrative: the risk from agentic AI is distribution, not cost. Oliver Wyman argues AI agents are becoming a customer-acquisition channel in their own right, sitting between banks and their customers, and that the strategic question is no longer whether to participate but how — directly through agent apps, indirectly via digital marketplaces, or not at all, with non-participants ceding share. It sketches an 'assistance economy', real-time adaptive customer experiences, and 'agentic twins' acting with delegated authority across a customer's financial relationships.",
+    "summary": "A counter-thesis to the prevailing productivity narrative: the risk from agentic AI is distribution, not cost. Oliver Wyman argues AI agents are becoming a customer-acquisition channel in their own right, sitting between banks and their customers, and that the strategic question is no longer whether to participate but how \u2014 directly through agent apps, indirectly via digital marketplaces, or not at all, with non-participants ceding share. It sketches an 'assistance economy', real-time adaptive customer experiences, and 'agentic twins' acting with delegated authority across a customer's financial relationships.",
     "stats": [
       "AI-driven traffic to US banking sites up 1,200% in six months (Adobe Analytics)",
       "Agentic commerce projected at 12%+ of total e-commerce by 2029",
@@ -389,7 +471,7 @@
     "url": "https://www.bcg.com/publications/2026/how-agentic-ai-will-industrialize-financial-scams",
     "date": "2026",
     "category": "Consultancy report",
-    "summary": "Why agentic AI sharply lowers the cost of running scams — and what banks must do to keep up.",
+    "summary": "Why agentic AI sharply lowers the cost of running scams \u2014 and what banks must do to keep up.",
     "stats": [
       "Scam/fraud running-cost could drop ~90% in 2 years",
       "2x+ surge in fraud volume expected",
@@ -415,7 +497,7 @@
     "url": "https://www.elibrary.imf.org/view/journals/068/2026/004/article-A001-en.xml",
     "date": "2026",
     "category": "Institutional report",
-    "summary": "IMF analysis of agentic AI payments — faster, cheaper transfers and stronger fraud detection, with new financial-stability risks.",
+    "summary": "IMF analysis of agentic AI payments \u2014 faster, cheaper transfers and stronger fraud detection, with new financial-stability risks.",
     "stats": [
       "Agentic payments could reshape cross-border flows",
       "Probabilistic systems add stability risk",
@@ -439,7 +521,7 @@
   },
   {
     "source": "Evident Insights",
-    "title": "Evident AI Index for Banks — MEA (2026)",
+    "title": "Evident AI Index for Banks \u2014 MEA (2026)",
     "url": "https://evidentinsights.com/insights/2026-evident-ai-index-for-banks-mea-key-findings-report",
     "date": "2026",
     "category": "Benchmark",
