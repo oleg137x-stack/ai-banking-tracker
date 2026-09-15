@@ -1,7 +1,7 @@
 {
-  "last_run_utc": "2026-09-14T09:11:17.283842+00:00",
-  "checked_through": "2026-09-14",
-  "new_added": 3,
-  "total_cases": 857,
-  "note": "Added 3 cases (Figure, PicPay, Union Savings Bank)."
+  "last_run_utc": "2026-09-15T08:00:05.877047+00:00",
+  "checked_through": "2026-09-15",
+  "new_added": 1,
+  "total_cases": 858,
+  "note": "Added 1 case (Sony Bank + Fujitsu core-banking GenAI dev pipeline); most other fresh finds this run (KB Financial, Mastercard Agent Connect, Visa A2A Protect, Citi Sky, ING agentic ops, CommBank fraud agent) were already in the dataset."
 }
