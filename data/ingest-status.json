@@ -1,7 +1,7 @@
 {
-  "last_run_utc": "2026-09-15T09:11:55.378784+00:00",
-  "checked_through": "2026-09-15",
-  "new_added": 4,
-  "total_cases": 862,
-  "note": "Added 4 cases (PhonePe, Bank of Baroda, ServisFirst Bank, Metro Bank); note: outbound web fetching was blocked this run, so sources come from search-index results only."
+  "last_run_utc": "2026-09-16T08:08:45.398915+00:00",
+  "checked_through": "2026-09-16",
+  "new_added": 2,
+  "total_cases": 864,
+  "note": "Added 2 cases (JPMorgan Chase, American Express); this run prioritized big/famous banks and payment networks per user request, so several smaller-firm candidates found in search (Alipay, Paytm, Ant/Visa/Mastercard KYA) were skipped as duplicates or lower-profile."
 }
