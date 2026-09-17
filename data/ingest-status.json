@@ -1,7 +1,7 @@
 {
-  "last_run_utc": "2026-09-16T09:11:03.353249+00:00",
-  "checked_through": "2026-09-16",
-  "new_added": 1,
-  "total_cases": 865,
-  "note": "Added 1 case (PayU cross-border card fraud AI). Most other items surfaced this week were already tracked (Sony Bank/Fujitsu, Goldman/Anthropic, TD mortgage, M&T) or fell outside the 7-day window."
+  "last_run_utc": "2026-09-17T09:11:27.524709+00:00",
+  "checked_through": "2026-09-17",
+  "new_added": 2,
+  "total_cases": 867,
+  "note": "Added 2 cases (Worldline UCP payment handler, Charles Schwab x Anthropic advisor AI)."
 }
