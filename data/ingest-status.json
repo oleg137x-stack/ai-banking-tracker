@@ -1,7 +1,7 @@
 {
-  "last_run_utc": "2026-09-18T08:22:27.818256+00:00",
+  "last_run_utc": "2026-09-18T09:12:23.716305+00:00",
   "checked_through": "2026-09-18",
   "new_added": 1,
-  "total_cases": 868,
-  "note": "Added 1 case (Danske Bank MCP Server pilot for corporate AI agent access to banking data)."
+  "total_cases": 869,
+  "note": "Added 1 case (Mastercard AgentCard agent payments with Alchemy)."
 }
