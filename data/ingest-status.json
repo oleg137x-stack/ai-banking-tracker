@@ -1,7 +1,7 @@
 {
-  "last_run_utc": "2026-09-19T09:11:34.280635+00:00",
-  "checked_through": "2026-09-19",
-  "new_added": 4,
-  "total_cases": 873,
-  "note": "Added 4 cases (Ant International, WorldFirst, Maverick Payments, Getnet)."
+  "last_run_utc": "2026-09-20T09:13:42.963542+00:00",
+  "checked_through": "2026-09-20",
+  "new_added": 2,
+  "total_cases": 875,
+  "note": "Added 2 cases (NPCI, Stripe)."
 }
