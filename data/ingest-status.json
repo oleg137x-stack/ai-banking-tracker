@@ -1,7 +1,7 @@
 {
-  "last_run_utc": "2026-09-22T09:12:21.408160+00:00",
+  "last_run_utc": "2026-09-22T12:53:56.773144+00:00",
   "checked_through": "2026-09-22",
-  "new_added": 3,
+  "new_added": 0,
   "total_cases": 880,
-  "note": "Added 3 cases (Hang Seng x2, Bank of India); last-7-day window already covered by prior runs."
+  "note": "No new cases beyond what the earlier run today already captured (checked Ant International, Revolut, DBS, FIS/Anthropic, Mastercard/Visa, JPMorgan/Wells Fargo \u2014 all duplicates or out of window)."
 }
