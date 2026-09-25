@@ -1,7 +1,7 @@
 {
-  "last_run_utc": "2026-09-24T09:12:09.161689+00:00",
-  "checked_through": "2026-09-24",
-  "new_added": 2,
-  "total_cases": 885,
-  "note": "Added 2 cases (Danske Bank, MVB Bank)."
+  "last_run_utc": "2026-09-25T09:13:23.265123+00:00",
+  "checked_through": "2026-09-25",
+  "new_added": 3,
+  "total_cases": 888,
+  "note": "Added 3 cases (Saffron BS, Vernon BS, Finom); news fetching blocked by network policy, search-only run."
 }
