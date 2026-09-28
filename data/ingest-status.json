@@ -1,7 +1,7 @@
 {
-  "last_run_utc": "2026-09-27T09:12:01.319175+00:00",
-  "checked_through": "2026-09-27",
+  "last_run_utc": "2026-09-28T09:13:33.717008+00:00",
+  "checked_through": "2026-09-28",
   "new_added": 3,
-  "total_cases": 893,
-  "note": "Added 3 cases (NatWest Group, Form3, Block); page fetches blocked by network egress proxy, search-verified run."
+  "total_cases": 896,
+  "note": "Added 3 cases (Navy Federal Credit Union, Customers Bank, Fiserv); WebFetch blocked by network egress proxy, search-verified run."
 }
