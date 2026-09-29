@@ -1,7 +1,7 @@
 {
-  "last_run_utc": "2026-09-28T09:13:33.717008+00:00",
-  "checked_through": "2026-09-28",
+  "last_run_utc": "2026-09-29T09:11:15.859603+00:00",
+  "checked_through": "2026-09-29",
   "new_added": 3,
-  "total_cases": 896,
-  "note": "Added 3 cases (Navy Federal Credit Union, Customers Bank, Fiserv); WebFetch blocked by network egress proxy, search-verified run."
+  "total_cases": 899,
+  "note": "Added 3 cases (Bank of America x2, Mastercard)"
 }
