@@ -1,7 +1,7 @@
 {
-  "last_run_utc": "2026-10-07T09:16:02.029651+00:00",
-  "checked_through": "2026-10-07",
-  "new_added": 2,
-  "total_cases": 929,
-  "note": "Added 2 cases (DNB, Nuvei)"
+  "last_run_utc": "2026-10-08T09:13:47.021587+00:00",
+  "checked_through": "2026-10-08",
+  "new_added": 4,
+  "total_cases": 933,
+  "note": "Added 4 cases (American Express, PayNearMe, Truist, Stripe)"
 }
