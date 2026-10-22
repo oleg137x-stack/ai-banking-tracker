@@ -1,7 +1,7 @@
 {
-  "last_run_utc": "2026-10-21T09:12:14.349884+00:00",
-  "checked_through": "2026-10-21",
-  "new_added": 3,
-  "total_cases": 984,
-  "note": "Added 3 cases (Mashreq, Mastercard, Visa)"
+  "last_run_utc": "2026-10-22T09:12:56+00:00",
+  "checked_through": "2026-10-22",
+  "new_added": 7,
+  "total_cases": 991,
+  "note": "Added 7 cases (Barclays, Bankinter, Swedbank, Visa, Stripe, Huntington National Bank, Emirates NBD)"
 }
