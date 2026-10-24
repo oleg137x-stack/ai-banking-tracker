@@ -1,7 +1,7 @@
 {
-  "last_run_utc": "2026-10-23T09:13:06+00:00",
-  "checked_through": "2026-10-23",
-  "new_added": 3,
-  "total_cases": 994,
-  "note": "Added 3 cases (Bank of Ireland, Starling Bank, Ramp)"
+  "last_run_utc": "2026-10-24T09:11:35+00:00",
+  "checked_through": "2026-10-24",
+  "new_added": 2,
+  "total_cases": 996,
+  "note": "Added 2 cases (Customers Bancorp, Banco Bradesco) from Q3 2026 earnings; source links unverified - network policy blocked all non-GitHub hosts this run"
 }
