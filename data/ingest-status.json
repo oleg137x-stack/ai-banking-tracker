@@ -1,7 +1,7 @@
 {
-  "last_run_utc": "2026-10-25T09:12:18+00:00",
-  "checked_through": "2026-10-25",
-  "new_added": 2,
-  "total_cases": 998,
-  "note": "Added 2 cases (Mizuho Financial Group, Suryoday Small Finance Bank); source links unverified - egress proxy returned 403 for every non-GitHub host this run"
+  "last_run_utc": "2026-10-26T09:12:07+00:00",
+  "checked_through": "2026-10-26",
+  "new_added": 3,
+  "total_cases": 1001,
+  "note": "Added 3 cases (TD Bank, APS Bank, EBRD); source links not fetch-confirmed - egress proxy returned 403 for every non-GitHub host this run"
 }
