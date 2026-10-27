@@ -1,7 +1,7 @@
 {
-  "last_run_utc": "2026-10-26T09:12:07+00:00",
-  "checked_through": "2026-10-26",
+  "last_run_utc": "2026-10-27T09:12:10+00:00",
+  "checked_through": "2026-10-27",
   "new_added": 3,
-  "total_cases": 1001,
-  "note": "Added 3 cases (TD Bank, APS Bank, EBRD); source links not fetch-confirmed - egress proxy returned 403 for every non-GitHub host this run"
+  "total_cases": 1004,
+  "note": "Added 3 cases (UOB, Cr\u00e9dit Agricole, FABMISR); links taken from the search index, not fetch-confirmed - container egress is restricted to GitHub, so no news host was reachable this run"
 }
