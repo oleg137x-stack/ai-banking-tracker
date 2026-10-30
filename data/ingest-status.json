@@ -1,7 +1,7 @@
 {
-  "last_run_utc": "2026-10-28T09:12:01+00:00",
-  "checked_through": "2026-10-28",
-  "new_added": 3,
-  "total_cases": 1007,
-  "note": "Added 3 cases (Lloyds, Docomo SMTB Net Bank, Deutsche Bank); links taken from the search index, not fetch-confirmed - container egress is restricted to GitHub, so no news host was reachable this run"
+  "last_run_utc": "2026-10-30T09:12:20+00:00",
+  "checked_through": "2026-10-30",
+  "new_added": 2,
+  "total_cases": 1009,
+  "note": "Added 2 cases (BBVA, UBS); links taken from the search index, not fetch-confirmed - container egress is restricted to GitHub, so no news host was reachable this run"
 }
