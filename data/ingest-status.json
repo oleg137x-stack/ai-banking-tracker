@@ -1,7 +1,7 @@
 {
-  "last_run_utc": "2026-10-30T09:12:20+00:00",
-  "checked_through": "2026-10-30",
+  "last_run_utc": "2026-10-31T09:09:43+00:00",
+  "checked_through": "2026-10-31",
   "new_added": 2,
-  "total_cases": 1009,
-  "note": "Added 2 cases (BBVA, UBS); links taken from the search index, not fetch-confirmed - container egress is restricted to GitHub, so no news host was reachable this run"
+  "total_cases": 1011,
+  "note": "Added 2 cases (Docomo SMTB Net Bank, The Bancorp); links taken from the search index, not fetch-confirmed - the environment network policy denied every news host this run"
 }
