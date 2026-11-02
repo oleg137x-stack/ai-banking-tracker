@@ -1,7 +1,7 @@
 {
-  "last_run_utc": "2026-11-01T09:10:43+00:00",
-  "checked_through": "2026-11-01",
-  "new_added": 5,
-  "total_cases": 1016,
-  "note": "Added 5 cases (Santander, Bank of Ireland, Visa, APG FCU, Diversified Members CU); source URLs come from the search index and could not be fetch-confirmed - the environment network policy denied every news host this run"
+  "last_run_utc": "2026-11-02T09:16:47+00:00",
+  "checked_through": "2026-11-02",
+  "new_added": 3,
+  "total_cases": 1019,
+  "note": "Added 3 cases (Mollie, Emprise Bank, Société Générale); source URLs come from the search index and could not be fetch-confirmed - the environment network policy denied every external host this run"
 }
