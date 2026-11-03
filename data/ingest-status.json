@@ -1,7 +1,7 @@
 {
-  "last_run_utc": "2026-11-02T09:16:47+00:00",
-  "checked_through": "2026-11-02",
+  "last_run_utc": "2026-11-03T09:11:59+00:00",
+  "checked_through": "2026-11-03",
   "new_added": 3,
-  "total_cases": 1019,
-  "note": "Added 3 cases (Mollie, Emprise Bank, Société Générale); source URLs come from the search index and could not be fetch-confirmed - the environment network policy denied every external host this run"
+  "total_cases": 1022,
+  "note": "Added 3 cases (Sunrate, Aion, First Abu Dhabi Bank); external hosts were blocked by the environment network policy this run, so source URLs come from the search index and were not fetch-confirmed (verified=false)"
 }
