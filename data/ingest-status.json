@@ -1,7 +1,7 @@
 {
-  "last_run_utc": "2026-11-06T09:10:13+00:00",
-  "checked_through": "2026-11-06",
-  "new_added": 4,
-  "total_cases": 1039,
-  "note": "Added 4 cases (Cashfree, OTP Bank, American Heritage Credit Union, Locality Bank); outbound fetches were again blocked by the environment network policy, so source URLs come from the search index and were not fetch-confirmed (verified=false)"
+  "last_run_utc": "2026-11-07T09:08:15+00:00",
+  "checked_through": "2026-11-07",
+  "new_added": 5,
+  "total_cases": 1044,
+  "note": "Added 5 cases (BMO, NAB, Westpac, NH NongHyup, Wealthsimple); outbound page fetches remain blocked by the environment network policy, so source URLs come from the search index and were not fetch-confirmed (verified=false)"
 }
