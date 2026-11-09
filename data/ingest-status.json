@@ -1,7 +1,7 @@
 {
-  "last_run_utc": "2026-11-08T09:10:08+00:00",
-  "checked_through": "2026-11-08",
+  "last_run_utc": "2026-11-09T09:12:03+00:00",
+  "checked_through": "2026-11-09",
   "new_added": 3,
-  "total_cases": 1047,
-  "note": "Added 3 cases (Deutsche Bank, Nubank, Bankwest); outbound page fetches remain blocked by the environment network policy, so source URLs come from the search index and were not fetch-confirmed (verified=false)"
+  "total_cases": 1050,
+  "note": "Added 3 cases (Bank of Cyprus, Visa, JPMorgan Chase); outbound page fetches remain blocked by the environment network policy, so source URLs come from the search index and were not fetch-confirmed (verified=false)"
 }
