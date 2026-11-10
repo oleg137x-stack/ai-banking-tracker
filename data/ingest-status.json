@@ -1,7 +1,7 @@
 {
-  "last_run_utc": "2026-11-09T09:12:03+00:00",
-  "checked_through": "2026-11-09",
-  "new_added": 3,
-  "total_cases": 1050,
-  "note": "Added 3 cases (Bank of Cyprus, Visa, JPMorgan Chase); outbound page fetches remain blocked by the environment network policy, so source URLs come from the search index and were not fetch-confirmed (verified=false)"
+  "last_run_utc": "2026-11-10T09:10:35+00:00",
+  "checked_through": "2026-11-10",
+  "new_added": 1,
+  "total_cases": 1051,
+  "note": "Added 1 case (Chime); outbound page fetches remain blocked by the environment network policy, so the source URL comes from the search index and was not fetch-confirmed (verified=false). 14 searches across regions, sectors, vendors, earnings and trade press found the rest of this week's items already in the dataset."
 }
