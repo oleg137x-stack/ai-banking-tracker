@@ -1,7 +1,7 @@
 {
-  "last_run_utc": "2026-11-10T09:10:35+00:00",
-  "checked_through": "2026-11-10",
-  "new_added": 1,
-  "total_cases": 1051,
-  "note": "Added 1 case (Chime); outbound page fetches remain blocked by the environment network policy, so the source URL comes from the search index and was not fetch-confirmed (verified=false). 14 searches across regions, sectors, vendors, earnings and trade press found the rest of this week's items already in the dataset."
+  "last_run_utc": "2026-11-11T09:09:57+00:00",
+  "checked_through": "2026-11-11",
+  "new_added": 3,
+  "total_cases": 1054,
+  "note": "Added 3 cases (Industrial Bank of Korea, Morgan Stanley, Emirates NBD); outbound page fetches are still blocked by the environment network policy, so source URLs come from the search index and were not fetch-confirmed (verified=false). 10 searches across regions, sectors, vendors and trade press found the rest of this week's items already in the dataset."
 }
