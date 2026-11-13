@@ -1,7 +1,7 @@
 {
-  "last_run_utc": "2026-11-12T09:11:29+00:00",
-  "checked_through": "2026-11-12",
-  "new_added": 5,
-  "total_cases": 1059,
-  "note": "Added 5 cases (Bank of the Philippine Islands, Fifth Third Bank, Fiserv, Rain, OCBC); outbound page fetches remain blocked by the environment network policy, so source URLs come from the search index and were not fetch-confirmed (verified=false)."
+  "last_run_utc": "2026-11-13T09:10:37+00:00",
+  "checked_through": "2026-11-13",
+  "new_added": 3,
+  "total_cases": 1062,
+  "note": "Added 3 cases (American Heritage Credit Union, Itau Unibanco, Commercial Bank of Dubai); outbound page fetches remain blocked by the environment network policy, so source URLs come from the search index and were not fetch-confirmed (verified=false)."
 }
